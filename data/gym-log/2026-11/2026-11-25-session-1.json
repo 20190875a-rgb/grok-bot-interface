@@ -1,0 +1,46 @@
+{
+  "id": "20261125-session-1",
+  "logged_at": "2026-11-25T19:56:49+08:00",
+  "date": "2026-11-25",
+  "session_type": "A1_chest_bias",
+  "rest_between_sets": null,
+  "notes": "11/25 按建議日期做 A1：Chest press／Lat pulldown／ISO lateral incline press／Panatta pullover 各3，Cable triceps／Lateral raise 各2。Lat pulldown 計劃 2，實際 3。額外做咗平板 Chest press 同 Cable triceps。冇做 Standing chest fly、Super high row；pullover 可當闊背替代。",
+  "exercises": [
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃以外嘅平板推；另外亦做咗 incline press"
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃建議 2，實際做 3"
+    },
+    {
+      "name": "ISO lateral incline press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Panatta pullover",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Pullover；可當計劃 Super high row／闊背替代"
+    },
+    {
+      "name": "Cable triceps",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫 Triceps cable；計劃以外"
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 2,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}
