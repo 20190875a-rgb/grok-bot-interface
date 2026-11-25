@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-27T11:32:27+08:00",
+  "split": "A1_chest_bias / B_lower / A2_back_bias / B_lower",
+  "rule": "偏只代表該日份量較多，另一肌群照做，不是不做。",
+  "heatmap_notes": "2026-10-27：胸／闊背／股四頭偏高；側三角、腹、臀中、腘繩、小腿、後三角／中斜方偏低。A2 多用 Super high row + Upper back + Lateral raise；B 加強 curl／abduction／calf／crunch。",
+  "A1_chest_bias": {
+    "exercises": [
+      {
+        "name": "ISO lateral incline press",
+        "sets": 3,
+        "reps": "8-12",
+        "priority": "primary",
+        "notes": "胸主"
+      },
+      {
+        "name": "Standing chest fly",
+        "sets": 3,
+        "reps": "10-15",
+        "priority": "primary",
+        "notes": "胸主"
+      },
+      {
+        "name": "Super high row",
+        "sets": 3,
+        "reps": "8-12",
+        "priority": "secondary",
+        "notes": "背照做；補後三角／斜方"
+      },
+      {
+        "name": "Lat pulldown",
+        "sets": 2,
+        "reps": "8-12",
+        "priority": "secondary",
+        "notes": "闊背已夠，保持 2"
+      },
+      {
+        "name": "Lateral raise",
+        "sets": 2,
+        "reps": "12-15",
+        "priority": "accessory",
+        "notes": "側三角缺口；可取代部分 Shoulder press"
+      }
+    ]
+  },
+  "A2_back_bias": {
+    "exercises": [
+      {
+        "name": "Super high row",
+        "sets": 3,
+        "reps": "8-12",
+        "priority": "primary",
+        "notes": "斜方＋後三角"
+      },
+      {
+        "name": "Upper back",
+        "sets": 3,
+        "reps": "10-12",
+        "priority": "primary",
+        "notes": "Technogym Upper Back；rhomboids／後三角"
+      },
+      {
+        "name": "Iso-lateral incline low row",
+        "sets": 3,
+        "reps": "8-12",
+        "priority": "primary",
+        "notes": "闊背低位；或 Cable row"
+      },
+      {
+        "name": "ISO lateral incline press",
+        "sets": 2,
+        "reps": "8-12",
+        "priority": "secondary",
+        "notes": "胸照做但減量"
+      },
+      {
+        "name": "Lateral raise",
+        "sets": 3,
+        "reps": "12-15",
+        "priority": "accessory",
+        "notes": "側三角缺口"
+      }
+    ]
+  },
+  "B_lower": {
+    "exercises": [
+      {
+        "name": "Leg press",
+        "sets": 3,
+        "reps": "8-12",
+        "notes": "compound"
+      },
+      {
+        "name": "Lying leg curl",
+        "sets": 3,
+        "reps": "8-12",
+        "notes": "腘繩"
+      },
+      {
+        "name": "Hip abduction",
+        "sets": 3,
+        "reps": "12-15",
+        "notes": "臀中"
+      },
+      {
+        "name": "Standing calf raise",
+        "sets": 3,
+        "reps": "10-15"
+      },
+      {
+        "name": "Seated leg extension",
+        "sets": 2,
+        "reps": "10-12",
+        "notes": "股四頭已高 → 2 sets"
+      },
+      {
+        "name": "Panatta Master Gluteus",
+        "sets": 2,
+        "reps": "10-15"
+      },
+      {
+        "name": "Core crunch",
+        "sets": 2,
+        "reps": "12-15",
+        "notes": "腹"
+      }
+    ]
+  }
+}

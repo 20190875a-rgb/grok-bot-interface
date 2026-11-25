@@ -1,0 +1,46 @@
+{
+  "id": "20261027-session-1",
+  "logged_at": "2026-10-27T18:56:58+08:00",
+  "date": "2026-10-27",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "週二提早做 B：Panatta Super Squat 代腿推；有外展+內收+腿伸+腹；冇小腿／Master Gluteus（對照 refine 計劃）",
+  "exercises": [
+    {
+      "name": "Panatta Super Squat",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 panatta super squat machine；當腿推／深蹲機類"
+    },
+    {
+      "name": "Leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃建議 2，實際做 3"
+    },
+    {
+      "name": "Abdominal",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Abdominal；當 core crunch／腹肌機"
+    }
+  ]
+}

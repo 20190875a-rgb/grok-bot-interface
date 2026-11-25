@@ -1,0 +1,46 @@
+{
+  "id": "20261010-session-1",
+  "logged_at": "2026-10-11T14:19:02+08:00",
+  "date": "2026-10-10",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "用戶補記 Fri；leg press／hip／calf／extension；makeup chest press 3",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": "makeup"
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "同 adduction 各3"
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Seated leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Seating"
+    }
+  ]
+}

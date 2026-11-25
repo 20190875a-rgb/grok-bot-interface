@@ -1,0 +1,1890 @@
+{
+  "version": 3,
+  "year": 2026,
+  "updated_at": "2026-11-12 18:26:13",
+  "reports": [
+    {
+      "id": "2026-07-31-MOS1-57452",
+      "type": "tanita_body_composition",
+      "label": "驗身報告",
+      "measured_at": "2026-07-31 00:03:25",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=57452&language=tc",
+      "venue_id": "MOS1",
+      "player_id": "57452",
+      "customer_code": "MOS1_004697",
+      "metrics": {
+        "weight_kg": 58.1,
+        "height_cm": 177,
+        "bmi": 18.5,
+        "age": 24,
+        "body_age": 22,
+        "fat_percent": 18.3,
+        "fat_kg": 10.6,
+        "muscle_kg": 45,
+        "smm_kg": 23.3,
+        "smm_ratio_percent": 40.1,
+        "smi": 6.9,
+        "ffm_kg": 47.5,
+        "bone_kg": 2.5,
+        "bmr_kcal": 1351,
+        "bmr_kj": 5653,
+        "visceral_fat_level": 3,
+        "body_water_percent": 53,
+        "body_water_kg": 30.8,
+        "water_in_kg": 17.4,
+        "water_out_kg": 13.4,
+        "water_out_percent": 43.5,
+        "muscle_ratio_percent": 77,
+        "degree_of_obesity_percent": -15.7,
+        "std_weight_kg": 68.9,
+        "std_muscle_kg": 54.2,
+        "std_fat_percent": 17,
+        "leg_muscle_score": 106,
+        "muscle_score": -3,
+        "body_index": 4,
+        "fat_index": 1,
+        "muscle_index": 0,
+        "t_score": -1,
+        "z_score": -1
+      },
+      "segmental_muscle_kg": {
+        "trunk": 23.3,
+        "left_arm": 2,
+        "right_arm": 2,
+        "left_leg": 8.8,
+        "right_leg": 8.9
+      },
+      "segmental_fat_percent": {
+        "trunk": 21.9,
+        "left_arm": 16.1,
+        "right_arm": 15.3,
+        "left_leg": 14,
+        "right_leg": 13
+      },
+      "segmental_fat_kg": {
+        "trunk": 6.9,
+        "left_arm": 0.4,
+        "right_arm": 0.4,
+        "left_leg": 1.4,
+        "right_leg": 1.5
+      },
+      "scores": {
+        "mts": -3,
+        "mlhs": -3,
+        "mrhs": -3,
+        "mlfs": -2,
+        "mrfs": -2,
+        "fts": 0,
+        "flhs": 0,
+        "frhs": 0,
+        "flfs": -2,
+        "frfs": -2,
+        "vfi_block": 3,
+        "bmr_block": 6,
+        "waterout_block": 11
+      },
+      "ranges": {
+        "gender": 1,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "stdweight_LR": 58,
+        "stdweight_HR": 71.7,
+        "fatkg_LR": 5.9,
+        "fatkg_HR": 9.1,
+        "nonfatkg_LR": 52.1,
+        "nonfatkg_HR": 62.6,
+        "stdmusclekg_LR": 48.8,
+        "stdmusclekg_HR": 59.6,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "lhgrip": -1,
+        "rhgrip": -1
+      },
+      "table": [
+        {
+          "key": "weight_kg",
+          "label": "體重",
+          "value": 58.1,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "height_cm",
+          "label": "身高",
+          "value": 177,
+          "unit": "cm",
+          "group": "overview"
+        },
+        {
+          "key": "bmi",
+          "label": "BMI",
+          "value": 18.5,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_age",
+          "label": "體年齡",
+          "value": 22,
+          "unit": "歲",
+          "group": "overview"
+        },
+        {
+          "key": "fat_percent",
+          "label": "體脂率",
+          "value": 18.3,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "fat_kg",
+          "label": "脂肪量",
+          "value": 10.6,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_kg",
+          "label": "肌肉量",
+          "value": 45,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_kg",
+          "label": "骨骼肌量 SMM",
+          "value": 23.3,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_ratio_percent",
+          "label": "SMM 比率",
+          "value": 40.1,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "smi",
+          "label": "SMI",
+          "value": 6.9,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "ffm_kg",
+          "label": "除脂體重",
+          "value": 47.5,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bone_kg",
+          "label": "骨量",
+          "value": 2.5,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bmr_kcal",
+          "label": "基礎代謝",
+          "value": 1351,
+          "unit": "kcal",
+          "group": "overview"
+        },
+        {
+          "key": "visceral_fat_level",
+          "label": "內臟脂肪等級",
+          "value": 3,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_water_percent",
+          "label": "體水分率",
+          "value": 53,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "body_water_kg",
+          "label": "體水分量",
+          "value": 30.8,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_in_kg",
+          "label": "細胞內液",
+          "value": 17.4,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_kg",
+          "label": "細胞外液",
+          "value": 13.4,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_percent",
+          "label": "細胞外液比率",
+          "value": 43.5,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_ratio_percent",
+          "label": "肌肉率",
+          "value": 77,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "degree_of_obesity_percent",
+          "label": "肥胖度",
+          "value": -15.7,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "std_weight_kg",
+          "label": "標準體重",
+          "value": 68.9,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_muscle_kg",
+          "label": "標準肌肉量",
+          "value": 54.2,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_fat_percent",
+          "label": "標準體脂率",
+          "value": 17,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "leg_muscle_score",
+          "label": "腿部肌肉分數",
+          "value": 106,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "seg_muscle_trunk",
+          "label": "軀幹肌肉",
+          "value": 23.3,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_arm",
+          "label": "左臂肌肉",
+          "value": 2,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_arm",
+          "label": "右臂肌肉",
+          "value": 2,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_leg",
+          "label": "左腿肌肉",
+          "value": 8.8,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_leg",
+          "label": "右腿肌肉",
+          "value": 8.9,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_fat_pct_trunk",
+          "label": "軀幹體脂%",
+          "value": 21.9,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_arm",
+          "label": "左臂體脂%",
+          "value": 16.1,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_arm",
+          "label": "右臂體脂%",
+          "value": 15.3,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_leg",
+          "label": "左腿體脂%",
+          "value": 14,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_leg",
+          "label": "右腿體脂%",
+          "value": 13,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_kg_trunk",
+          "label": "軀幹脂肪",
+          "value": 6.9,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_arm",
+          "label": "左臂脂肪",
+          "value": 0.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_arm",
+          "label": "右臂脂肪",
+          "value": 0.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_leg",
+          "label": "左腿脂肪",
+          "value": 1.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_leg",
+          "label": "右腿脂肪",
+          "value": 1.5,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        }
+      ],
+      "raw_normalized": {
+        "date": "2026-07-31 00:03:25",
+        "sm": 6.9,
+        "smm": 23.3,
+        "sn": "MOS1_57452",
+        "c_code": "MOS1_004697",
+        "weight": 58.1,
+        "gender": 1,
+        "age": 24,
+        "body_age": 22,
+        "bodyheight": 177,
+        "body_water": 53,
+        "water_in": 17.4,
+        "water_out": 13.4,
+        "water_out_per": 43.5,
+        "waterout_block": 11,
+        "water_weight": 30.8,
+        "bmr": 1351,
+        "bmr_kj": 5653,
+        "bmr_block": 6,
+        "bmi": 18.5,
+        "vfi": 3,
+        "vfi_block": 3,
+        "muscle_weight": 45,
+        "truck_weight": 23.3,
+        "lh_weight": 2,
+        "rh_weight": 2,
+        "lf_weight": 8.8,
+        "rf_weight": 8.9,
+        "mts": -3,
+        "mlhs": -3,
+        "mrhs": -3,
+        "mlfs": -2,
+        "mrfs": -2,
+        "fat_rate": 18.3,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "truck_fat_weight": 6.9,
+        "lh_fat_weight": 0.4,
+        "rh_fat_weight": 0.4,
+        "lf_fat_weight": 1.4,
+        "rf_fat_weight": 1.5,
+        "truck_fat_rate": 21.9,
+        "lh_fat_rate": 16.1,
+        "rh_fat_rate": 15.3,
+        "lf_fat_rate": 14,
+        "rf_fat_rate": 13,
+        "fts": 0,
+        "flhs": 0,
+        "frhs": 0,
+        "flfs": -2,
+        "frfs": -2,
+        "stdweight": 68.9,
+        "stdweight_LR": 58,
+        "stdweight_HR": 71.7,
+        "stdmusclekg": 54.2,
+        "stdfatrate": 17,
+        "boneweight": 2.5,
+        "fatkg": 10.6,
+        "fatkg_LR": 5.9,
+        "fatkg_HR": 9.1,
+        "nonfatkg": 47.5,
+        "nonfatkg_LR": 52.1,
+        "nonfatkg_HR": 62.6,
+        "stdmusclekg_LR": 48.8,
+        "stdmusclekg_HR": 59.6,
+        "legmusiclescore": 106,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "musclescore": -3,
+        "degreeofobesity": -15.7,
+        "muscle_ratio": 77,
+        "muscle_index": 0,
+        "body_index": 4,
+        "fat_index": 1,
+        "tscore": -1,
+        "zscore": -1,
+        "lhgrip": -1,
+        "rhgrip": -1,
+        "venue_id": "MOS1",
+        "smm_ratio": 40.1
+      },
+      "notes": "首次記錄；用戶回想可能為運動後量度",
+      "raw_saved": true,
+      "raw_file": "raw/2026-07-31-57452.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=57452&language=tc"
+    },
+    {
+      "id": "2026-09-08-MOS1-69289",
+      "type": "tanita_body_composition",
+      "label": "驗身報告",
+      "measured_at": "2026-09-08 18:24:47",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=69289&language=tc",
+      "venue_id": "MOS1",
+      "player_id": "69289",
+      "customer_code": "MOS1_005575",
+      "metrics": {
+        "weight_kg": 59.3,
+        "height_cm": 176,
+        "bmi": 19.1,
+        "age": 24,
+        "body_age": 23,
+        "fat_percent": 18.5,
+        "fat_kg": 11,
+        "muscle_kg": 45.8,
+        "smm_kg": 24.0,
+        "smm_ratio_percent": 40.47,
+        "smi": 7.1,
+        "ffm_kg": 48.3,
+        "bone_kg": 2.5,
+        "bmr_kcal": 1376,
+        "bmr_kj": 5757,
+        "visceral_fat_level": 4,
+        "body_water_percent": 54.1,
+        "body_water_kg": 32.1,
+        "water_in_kg": 17.9,
+        "water_out_kg": 14.2,
+        "water_out_percent": 44.2,
+        "muscle_ratio_percent": 77,
+        "degree_of_obesity_percent": -12.9,
+        "std_weight_kg": 68.1,
+        "std_muscle_kg": 53.6,
+        "std_fat_percent": 17,
+        "leg_muscle_score": 103,
+        "muscle_score": -3,
+        "body_index": 4,
+        "fat_index": 1,
+        "muscle_index": 0,
+        "t_score": -1,
+        "z_score": -1
+      },
+      "segmental_muscle_kg": {
+        "trunk": 23.7,
+        "left_arm": 2,
+        "right_arm": 2,
+        "left_leg": 9,
+        "right_leg": 9.1
+      },
+      "segmental_fat_percent": {
+        "trunk": 23.1,
+        "left_arm": 16.7,
+        "right_arm": 16.4,
+        "left_leg": 12.9,
+        "right_leg": 12.3
+      },
+      "segmental_fat_kg": {
+        "trunk": 7.5,
+        "left_arm": 0.4,
+        "right_arm": 0.4,
+        "left_leg": 1.3,
+        "right_leg": 1.4
+      },
+      "scores": {
+        "mts": -3,
+        "mlhs": -3,
+        "mrhs": -3,
+        "mlfs": -1,
+        "mrfs": -1,
+        "fts": 0,
+        "flhs": 0,
+        "frhs": 0,
+        "flfs": -2,
+        "frfs": -2,
+        "vfi_block": 3,
+        "bmr_block": 6,
+        "waterout_block": 12
+      },
+      "ranges": {
+        "gender": 1,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "stdweight_LR": 57.3,
+        "stdweight_HR": 70.9,
+        "fatkg_LR": 6,
+        "fatkg_HR": 9.3,
+        "nonfatkg_LR": 51.3,
+        "nonfatkg_HR": 61.6,
+        "stdmusclekg_LR": 48.2,
+        "stdmusclekg_HR": 59,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "lhgrip": -1,
+        "rhgrip": -1
+      },
+      "table": [
+        {
+          "key": "weight_kg",
+          "label": "體重",
+          "value": 59.3,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "height_cm",
+          "label": "身高",
+          "value": 176,
+          "unit": "cm",
+          "group": "overview"
+        },
+        {
+          "key": "bmi",
+          "label": "BMI",
+          "value": 19.1,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_age",
+          "label": "體年齡",
+          "value": 23,
+          "unit": "歲",
+          "group": "overview"
+        },
+        {
+          "key": "fat_percent",
+          "label": "體脂率",
+          "value": 18.5,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "fat_kg",
+          "label": "脂肪量",
+          "value": 11,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_kg",
+          "label": "肌肉量",
+          "value": 45.8,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_kg",
+          "label": "骨骼肌量 SMM",
+          "value": 24.0,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_ratio_percent",
+          "label": "SMM 比率",
+          "value": 40.47,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "smi",
+          "label": "SMI",
+          "value": 7.1,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "ffm_kg",
+          "label": "除脂體重",
+          "value": 48.3,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bone_kg",
+          "label": "骨量",
+          "value": 2.5,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bmr_kcal",
+          "label": "基礎代謝",
+          "value": 1376,
+          "unit": "kcal",
+          "group": "overview"
+        },
+        {
+          "key": "visceral_fat_level",
+          "label": "內臟脂肪等級",
+          "value": 4,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_water_percent",
+          "label": "體水分率",
+          "value": 54.1,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "body_water_kg",
+          "label": "體水分量",
+          "value": 32.1,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_in_kg",
+          "label": "細胞內液",
+          "value": 17.9,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_kg",
+          "label": "細胞外液",
+          "value": 14.2,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_percent",
+          "label": "細胞外液比率",
+          "value": 44.2,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_ratio_percent",
+          "label": "肌肉率",
+          "value": 77,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "degree_of_obesity_percent",
+          "label": "肥胖度",
+          "value": -12.9,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "std_weight_kg",
+          "label": "標準體重",
+          "value": 68.1,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_muscle_kg",
+          "label": "標準肌肉量",
+          "value": 53.6,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_fat_percent",
+          "label": "標準體脂率",
+          "value": 17,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "leg_muscle_score",
+          "label": "腿部肌肉分數",
+          "value": 103,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "seg_muscle_trunk",
+          "label": "軀幹肌肉",
+          "value": 23.7,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_arm",
+          "label": "左臂肌肉",
+          "value": 2,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_arm",
+          "label": "右臂肌肉",
+          "value": 2,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_leg",
+          "label": "左腿肌肉",
+          "value": 9,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_leg",
+          "label": "右腿肌肉",
+          "value": 9.1,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_fat_pct_trunk",
+          "label": "軀幹體脂%",
+          "value": 23.1,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_arm",
+          "label": "左臂體脂%",
+          "value": 16.7,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_arm",
+          "label": "右臂體脂%",
+          "value": 16.4,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_leg",
+          "label": "左腿體脂%",
+          "value": 12.9,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_leg",
+          "label": "右腿體脂%",
+          "value": 12.3,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_kg_trunk",
+          "label": "軀幹脂肪",
+          "value": 7.5,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_arm",
+          "label": "左臂脂肪",
+          "value": 0.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_arm",
+          "label": "右臂脂肪",
+          "value": 0.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_leg",
+          "label": "左腿脂肪",
+          "value": 1.3,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_leg",
+          "label": "右腿脂肪",
+          "value": 1.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        }
+      ],
+      "raw_normalized": {
+        "date": "2026-09-08 18:24:47",
+        "sm": 7.1,
+        "smm": 24.0,
+        "sn": "MOS1_69289",
+        "c_code": "MOS1_005575",
+        "weight": 59.3,
+        "gender": 1,
+        "age": 24,
+        "body_age": 23,
+        "bodyheight": 176,
+        "body_water": 54.1,
+        "water_in": 17.9,
+        "water_out": 14.2,
+        "water_out_per": 44.2,
+        "waterout_block": 12,
+        "water_weight": 32.1,
+        "bmr": 1376,
+        "bmr_kj": 5757,
+        "bmr_block": 6,
+        "bmi": 19.1,
+        "vfi": 4,
+        "vfi_block": 3,
+        "muscle_weight": 45.8,
+        "truck_weight": 23.7,
+        "lh_weight": 2,
+        "rh_weight": 2,
+        "lf_weight": 9,
+        "rf_weight": 9.1,
+        "mts": -3,
+        "mlhs": -3,
+        "mrhs": -3,
+        "mlfs": -1,
+        "mrfs": -1,
+        "fat_rate": 18.5,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "truck_fat_weight": 7.5,
+        "lh_fat_weight": 0.4,
+        "rh_fat_weight": 0.4,
+        "lf_fat_weight": 1.3,
+        "rf_fat_weight": 1.4,
+        "truck_fat_rate": 23.1,
+        "lh_fat_rate": 16.7,
+        "rh_fat_rate": 16.4,
+        "lf_fat_rate": 12.9,
+        "rf_fat_rate": 12.3,
+        "fts": 0,
+        "flhs": 0,
+        "frhs": 0,
+        "flfs": -2,
+        "frfs": -2,
+        "stdweight": 68.1,
+        "stdweight_LR": 57.3,
+        "stdweight_HR": 70.9,
+        "stdmusclekg": 53.6,
+        "stdfatrate": 17,
+        "boneweight": 2.5,
+        "fatkg": 11,
+        "fatkg_LR": 6,
+        "fatkg_HR": 9.3,
+        "nonfatkg": 48.3,
+        "nonfatkg_LR": 51.3,
+        "nonfatkg_HR": 61.6,
+        "stdmusclekg_LR": 48.2,
+        "stdmusclekg_HR": 59,
+        "legmusiclescore": 103,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "musclescore": -3,
+        "degreeofobesity": -12.9,
+        "muscle_ratio": 77,
+        "muscle_index": 0,
+        "body_index": 4,
+        "fat_index": 1,
+        "tscore": -1,
+        "zscore": -1,
+        "lhgrip": -1,
+        "rhgrip": -1,
+        "venue_id": "MOS1",
+        "smm_ratio": 40.47
+      },
+      "notes": "用戶稱運動前量度；與7月對比整體肌肉+0.7~0.8kg，手臂分段仍2.0",
+      "raw_saved": true,
+      "raw_file": "raw/2026-09-08-69289.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=69289&language=tc"
+    },
+    {
+      "id": "2026-10-10-MOS1-79538",
+      "type": "tanita_body_composition",
+      "label": "驗身報告",
+      "measured_at": "2026-10-10 00:01:37",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=79538&language=tc",
+      "venue_id": "MOS1",
+      "player_id": "79538",
+      "customer_code": "MOS1_006270",
+      "metrics": {
+        "weight_kg": 61.6,
+        "height_cm": 177,
+        "bmi": 19.7,
+        "age": 24,
+        "body_age": 19,
+        "fat_percent": 15.9,
+        "fat_kg": 9.8,
+        "muscle_kg": 49.1,
+        "smm_kg": 26.8,
+        "smm_ratio_percent": 43.51,
+        "smi": 7.8,
+        "ffm_kg": 51.8,
+        "bone_kg": 2.7,
+        "bmr_kcal": 1472,
+        "bmr_kj": 6159,
+        "visceral_fat_level": 3,
+        "body_water_percent": 56.2,
+        "body_water_kg": 34.6,
+        "water_in_kg": 20,
+        "water_out_kg": 14.6,
+        "water_out_percent": 42.2,
+        "muscle_ratio_percent": 79,
+        "degree_of_obesity_percent": -10.6,
+        "std_weight_kg": 68.9,
+        "std_muscle_kg": 54.2,
+        "std_fat_percent": 17,
+        "leg_muscle_score": 109,
+        "muscle_score": -2,
+        "body_index": 4,
+        "fat_index": 1,
+        "muscle_index": 0,
+        "t_score": null,
+        "z_score": null
+      },
+      "segmental_muscle_kg": {
+        "trunk": 24.8,
+        "left_arm": 2.4,
+        "right_arm": 2.3,
+        "left_leg": 9.8,
+        "right_leg": 9.8
+      },
+      "segmental_fat_percent": {
+        "trunk": 17.8,
+        "left_arm": 14.4,
+        "right_arm": 14.5,
+        "left_leg": 13.9,
+        "right_leg": 13.8
+      },
+      "segmental_fat_kg": {
+        "trunk": 5.6,
+        "left_arm": 0.4,
+        "right_arm": 0.4,
+        "left_leg": 1.7,
+        "right_leg": 1.7
+      },
+      "scores": {
+        "mts": -3,
+        "mlhs": -2,
+        "mrhs": -2,
+        "mlfs": 0,
+        "mrfs": 0,
+        "fts": 0,
+        "flhs": 0,
+        "frhs": 0,
+        "flfs": -2,
+        "frfs": -2,
+        "vfi_block": 3,
+        "bmr_block": 7,
+        "waterout_block": 10
+      },
+      "ranges": {
+        "gender": 1,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "stdweight_LR": 58,
+        "stdweight_HR": 71.7,
+        "fatkg_LR": 6.4,
+        "fatkg_HR": 10,
+        "nonfatkg_LR": 51.6,
+        "nonfatkg_HR": 61.7,
+        "stdmusclekg_LR": 48.8,
+        "stdmusclekg_HR": 59.6,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "lhgrip": null,
+        "rhgrip": null
+      },
+      "table": [
+        {
+          "key": "weight_kg",
+          "label": "體重",
+          "value": 61.6,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "height_cm",
+          "label": "身高",
+          "value": 177,
+          "unit": "cm",
+          "group": "overview"
+        },
+        {
+          "key": "bmi",
+          "label": "BMI",
+          "value": 19.7,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_age",
+          "label": "體年齡",
+          "value": 19,
+          "unit": "歲",
+          "group": "overview"
+        },
+        {
+          "key": "fat_percent",
+          "label": "體脂率",
+          "value": 15.9,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "fat_kg",
+          "label": "脂肪量",
+          "value": 9.8,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_kg",
+          "label": "肌肉量",
+          "value": 49.1,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_kg",
+          "label": "骨骼肌量 SMM",
+          "value": 26.8,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_ratio_percent",
+          "label": "SMM 比率",
+          "value": 43.51,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "smi",
+          "label": "SMI",
+          "value": 7.8,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "ffm_kg",
+          "label": "除脂體重",
+          "value": 51.8,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bone_kg",
+          "label": "骨量",
+          "value": 2.7,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bmr_kcal",
+          "label": "基礎代謝",
+          "value": 1472,
+          "unit": "kcal",
+          "group": "overview"
+        },
+        {
+          "key": "visceral_fat_level",
+          "label": "內臟脂肪等級",
+          "value": 3,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_water_percent",
+          "label": "體水分率",
+          "value": 56.2,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "body_water_kg",
+          "label": "體水分量",
+          "value": 34.6,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_in_kg",
+          "label": "細胞內液",
+          "value": 20,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_kg",
+          "label": "細胞外液",
+          "value": 14.6,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_percent",
+          "label": "細胞外液比率",
+          "value": 42.2,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_ratio_percent",
+          "label": "肌肉率",
+          "value": 79,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "degree_of_obesity_percent",
+          "label": "肥胖度",
+          "value": -10.6,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "std_weight_kg",
+          "label": "標準體重",
+          "value": 68.9,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_muscle_kg",
+          "label": "標準肌肉量",
+          "value": 54.2,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_fat_percent",
+          "label": "標準體脂率",
+          "value": 17,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "leg_muscle_score",
+          "label": "腿部肌肉分數",
+          "value": 109,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "seg_muscle_trunk",
+          "label": "軀幹肌肉",
+          "value": 24.8,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_arm",
+          "label": "左臂肌肉",
+          "value": 2.4,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_arm",
+          "label": "右臂肌肉",
+          "value": 2.3,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_leg",
+          "label": "左腿肌肉",
+          "value": 9.8,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_leg",
+          "label": "右腿肌肉",
+          "value": 9.8,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_fat_pct_trunk",
+          "label": "軀幹體脂%",
+          "value": 17.8,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_arm",
+          "label": "左臂體脂%",
+          "value": 14.4,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_arm",
+          "label": "右臂體脂%",
+          "value": 14.5,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_leg",
+          "label": "左腿體脂%",
+          "value": 13.9,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_leg",
+          "label": "右腿體脂%",
+          "value": 13.8,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_kg_trunk",
+          "label": "軀幹脂肪",
+          "value": 5.6,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_arm",
+          "label": "左臂脂肪",
+          "value": 0.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_arm",
+          "label": "右臂脂肪",
+          "value": 0.4,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_leg",
+          "label": "左腿脂肪",
+          "value": 1.7,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_leg",
+          "label": "右腿脂肪",
+          "value": 1.7,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        }
+      ],
+      "raw_normalized": {
+        "date": "2026-10-10 00:01:37",
+        "sm": 7.8,
+        "smm": 26.8,
+        "sn": "MOS1_79538",
+        "c_code": "MOS1_006270",
+        "weight": 61.6,
+        "gender": 1,
+        "age": 24,
+        "body_age": 19,
+        "bodyheight": 177,
+        "body_water": 56.2,
+        "water_in": 20,
+        "water_out": 14.6,
+        "water_out_per": 42.2,
+        "waterout_block": 10,
+        "water_weight": 34.6,
+        "bmr": 1472,
+        "bmr_kj": 6159,
+        "bmr_block": 7,
+        "bmi": 19.7,
+        "vfi": 3,
+        "vfi_block": 3,
+        "muscle_weight": 49.1,
+        "truck_weight": 24.8,
+        "lh_weight": 2.4,
+        "rh_weight": 2.3,
+        "lf_weight": 9.8,
+        "rf_weight": 9.8,
+        "mts": -3,
+        "mlhs": -2,
+        "mrhs": -2,
+        "mlfs": 0,
+        "mrfs": 0,
+        "fat_rate": 15.9,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "truck_fat_weight": 5.6,
+        "lh_fat_weight": 0.4,
+        "rh_fat_weight": 0.4,
+        "lf_fat_weight": 1.7,
+        "rf_fat_weight": 1.7,
+        "truck_fat_rate": 17.8,
+        "lh_fat_rate": 14.4,
+        "rh_fat_rate": 14.5,
+        "lf_fat_rate": 13.9,
+        "rf_fat_rate": 13.8,
+        "fts": 0,
+        "flhs": 0,
+        "frhs": 0,
+        "flfs": -2,
+        "frfs": -2,
+        "stdweight": 68.9,
+        "stdweight_LR": 58,
+        "stdweight_HR": 71.7,
+        "stdmusclekg": 54.2,
+        "stdfatrate": 17,
+        "boneweight": 2.7,
+        "fatkg": 9.8,
+        "fatkg_LR": 6.4,
+        "fatkg_HR": 10,
+        "nonfatkg": 51.8,
+        "nonfatkg_LR": 51.6,
+        "nonfatkg_HR": 61.7,
+        "stdmusclekg_LR": 48.8,
+        "stdmusclekg_HR": 59.6,
+        "legmusiclescore": 109,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "musclescore": -2,
+        "degreeofobesity": -10.6,
+        "muscle_ratio": 79,
+        "muscle_index": 0,
+        "body_index": 4,
+        "fat_index": 1,
+        "tscore": -1,
+        "zscore": -1,
+        "lhgrip": -1,
+        "rhgrip": -1,
+        "venue_id": "MOS1",
+        "smm_ratio": 43.51,
+        "smm_raw": "26.8kg"
+      },
+      "notes": "EFX24 QR 2026-10-10；同上次 9/8 比：體重+2.3kg、脂肪↓、肌肉↑。本地存檔，未推網站。（2026-11-12 補正：table 分段數字先前誤用 9/8 數值，已改回今次 metrics。）",
+      "raw_saved": true,
+      "raw_file": "raw/2026-10-10-79538.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=79538&language=tc"
+    },
+    {
+      "id": "2026-11-12-SM1-89483",
+      "type": "tanita_body_composition",
+      "label": "驗身報告",
+      "measured_at": "2026-11-12 18:26:13",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=SM1&player_id=89483&language=tc",
+      "venue_id": "SM1",
+      "player_id": "89483",
+      "customer_code": "SM1_004270",
+      "metrics": {
+        "weight_kg": 61.1,
+        "height_cm": 177,
+        "bmi": 19.5,
+        "age": 24,
+        "body_age": 27,
+        "fat_percent": 20.9,
+        "fat_kg": 12.8,
+        "muscle_kg": 45.8,
+        "smm_kg": 23.3,
+        "smm_ratio_percent": 38.13,
+        "smi": 7.0,
+        "ffm_kg": 48.3,
+        "bone_kg": 2.5,
+        "bmr_kcal": 1381,
+        "bmr_kj": 5778,
+        "visceral_fat_level": 4,
+        "body_water_percent": 50.1,
+        "body_water_kg": 30.6,
+        "water_in_kg": 17.4,
+        "water_out_kg": 13.2,
+        "water_out_percent": 43.1,
+        "muscle_ratio_percent": 75,
+        "degree_of_obesity_percent": -11.3,
+        "std_weight_kg": 68.9,
+        "std_muscle_kg": 54.2,
+        "std_fat_percent": 17,
+        "leg_muscle_score": 103,
+        "muscle_score": -3,
+        "body_index": 4,
+        "fat_index": 1,
+        "muscle_index": 0,
+        "t_score": null,
+        "z_score": null
+      },
+      "segmental_muscle_kg": {
+        "trunk": 23.9,
+        "left_arm": 2.1,
+        "right_arm": 2.1,
+        "left_leg": 8.8,
+        "right_leg": 8.9
+      },
+      "segmental_fat_percent": {
+        "trunk": 24.5,
+        "left_arm": 17.2,
+        "right_arm": 16.8,
+        "left_leg": 16.7,
+        "right_leg": 16.4
+      },
+      "segmental_fat_kg": {
+        "trunk": 8.1,
+        "left_arm": 0.5,
+        "right_arm": 0.5,
+        "left_leg": 1.8,
+        "right_leg": 1.9
+      },
+      "scores": {
+        "mts": -3,
+        "mlhs": -3,
+        "mrhs": -3,
+        "mlfs": -2,
+        "mrfs": -2,
+        "fts": 1,
+        "flhs": 1,
+        "frhs": 0,
+        "flfs": -1,
+        "frfs": -1,
+        "vfi_block": 3,
+        "bmr_block": 6,
+        "waterout_block": 11
+      },
+      "ranges": {
+        "gender": 1,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "stdweight_LR": 58,
+        "stdweight_HR": 71.7,
+        "fatkg_LR": 6,
+        "fatkg_HR": 9.3,
+        "nonfatkg_LR": 52,
+        "nonfatkg_HR": 62.4,
+        "stdmusclekg_LR": 48.8,
+        "stdmusclekg_HR": 59.6,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "lhgrip": null,
+        "rhgrip": null
+      },
+      "table": [
+        {
+          "key": "weight_kg",
+          "label": "體重",
+          "value": 61.1,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "height_cm",
+          "label": "身高",
+          "value": 177,
+          "unit": "cm",
+          "group": "overview"
+        },
+        {
+          "key": "bmi",
+          "label": "BMI",
+          "value": 19.5,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_age",
+          "label": "體年齡",
+          "value": 27,
+          "unit": "歲",
+          "group": "overview"
+        },
+        {
+          "key": "fat_percent",
+          "label": "體脂率",
+          "value": 20.9,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "fat_kg",
+          "label": "脂肪量",
+          "value": 12.8,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_kg",
+          "label": "肌肉量",
+          "value": 45.8,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_kg",
+          "label": "骨骼肌量 SMM",
+          "value": 23.3,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "smm_ratio_percent",
+          "label": "SMM 比率",
+          "value": 38.13,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "smi",
+          "label": "SMI",
+          "value": 7.0,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "ffm_kg",
+          "label": "除脂體重",
+          "value": 48.3,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bone_kg",
+          "label": "骨量",
+          "value": 2.5,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "bmr_kcal",
+          "label": "基礎代謝",
+          "value": 1381,
+          "unit": "kcal",
+          "group": "overview"
+        },
+        {
+          "key": "visceral_fat_level",
+          "label": "內臟脂肪等級",
+          "value": 4,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "body_water_percent",
+          "label": "體水分率",
+          "value": 50.1,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "body_water_kg",
+          "label": "體水分量",
+          "value": 30.6,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_in_kg",
+          "label": "細胞內液",
+          "value": 17.4,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_kg",
+          "label": "細胞外液",
+          "value": 13.2,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "water_out_percent",
+          "label": "細胞外液比率",
+          "value": 43.1,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "muscle_ratio_percent",
+          "label": "肌肉率",
+          "value": 75,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "degree_of_obesity_percent",
+          "label": "肥胖度",
+          "value": -11.3,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "std_weight_kg",
+          "label": "標準體重",
+          "value": 68.9,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_muscle_kg",
+          "label": "標準肌肉量",
+          "value": 54.2,
+          "unit": "kg",
+          "group": "overview"
+        },
+        {
+          "key": "std_fat_percent",
+          "label": "標準體脂率",
+          "value": 17,
+          "unit": "%",
+          "group": "overview"
+        },
+        {
+          "key": "leg_muscle_score",
+          "label": "腿部肌肉分數",
+          "value": 103,
+          "unit": null,
+          "group": "overview"
+        },
+        {
+          "key": "seg_muscle_trunk",
+          "label": "軀幹肌肉",
+          "value": 23.9,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_arm",
+          "label": "左臂肌肉",
+          "value": 2.1,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_arm",
+          "label": "右臂肌肉",
+          "value": 2.1,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_left_leg",
+          "label": "左腿肌肉",
+          "value": 8.8,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_muscle_right_leg",
+          "label": "右腿肌肉",
+          "value": 8.9,
+          "unit": "kg",
+          "group": "segmental_muscle"
+        },
+        {
+          "key": "seg_fat_pct_trunk",
+          "label": "軀幹體脂%",
+          "value": 24.5,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_arm",
+          "label": "左臂體脂%",
+          "value": 17.2,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_arm",
+          "label": "右臂體脂%",
+          "value": 16.8,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_left_leg",
+          "label": "左腿體脂%",
+          "value": 16.7,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_pct_right_leg",
+          "label": "右腿體脂%",
+          "value": 16.4,
+          "unit": "%",
+          "group": "segmental_fat"
+        },
+        {
+          "key": "seg_fat_kg_trunk",
+          "label": "軀幹脂肪",
+          "value": 8.1,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_arm",
+          "label": "左臂脂肪",
+          "value": 0.5,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_arm",
+          "label": "右臂脂肪",
+          "value": 0.5,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_left_leg",
+          "label": "左腿脂肪",
+          "value": 1.8,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        },
+        {
+          "key": "seg_fat_kg_right_leg",
+          "label": "右腿脂肪",
+          "value": 1.9,
+          "unit": "kg",
+          "group": "segmental_fat_kg"
+        }
+      ],
+      "raw_normalized": {
+        "date": "2026-11-12 18:26:13",
+        "sm": 7.0,
+        "smm": 23.3,
+        "smm_raw": "23.3kg",
+        "sn": "SM1_89483",
+        "c_code": "SM1_004270",
+        "weight": 61.1,
+        "gender": 1,
+        "age": 24,
+        "body_age": 27,
+        "bodyheight": 177,
+        "body_water": 50.1,
+        "water_in": 17.4,
+        "water_out": 13.2,
+        "water_out_per": 43.1,
+        "waterout_block": 11,
+        "water_weight": 30.6,
+        "bmr": 1381,
+        "bmr_kj": 5778,
+        "bmr_block": 6,
+        "bmi": 19.5,
+        "vfi": 4,
+        "vfi_block": 3,
+        "muscle_weight": 45.8,
+        "truck_weight": 23.9,
+        "lh_weight": 2.1,
+        "rh_weight": 2.1,
+        "lf_weight": 8.8,
+        "rf_weight": 8.9,
+        "mts": -3,
+        "mlhs": -3,
+        "mrhs": -3,
+        "mlfs": -2,
+        "mrfs": -2,
+        "fat_rate": 20.9,
+        "fatrate_LR": 11,
+        "fatrate_HR": 16.9,
+        "truck_fat_weight": 8.1,
+        "lh_fat_weight": 0.5,
+        "rh_fat_weight": 0.5,
+        "lf_fat_weight": 1.8,
+        "rf_fat_weight": 1.9,
+        "truck_fat_rate": 24.5,
+        "lh_fat_rate": 17.2,
+        "rh_fat_rate": 16.8,
+        "lf_fat_rate": 16.7,
+        "rf_fat_rate": 16.4,
+        "fts": 1,
+        "flhs": 1,
+        "frhs": 0,
+        "flfs": -1,
+        "frfs": -1,
+        "stdweight": 68.9,
+        "stdweight_LR": 58,
+        "stdweight_HR": 71.7,
+        "stdmusclekg": 54.2,
+        "stdfatrate": 17,
+        "boneweight": 2.5,
+        "fatkg": 12.8,
+        "fatkg_LR": 6,
+        "fatkg_HR": 9.3,
+        "nonfatkg": 48.3,
+        "nonfatkg_LR": 52,
+        "nonfatkg_HR": 62.4,
+        "stdmusclekg_LR": 48.8,
+        "stdmusclekg_HR": 59.6,
+        "legmusiclescore": 103,
+        "bodytype": 0,
+        "clothesweight": 0,
+        "musclefeetbal": 0,
+        "musclearmbal": 0,
+        "musclescore": -3,
+        "degreeofobesity": -11.3,
+        "muscle_ratio": 75,
+        "muscle_index": 0,
+        "body_index": 4,
+        "fat_index": 1,
+        "tscore": -1,
+        "zscore": -1,
+        "lhgrip": -1,
+        "rhgrip": -1,
+        "venue_id": "SM1",
+        "smm_ratio": 38.13
+      },
+      "notes": "EFX24 QR 2026-11-12，場地 SM1（上次 10/10 係 MOS1）。同上次比：體重 −0.5kg、體脂 +5.0 個百分點、肌肉 −3.3kg、骨骼肌 −3.5kg、體水分 −4.0kg。唔做診斷；換場地／機同水份狀態都可以令分段數字波動好大。",
+      "raw_saved": true,
+      "raw_file": "raw/2026-11-12-89483.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=SM1&player_id=89483&language=tc"
+    }
+  ],
+  "table_note": "table[] is UI whitelist only (junk Tanita placeholders removed). Compare by key across reports. Use report_url/source_url for full report link."
+}

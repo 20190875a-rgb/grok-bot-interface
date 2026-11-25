@@ -1,0 +1,40 @@
+{
+  "id": "20261008-session-1",
+  "logged_at": "2026-10-11T14:18:07+08:00",
+  "date": "2026-10-08",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "用戶補記 Wed；decline chest press 4；pulldown 2；pectoral fly 3；DB shoulder press 3；lateral raise 3（飛膊）",
+  "exercises": [
+    {
+      "name": "Decline chest press",
+      "sets": 4,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 2,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Pectoral fly",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫夾胸"
+    },
+    {
+      "name": "Shoulder press dumbbell",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫飛膊"
+    }
+  ]
+}

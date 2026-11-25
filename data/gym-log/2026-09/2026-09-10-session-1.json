@@ -1,0 +1,52 @@
+{
+  "id": "20260910-session-1",
+  "logged_at": "2026-09-10T19:33:21+08:00",
+  "date": "2026-09-10",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "星期五冇時間故周四做A；Cable 3頭肌=cable triceps",
+  "exercises": [
+    {
+      "name": "Cable row（划船）",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown（下拉）",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Cable triceps",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Cable 3頭肌"
+    },
+    {
+      "name": "Pectoral fly",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Rear deltoid",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Biceps curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

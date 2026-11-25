@@ -1,0 +1,46 @@
+{
+  "id": "20261028-session-1",
+  "logged_at": "2026-10-28T23:39:03+08:00",
+  "date": "2026-10-28",
+  "session_type": "A2_back_bias",
+  "rest_between_sets": null,
+  "notes": "週三 A2 偏背：Cable row／Lateral pulldown／Lateral raise／Hammer strength row（反手下手把）／Cable triceps 各3；ISO lateral high row 2。冇 incline press（對照計劃有2）。",
+  "exercises": [
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Lateral pulldown"
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hammer strength row",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶：Hammer strength row machine 3，反手下手把"
+    },
+    {
+      "name": "Cable triceps",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "ISO lateral high row",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫 ISO lateral high row；近 Super high row／高位划船類"
+    }
+  ]
+}

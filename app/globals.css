@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+.dark,
+[data-theme="dark"] {
+  --accent: oklch(0.72 0.19 305);
+  --accent-foreground: oklch(0.98 0.02 305);
+  --focus: var(--accent);
+  --link: var(--accent);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}

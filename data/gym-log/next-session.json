@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "generated_at": "2026-11-23T18:37:43+08:00",
+  "based_on_session_id": "20261123-session-1",
+  "based_on_date": "2026-11-23",
+  "based_on_session_type": "B_lower",
+  "session_type": "A1_chest_bias",
+  "split_label": "A1 · Chest bias (heatmap refine)",
+  "suggested_date": "2026-11-25",
+  "suggested_date_note": "11/23 B 完；下一次 A1 偏胸約 2026-11-25。之後再 B。",
+  "duration_min": {
+    "full": 50,
+    "short": 25
+  },
+  "rest_between_sets": "~1 min（你慣短休）",
+  "goals": [
+    "胸主：incline press 3 + fly 3",
+    "背照做但減量：high row 3、pulldown 2",
+    "側三角 accessory：lateral raise 2"
+  ],
+  "rotation_note": "順序：A1 偏胸 → B → A2 偏背 → B → 循環",
+  "exercises": [
+    {
+      "name": "ISO lateral incline press",
+      "sets": 3,
+      "reps": "8-12",
+      "notes": "胸主"
+    },
+    {
+      "name": "Standing chest fly",
+      "sets": 3,
+      "reps": "10-15",
+      "notes": "胸主"
+    },
+    {
+      "name": "Super high row",
+      "sets": 3,
+      "reps": "8-12",
+      "notes": "背照做；補後三角／斜方"
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 2,
+      "reps": "8-12",
+      "notes": "闊背已夠，保持 2"
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 2,
+      "reps": "12-15",
+      "notes": "側三角缺口；可取代部分 Shoulder press"
+    }
+  ],
+  "short_version": [
+    {
+      "name": "ISO lateral incline press",
+      "sets": 3,
+      "reps": "8-12"
+    },
+    {
+      "name": "Standing chest fly",
+      "sets": 3,
+      "reps": "10-15"
+    },
+    {
+      "name": "Super high row",
+      "sets": 3,
+      "reps": "8-12"
+    }
+  ],
+  "notes": null
+}

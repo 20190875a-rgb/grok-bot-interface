@@ -1,0 +1,52 @@
+{
+  "id": "20260914-session-1",
+  "logged_at": "2026-09-14T18:50:16+08:00",
+  "date": "2026-09-14",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "肩推只做2；有加 hip adduction；飛鳥無做",
+  "exercises": [
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Shoulder press",
+      "sets": 2,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Lat down"
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "A日順便做"
+    },
+    {
+      "name": "Biceps curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Cable triceps",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Tricep cable"
+    }
+  ]
+}

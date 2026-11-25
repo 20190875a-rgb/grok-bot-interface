@@ -1,0 +1,34 @@
+{
+  "id": "20261116-session-1",
+  "logged_at": "2026-11-16T19:25:02+08:00",
+  "date": "2026-11-16",
+  "session_type": "A1_chest_bias",
+  "rest_between_sets": null,
+  "notes": "11/16 補做 A1（原建議約 11/15）。ISO lateral bench press／Panatta pullover／Standing chest fly 各3，Cable row narrow grip 3。當平板 iso-lateral 推（唔當 incline）。冇做 Super high row、Lat pulldown、Lateral raise；pullover 可當闊背替代。",
+  "exercises": [
+    {
+      "name": "ISO lateral bench press",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃係 incline press；用戶寫 ISO lateral bench press，當平板 iso-lateral 推"
+    },
+    {
+      "name": "Panatta pullover",
+      "sets": 3,
+      "reps": null,
+      "notes": "新動作；可當計劃 Lat pulldown 的闊背替代，實際 3 組（計劃 pulldown 2）"
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Cable row 3 narrow grip；計劃係 Super high row"
+    },
+    {
+      "name": "Chest fly",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing chest fly"
+    }
+  ]
+}

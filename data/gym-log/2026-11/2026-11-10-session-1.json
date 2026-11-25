@@ -1,0 +1,40 @@
+{
+  "id": "20261110-session-1",
+  "logged_at": "2026-11-11T17:55:07+08:00",
+  "date": "2026-11-10",
+  "session_type": "A1_chest_bias",
+  "rest_between_sets": null,
+  "notes": "用戶補記 Yesterday=2026-11-10（10/30 B 之後輪到 A1）。實際較接近平衡 upper：Chest press 3（計劃 incline）、冇 fly；Lat pulldown／Cable row／Shoulder press 各3，另加 Standing lateral raise 3（計劃 shoulder 2）。",
+  "exercises": [
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Shoulder press",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃建議 2，實際做 3"
+    },
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃係 incline press；用戶寫 Chest press"
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Shandong Lateral raise；當 Standing lateral raise"
+    }
+  ]
+}

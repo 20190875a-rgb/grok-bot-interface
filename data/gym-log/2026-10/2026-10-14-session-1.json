@@ -1,0 +1,40 @@
+{
+  "id": "20261014-session-1",
+  "logged_at": "2026-10-14T18:49:04+08:00",
+  "date": "2026-10-14",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "周三 A：chest／cable row／lat pulldown／cable triceps／upper back 各3",
+  "exercises": [
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Lat pull down"
+    },
+    {
+      "name": "Cable triceps extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Cable triceps"
+    },
+    {
+      "name": "Upper back",
+      "sets": 3,
+      "reps": null,
+      "notes": "機／cable 上背"
+    }
+  ]
+}

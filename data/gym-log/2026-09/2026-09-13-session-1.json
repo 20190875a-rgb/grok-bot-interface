@@ -1,0 +1,46 @@
+{
+  "id": "20260913-session-1",
+  "logged_at": "2026-09-13T20:41:04+08:00",
+  "date": "2026-09-13",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "B legs + 飛鳥 makeup；core 左中右各2",
+  "exercises": [
+    {
+      "name": "Super leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Seated leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Core crunch",
+      "sets": 2,
+      "reps": null,
+      "notes": "左／中／右各2"
+    },
+    {
+      "name": "Pectoral fly（飛鳥）",
+      "sets": 3,
+      "reps": null,
+      "notes": "makeup chest"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

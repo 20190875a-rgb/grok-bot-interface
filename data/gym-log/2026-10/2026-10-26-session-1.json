@@ -1,0 +1,40 @@
+{
+  "id": "20261026-session-1",
+  "logged_at": "2026-10-26T18:56:50+08:00",
+  "date": "2026-10-26",
+  "session_type": "A1_chest_bias",
+  "rest_between_sets": null,
+  "notes": "周一 A1 偏胸：incline press／wide pulldown／chest fly／cable row／biceps curl 各3；冇肩推，換成二頭",
+  "exercises": [
+    {
+      "name": "ISO lateral incline press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "ISO lateral wide pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 ISO lateral wide pulldown；當 lat pulldown 類"
+    },
+    {
+      "name": "Standing chest fly",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing Chest fly"
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Biceps curl",
+      "sets": 3,
+      "reps": null,
+      "notes": "替換計劃入面嘅 shoulder press"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "20261022-session-1",
+  "logged_at": "2026-10-22T22:43:38+08:00",
+  "date": "2026-10-22",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "周四 A：chest press／cable row／pulldown／cable triceps／chest flies 各3",
+  "exercises": [
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Pull down"
+    },
+    {
+      "name": "Cable triceps",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Chest fly",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Chest flies"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "london_d1": {
+    "account_id": "london_d1",
+    "city": "london",
+    "horizon": 1,
+    "horizon_tag": "d1",
+    "bankroll": 1045.6582,
+    "starting_bankroll": 1000,
+    "bets_won": 5,
+    "bets_lost": 4,
+    "history": [
+      {
+        "target_date": "2026-10-29",
+        "result": "lost",
+        "bucket": "16°C",
+        "resolved": "17°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-02",
+        "result": "won",
+        "bucket": "13°C",
+        "resolved": "13°C",
+        "stake": 100,
+        "payout": 181.8182
+      },
+      {
+        "target_date": "2026-11-06",
+        "result": "won",
+        "bucket": "11°C",
+        "resolved": "11°C",
+        "stake": 50.0,
+        "payout": 102.0408
+      },
+      {
+        "target_date": "2026-11-06",
+        "result": "lost",
+        "bucket": "12°C",
+        "resolved": "11°C",
+        "stake": 50.0,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-10",
+        "result": "lost",
+        "bucket": "10°C",
+        "resolved": "11°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-11",
+        "result": "won",
+        "bucket": "10°C",
+        "resolved": "10°C",
+        "stake": 100,
+        "payout": 200.0
+      },
+      {
+        "target_date": "2026-11-19",
+        "result": "won",
+        "bucket": "11°C",
+        "resolved": "11°C",
+        "stake": 100,
+        "payout": 192.3077
+      },
+      {
+        "target_date": "2026-11-22",
+        "result": "won",
+        "bucket": "9°C",
+        "resolved": "9°C",
+        "stake": 100,
+        "payout": 169.4915
+      },
+      {
+        "target_date": "2026-11-23",
+        "result": "lost",
+        "bucket": "7°C",
+        "resolved": "8°C",
+        "stake": 100,
+        "payout": 0
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "london_d2": {
+    "account_id": "london_d2",
+    "city": "london",
+    "horizon": 2,
+    "horizon_tag": "d2",
+    "bankroll": 700.0,
+    "starting_bankroll": 1000,
+    "bets_won": 0,
+    "bets_lost": 3,
+    "history": [
+      {
+        "target_date": "2026-10-28",
+        "result": "lost",
+        "bucket": "16°C",
+        "resolved": "17°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-14",
+        "result": "lost",
+        "bucket": "9°C",
+        "resolved": "10°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-23",
+        "result": "lost",
+        "bucket": "7°C",
+        "resolved": "8°C",
+        "stake": 100,
+        "payout": 0
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "london_d3": {
+    "account_id": "london_d3",
+    "city": "london",
+    "horizon": 3,
+    "horizon_tag": "d3",
+    "bankroll": 1017.4755,
+    "starting_bankroll": 1000,
+    "bets_won": 3,
+    "bets_lost": 3,
+    "history": [
+      {
+        "target_date": "2026-11-05",
+        "result": "lost",
+        "bucket": "11°C",
+        "resolved": "10°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-06",
+        "result": "lost",
+        "bucket": "12°C",
+        "resolved": "11°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-07",
+        "result": "won",
+        "bucket": "11°C",
+        "resolved": "11°C",
+        "stake": 100,
+        "payout": 243.9024
+      },
+      {
+        "target_date": "2026-11-14",
+        "result": "lost",
+        "bucket": "9°C",
+        "resolved": "10°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-15",
+        "result": "won",
+        "bucket": "12°C",
+        "resolved": "12°C",
+        "stake": 100,
+        "payout": 204.0816
+      },
+      {
+        "target_date": "2026-11-22",
+        "result": "won",
+        "bucket": "9°C",
+        "resolved": "9°C",
+        "stake": 100,
+        "payout": 169.4915
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "tokyo_d1": {
+    "account_id": "tokyo_d1",
+    "city": "tokyo",
+    "horizon": 1,
+    "horizon_tag": "d1",
+    "bankroll": 519.5804,
+    "starting_bankroll": 1000,
+    "bets_won": 2,
+    "bets_lost": 6,
+    "history": [
+      {
+        "target_date": "2026-10-28",
+        "result": "lost",
+        "bucket": "19°C",
+        "resolved": "20°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-01",
+        "result": "lost",
+        "bucket": "19°C",
+        "resolved": "20°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-03",
+        "result": "won",
+        "bucket": "19°C",
+        "resolved": "19°C",
+        "stake": 100,
+        "payout": 192.3077
+      },
+      {
+        "target_date": "2026-11-04",
+        "result": "lost",
+        "bucket": "16°C",
+        "resolved": "18°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-07",
+        "result": "lost",
+        "bucket": "19°C",
+        "resolved": "20°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-14",
+        "result": "won",
+        "bucket": "19°C",
+        "resolved": "19°C",
+        "stake": 100,
+        "payout": 227.2727
+      },
+      {
+        "target_date": "2026-11-21",
+        "result": "lost",
+        "bucket": "14°C",
+        "resolved": "15°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-23",
+        "result": "lost",
+        "bucket": "13°C",
+        "resolved": "14°C",
+        "stake": 100,
+        "payout": 0
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "tokyo_d2": {
+    "account_id": "tokyo_d2",
+    "city": "tokyo",
+    "horizon": 2,
+    "horizon_tag": "d2",
+    "bankroll": 684.4156,
+    "starting_bankroll": 1000,
+    "bets_won": 2,
+    "bets_lost": 6,
+    "history": [
+      {
+        "target_date": "2026-10-28",
+        "result": "lost",
+        "bucket": "19°C",
+        "resolved": "20°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-03",
+        "result": "lost",
+        "bucket": "20°C",
+        "resolved": "19°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-04",
+        "result": "lost",
+        "bucket": "17°C",
+        "resolved": "18°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-10",
+        "result": "lost",
+        "bucket": "13°C",
+        "resolved": "12°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-13",
+        "result": "won",
+        "bucket": "18°C",
+        "resolved": "18°C",
+        "stake": 100,
+        "payout": 357.1429
+      },
+      {
+        "target_date": "2026-11-14",
+        "result": "won",
+        "bucket": "19°C",
+        "resolved": "19°C",
+        "stake": 100,
+        "payout": 227.2727
+      },
+      {
+        "target_date": "2026-11-16",
+        "result": "lost",
+        "bucket": "19°C",
+        "resolved": "20°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-23",
+        "result": "lost",
+        "bucket": "13°C",
+        "resolved": "14°C",
+        "stake": 100,
+        "payout": 0
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "tokyo_d3": {
+    "account_id": "tokyo_d3",
+    "city": "tokyo",
+    "horizon": 3,
+    "horizon_tag": "d3",
+    "bankroll": 997.3814,
+    "starting_bankroll": 1000,
+    "bets_won": 2,
+    "bets_lost": 4,
+    "history": [
+      {
+        "target_date": "2026-10-31",
+        "result": "won",
+        "bucket": "23°C",
+        "resolved": "23°C",
+        "stake": 100,
+        "payout": 212.766
+      },
+      {
+        "target_date": "2026-11-04",
+        "result": "lost",
+        "bucket": "17°C",
+        "resolved": "18°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-12",
+        "result": "lost",
+        "bucket": "18°C",
+        "resolved": "19°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-20",
+        "result": "lost",
+        "bucket": "15°C",
+        "resolved": "17°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-22",
+        "result": "won",
+        "bucket": "13°C",
+        "resolved": "13°C",
+        "stake": 100,
+        "payout": 384.6154
+      },
+      {
+        "target_date": "2026-11-23",
+        "result": "lost",
+        "bucket": "13°C",
+        "resolved": "14°C",
+        "stake": 100,
+        "payout": 0
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "hong_kong_d1": {
+    "account_id": "hong_kong_d1",
+    "city": "hong_kong",
+    "horizon": 1,
+    "horizon_tag": "d1",
+    "bankroll": 1293.9024,
+    "starting_bankroll": 1000,
+    "bets_won": 2,
+    "bets_lost": 0,
+    "history": [
+      {
+        "target_date": "2026-11-09",
+        "result": "won",
+        "bucket": "26°C",
+        "resolved": "26°C",
+        "stake": 100,
+        "payout": 243.9024,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      },
+      {
+        "target_date": "2026-11-11",
+        "result": "won",
+        "bucket": "25°C",
+        "resolved": "25°C",
+        "stake": 100,
+        "payout": 250.0,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "hong_kong_d2": {
+    "account_id": "hong_kong_d2",
+    "city": "hong_kong",
+    "horizon": 2,
+    "horizon_tag": "d2",
+    "bankroll": 1050.0,
+    "starting_bankroll": 1000,
+    "bets_won": 1,
+    "bets_lost": 1,
+    "history": [
+      {
+        "target_date": "2026-11-11",
+        "result": "won",
+        "bucket": "25°C",
+        "resolved": "25°C",
+        "stake": 100,
+        "payout": 250.0,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      },
+      {
+        "target_date": "2026-11-13",
+        "result": "lost",
+        "bucket": "27°C",
+        "resolved": "26°C",
+        "stake": 100,
+        "payout": 0,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  },
+  "hong_kong_d3": {
+    "account_id": "hong_kong_d3",
+    "city": "hong_kong",
+    "horizon": 3,
+    "horizon_tag": "d3",
+    "bankroll": 1050.0,
+    "starting_bankroll": 1000,
+    "bets_won": 1,
+    "bets_lost": 1,
+    "history": [
+      {
+        "target_date": "2026-11-11",
+        "result": "won",
+        "bucket": "25°C",
+        "resolved": "25°C",
+        "stake": 100,
+        "payout": 250.0,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      },
+      {
+        "target_date": "2026-11-13",
+        "result": "lost",
+        "bucket": "27°C",
+        "resolved": "26°C",
+        "stake": 100,
+        "payout": 0,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      }
+    ],
+    "reset_at": "2026-10-26 17:31 HKT",
+    "reset_note": "User asked 重置戶口 2026-10-26; bankroll→1000, W/L cleared; settled bets/history.json kept as archive"
+  }
+}

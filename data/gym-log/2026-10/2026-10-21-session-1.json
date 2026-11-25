@@ -1,0 +1,34 @@
+{
+  "id": "20261021-session-1",
+  "logged_at": "2026-10-22T12:53:43+08:00",
+  "date": "2026-10-21",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "周三 B：leg press／leg curl／standing calf 各3；Panatta Master Gluteus 2",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Panatta Master Gluteus",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫 Pannatt master gluteus"
+    },
+    {
+      "name": "Lying leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Leg curl"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing calf"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "20261013-session-1",
+  "logged_at": "2026-10-13T18:44:33+08:00",
+  "date": "2026-10-13",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "周二 B：leg press／curl／abdominal／calf 各3；Panatta gluteus 2；leg extension 2",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lying leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Leg curl"
+    },
+    {
+      "name": "Abdominal crunch",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 abdominal"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing calf"
+    },
+    {
+      "name": "Panatta Master Gluteus",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫 Pannatt master gluteus"
+    },
+    {
+      "name": "Seated leg extension",
+      "sets": 2,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

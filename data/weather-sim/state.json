@@ -1,0 +1,99 @@
+{
+  "last_run": "2026-11-25T00:58:22Z",
+  "last_run_hkt": "2026-11-25 08:58 HKT",
+  "run_type": "daily_settle_predict_bet",
+  "strategy": "v3.2",
+  "predictions_file": "predictions/2026-11-25.json",
+  "open_bets": 2,
+  "no_market_bets": 65,
+  "total_staked_in_open": 200,
+  "settled_this_run": [],
+  "settlement_notes": [
+    "london_d3: refused no_market conversion 2026-11-26 @ 0.55 (edge=-0.184<0.12)",
+    "tokyo_d3: refused no_market conversion 2026-11-26 @ 0.4 (edge=0.0566<0.12)",
+    "hong_kong_d3: refused no_market conversion 2026-11-26 @ 0.36 (edge=-0.1348<0.12)",
+    "london_d2: refused no_market conversion 2026-11-26 @ 0.55 (edge=-0.1813<0.15)",
+    "tokyo_d2: converted no_market to open for 2026-11-26 @ 0.4 edge=0.305",
+    "hong_kong_d2: refused no_market conversion 2026-11-26 @ 0.18 (YES@0.18<0.25; edge=0.0125<0.15)"
+  ],
+  "missing_markets": [
+    {
+      "city": "london",
+      "horizon": 2,
+      "target_date": "2026-11-27",
+      "expected_slug": "highest-temperature-in-london-on-november-27-2026"
+    },
+    {
+      "city": "london",
+      "horizon": 3,
+      "target_date": "2026-11-28",
+      "expected_slug": "highest-temperature-in-london-on-november-28-2026"
+    },
+    {
+      "city": "tokyo",
+      "horizon": 2,
+      "target_date": "2026-11-27",
+      "expected_slug": "highest-temperature-in-tokyo-on-november-27-2026"
+    },
+    {
+      "city": "tokyo",
+      "horizon": 3,
+      "target_date": "2026-11-28",
+      "expected_slug": "highest-temperature-in-tokyo-on-november-28-2026"
+    },
+    {
+      "city": "hong_kong",
+      "horizon": 2,
+      "target_date": "2026-11-27",
+      "expected_slug": "highest-temperature-in-hong-kong-on-november-27-2026"
+    },
+    {
+      "city": "hong_kong",
+      "horizon": 3,
+      "target_date": "2026-11-28",
+      "expected_slug": "highest-temperature-in-hong-kong-on-november-28-2026"
+    }
+  ],
+  "bias_table": {
+    "london_d1": {
+      "n": 21,
+      "mean_err_c": -0.29
+    },
+    "tokyo_d1": {
+      "n": 30,
+      "mean_err_c": -0.37
+    },
+    "london_d2": {
+      "n": 38,
+      "mean_err_c": -0.26
+    },
+    "tokyo_d2": {
+      "n": 30,
+      "mean_err_c": -0.1
+    },
+    "hong_kong_d1": {
+      "n": 15,
+      "mean_err_c": -0.6
+    },
+    "hong_kong_d2": {
+      "n": 12,
+      "mean_err_c": -1.08
+    },
+    "london_d3": {
+      "n": 43,
+      "mean_err_c": -0.26
+    },
+    "tokyo_d3": {
+      "n": 24,
+      "mean_err_c": -0.29
+    },
+    "hong_kong_d3": {
+      "n": 21,
+      "mean_err_c": -0.9
+    }
+  },
+  "next_actions": [
+    "After each target local day ends: settle via Polymarket Gamma; fallback METAR/HKO/Open-Meteo archive labeled observation-only",
+    "Watch for Sep-12/Sep-13 highest-temp markets to convert no_market paper bets"
+  ]
+}

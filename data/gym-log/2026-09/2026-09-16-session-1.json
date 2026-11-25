@@ -1,0 +1,64 @@
+{
+  "id": "20260916-session-1",
+  "logged_at": "2026-09-16T21:55:21+08:00",
+  "date": "2026-09-16",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "短版 A 日頭：胸＋背；晚間補：curl 3、夾胸 2、飛鳥向上 2、肩推 3、三頭 1",
+  "exercises": [
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Upper back",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫 Upper back；機種未註"
+    },
+    {
+      "name": "Biceps curl",
+      "sets": 3,
+      "reps": null,
+      "notes": "晚間補做"
+    },
+    {
+      "name": "Standing multi fly（夾胸）",
+      "sets": 2,
+      "reps": null,
+      "notes": "晚間補做"
+    },
+    {
+      "name": "Pectoral fly upward（飛鳥向上）",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫飛鳥（向上）；晚間補做"
+    },
+    {
+      "name": "Shoulder press",
+      "sets": 3,
+      "reps": null,
+      "notes": "晚間補做"
+    },
+    {
+      "name": "Cable triceps",
+      "sets": 1,
+      "reps": null,
+      "notes": "晚間補做；只做1"
+    }
+  ]
+}

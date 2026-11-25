@@ -1,0 +1,6 @@
+{
+  "date": "2026-09-09",
+  "status": "void_dry_run",
+  "note": "First run was a dry run; does not count. Archived under dry_run_archive/",
+  "archived_to": "dry_run_archive/predictions_2026-09-09.json"
+}

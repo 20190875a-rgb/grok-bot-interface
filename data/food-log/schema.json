@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "timezone": "Asia/Hong_Kong",
+  "file_naming": "YYYY-MM.json",
+  "daily_targets_default": {
+    "kcal": 2200,
+    "protein_g": 110,
+    "protein_g_min": 100,
+    "protein_g_max": 120,
+    "carb_g": 260,
+    "fat_g": 70,
+    "goal": "lean_muscle_gain",
+    "note": "Daily guide; primary success metric is 7-day average ≈ these numbers"
+  },
+  "entry_shape": {
+    "id": "YYYYMMDD-meal-n",
+    "logged_at": "ISO8601 offset",
+    "date": "YYYY-MM-DD",
+    "meal": "breakfast|lunch|dinner|snack|supplement|other",
+    "items": [
+      {
+        "name": "string",
+        "amount": "string",
+        "kcal": 0,
+        "protein_g": 0,
+        "carb_g": 0,
+        "fat_g": 0,
+        "estimate": true,
+        "notes": "string optional"
+      }
+    ],
+    "totals": {
+      "kcal": 0,
+      "protein_g": 0,
+      "carb_g": 0,
+      "fat_g": 0
+    },
+    "source": "user_report+estimate"
+  },
+  "tracking": {
+    "mode": "daily_plus_7day_average",
+    "daily_targets": {
+      "kcal": 2200,
+      "protein_g": 110,
+      "protein_g_min": 100,
+      "protein_g_max": 120
+    },
+    "weekly_average_targets": {
+      "kcal": 2200,
+      "protein_g": 110,
+      "window_days": 7,
+      "note": "Success = ~7-day mean near targets; single days may swing high/low"
+    },
+    "report_style": "After each log: show that day's totals + remaining vs daily target, AND rolling 7-day average vs weekly target when enough days exist."
+  }
+}

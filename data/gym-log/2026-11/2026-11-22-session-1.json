@@ -1,0 +1,40 @@
+{
+  "id": "20261122-session-1",
+  "logged_at": "2026-11-23T08:31:05+08:00",
+  "date": "2026-11-22",
+  "session_type": "A2_back_bias",
+  "rest_between_sets": null,
+  "notes": "11/22 補做 A2（原建議約 11/21）。ISO lateral incline press／Lat pulldown（cable）／Life Fitness pulldown／Cable row／Lateral raise 各3。Incline press 計劃胸 2 組，實際 3。用戶確認 Lat pulldown 係 cable，Pulldown 係 Life Fitness；兩部握法相近。冇做 Super high row、Upper back；冇做 Iso-lateral incline low row（用 Cable row 替代）。",
+  "exercises": [
+    {
+      "name": "ISO lateral incline press",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 incline chest press；計劃 2，實際 3"
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶：cable lat pulldown"
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃可取代 Iso-lateral incline low row"
+    },
+    {
+      "name": "Life Fitness pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Pulldown；Life Fitness 機，握法同 cable lat pulldown 相近"
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

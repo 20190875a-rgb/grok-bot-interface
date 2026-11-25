@@ -1,0 +1,47 @@
+{
+  "id": "20260908-session-1",
+  "logged_at": "2026-09-08T19:28:00+08:00",
+  "date": "2026-09-08",
+  "session_type": "A_upper",
+  "rest_between_sets": "1-2 min",
+  "notes": "用戶報告肌肉活動感／微熱增加；順序含手臂較早、飛鳥較後",
+  "exercises": [
+    {
+      "name": "seated row（坐姿划船）",
+      "sets": null,
+      "reps": null,
+      "notes": "用戶稱 sifting rolling"
+    },
+    {
+      "name": "triceps cable",
+      "sets": null,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "lat pulldown（高位下拉）",
+      "sets": null,
+      "reps": null,
+      "notes": "坐姿、肩寬下拉"
+    },
+    {
+      "name": "biceps machine",
+      "sets": null,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "triceps machine",
+      "sets": null,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "chest flyes（飛鳥）",
+      "sets": null,
+      "reps": null,
+      "notes": "兩個方向"
+    }
+  ],
+  "file": "2026-09/2026-09-08-session-1.json"
+}

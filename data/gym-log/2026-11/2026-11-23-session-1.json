@@ -1,0 +1,40 @@
+{
+  "id": "20261123-session-1",
+  "logged_at": "2026-11-23T18:37:43+08:00",
+  "date": "2026-11-23",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "11/23 提早做 B（原建議約 11/24）：Pendulum squat／3D Multi Abduction／Leg extension／Standing calf／Core crunch 各3。Leg extension 同 Core crunch 計劃 2，實際 3。Pendulum squat 代替 Leg press；3D Multi Abduction 代替 Hip abduction。冇做 Lying leg curl、Panatta Master Gluteus。",
+  "exercises": [
+    {
+      "name": "Pendulum squat",
+      "sets": 3,
+      "reps": null,
+      "notes": "新動作；代替計劃 Leg press"
+    },
+    {
+      "name": "3D Multi Abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 3d multi abduction；代替計劃 Hip abduction"
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃建議 2，實際做 3"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing calf"
+    },
+    {
+      "name": "Core crunch",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Abdominal；計劃建議 2，實際做 3"
+    }
+  ]
+}

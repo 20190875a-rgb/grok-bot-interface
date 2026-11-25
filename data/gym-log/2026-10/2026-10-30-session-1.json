@@ -1,0 +1,46 @@
+{
+  "id": "20261030-session-1",
+  "logged_at": "2026-10-30T23:56:02+08:00",
+  "date": "2026-10-30",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "週五 B：Leg press／Panatta Total Core Crunch（middle）／Super Gluteus／Seated leg curl／Leg extension／Standing calf 各3。冇外展；有 Master Gluteus + 站姿小腿（對照 refine）。",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Core crunch",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Pannatt total core crunch 3 middle；當 Panatta Total Core Crunch，middle 位"
+    },
+    {
+      "name": "Panatta Master Gluteus",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Super cluetus；當 Super Gluteus／Master Gluteus"
+    },
+    {
+      "name": "Leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 SearingLeg curl → Seated leg curl"
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃建議 2，實際做 3"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing calf"
+    }
+  ]
+}

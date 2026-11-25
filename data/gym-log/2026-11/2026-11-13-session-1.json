@@ -1,0 +1,40 @@
+{
+  "id": "20261113-session-1",
+  "logged_at": "2026-11-13T19:42:40+08:00",
+  "date": "2026-11-13",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "11/13 提早做 B（原建議約 11/14）：Leg press／Leg extension／Hip abduction／Standing calf 各3，Master Gluteus 2。冇臥姿腿彎、Core crunch（對照 refine）。腿伸計劃建議 2，實際做 3。",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃建議 2，實際做 3"
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing calf"
+    },
+    {
+      "name": "Panatta Master Gluteus",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫 Master gluteus"
+    }
+  ]
+}

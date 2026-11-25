@@ -1,0 +1,126 @@
+{
+  "version": 2,
+  "month": "2026-09",
+  "updated_at": "2026-09-29T19:15:30+08:00",
+  "sessions": [
+    {
+      "id": "20260908-session-1",
+      "date": "2026-09-08",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-08-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20260909-session-1",
+      "date": "2026-09-09",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-09-session-1.json",
+      "exercise_count": 4
+    },
+    {
+      "id": "20260909-session-2",
+      "date": "2026-09-09",
+      "session_type": "B_lower",
+      "file": "2026-09/2026-09-09-session-2.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20260910-session-1",
+      "date": "2026-09-10",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-10-session-1.json",
+      "exercise_count": 7
+    },
+    {
+      "id": "20260913-session-1",
+      "date": "2026-09-13",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-13-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20260914-session-1",
+      "date": "2026-09-14",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-14-session-1.json",
+      "exercise_count": 7
+    },
+    {
+      "id": "20260915-session-1",
+      "date": "2026-09-15",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-15-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20260916-session-1",
+      "date": "2026-09-16",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-16-session-1.json",
+      "exercise_count": 9
+    },
+    {
+      "id": "20260917-session-1",
+      "date": "2026-09-17",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-17-session-1.json",
+      "exercise_count": 8
+    },
+    {
+      "id": "20260918-session-1",
+      "date": "2026-09-18",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-18-session-1.json",
+      "exercise_count": 3
+    },
+    {
+      "id": "20260922-session-1",
+      "date": "2026-09-22",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-22-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20260923-session-1",
+      "date": "2026-09-23",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-23-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20260924-session-1",
+      "date": "2026-09-24",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-24-session-1.json",
+      "exercise_count": 7
+    },
+    {
+      "id": "20260925-session-1",
+      "date": "2026-09-25",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-25-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20260927-session-1",
+      "date": "2026-09-27",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-27-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20260928-session-1",
+      "date": "2026-09-28",
+      "session_type": "A_upper",
+      "file": "2026-09/2026-09-28-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20260929-session-1",
+      "date": "2026-09-29",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-09/2026-09-29-session-1.json",
+      "exercise_count": 6
+    }
+  ]
+}

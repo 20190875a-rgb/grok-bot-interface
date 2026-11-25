@@ -1,0 +1,58 @@
+{
+  "id": "20260917-session-1",
+  "logged_at": "2026-09-17T20:04:35+08:00",
+  "date": "2026-09-17",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "B legs；leg press 4（用戶更正）；有 hip ab/adduction；lat pulldown makeup",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 4,
+      "reps": null,
+      "notes": "用戶更正：4組"
+    },
+    {
+      "name": "Leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 addiction"
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Lat down；B日makeup"
+    },
+    {
+      "name": "Core crunch",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

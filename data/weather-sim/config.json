@@ -1,0 +1,67 @@
+{
+  "created": "2026-09-09",
+  "timezone_user": "Asia/Hong_Kong",
+  "currency": "USDC-sim",
+  "stake_per_bet": 100,
+  "starting_bankroll": 1000,
+  "cities": {
+    "london": {
+      "station": "EGLC",
+      "station_fallback": "EGLL",
+      "timezone": "Europe/London",
+      "unit": "C"
+    },
+    "tokyo": {
+      "station": "RJTT",
+      "station_fallback": "RJAA",
+      "timezone": "Asia/Tokyo",
+      "unit": "C"
+    },
+    "hong_kong": {
+      "station": "VHHH",
+      "timezone": "Asia/Hong_Kong",
+      "unit": "C",
+      "settlement_note": "Polymarket resolves via HKO Absolute Daily Max"
+    }
+  },
+  "horizons": {
+    "d1": 1,
+    "d2": 2,
+    "d3": 3
+  },
+  "bet_rules": {
+    "stake": "min(100, bankroll)",
+    "side": "YES on bias-corrected closest tmax bucket",
+    "no_market_status": "no_market",
+    "deduct_only_when_market_exists": true,
+    "bias_correction": true,
+    "min_bias_samples": 3,
+    "bias_clip_c": 2.0,
+    "min_edge": 0.05,
+    "skip_if_no_edge": true,
+    "boundary_skip_if_frac_0.4_to_0.6_and_spread_ge": 1.5,
+    "skipped_status": "skipped_no_edge",
+    "sync_to_website": false,
+    "strategy_version": "v3.2",
+    "min_edge_d1": 0.1,
+    "min_edge_d2_d3": 0.15,
+    "boundary_frac_lo": 0.35,
+    "boundary_frac_hi": 0.65,
+    "wide_spread_c": 1.5,
+    "boundary_mode": "adjacent_hedge_or_skip",
+    "hedge_stake_split": 0.5,
+    "min_entry_price": 0.25,
+    "conversion_recheck_edge": true,
+    "conversion_min_edge_d1": 0.1,
+    "conversion_min_edge_d2": 0.15,
+    "conversion_min_edge_d3": 0.12,
+    "stake_cap_fraction": null,
+    "note_stake": "Left at min(100, bankroll). 10% cap avoided every zero in a replay but also cut winner PnL slightly; after dropping YES<0.20 and bad conversions, no account's settled PnL reaches -1000, so the leak is entries not stake size."
+  },
+  "sync_to_website": false,
+  "github_push": false,
+  "note_sync": "User 2026-09-17: keep writing all weather-sim JSON locally; do not push to website",
+  "store_json_locally": true,
+  "strategy_version": "v3.2",
+  "note_strategy": "2026-10-26 v3.2 local only: keep v3.1 fresh edges (d1+0.10, d2/d3+0.15), boundary hedge-or-skip, and conversion re-check. Raise min_entry_price 0.20→0.25 (blocks YES@0.21/0.24 losers; keeps YES@0.26 winner). Raise conversion_min_edge_d3 0.0→0.12 (blocks thin d3 conversion fills edge~0.03–0.11 that lost live). CF on 20 settled v3.1 bets: PnL 316.64→738.07 (+421). No stake cap, no bankroll reset, no website sync."
+}

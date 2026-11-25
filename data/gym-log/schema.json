@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "layout": {
+    "gym-log/schema.json": "schema",
+    "gym-log/YYYY-MM/index.json": "month index listing session files",
+    "gym-log/YYYY-MM/YYYY-MM-DD-session-n.json": "one file per gym session",
+    "gym-log/next-session.json": "next training target; overwrite after each logged session",
+    "gym-log/exercise-muscles.json": "optional body-muscles map. Heatmap weights come from each entry's weight_main / weight_supporting, falling back to weight_defaults. Do not invent exercise rows here."
+  },
+  "session_shape": {
+    "id": "YYYYMMDD-session-n",
+    "logged_at": "ISO8601",
+    "date": "YYYY-MM-DD",
+    "session_type": "A_upper|B_lower|B_lower_plus_makeup|full|other",
+    "rest_between_sets": "string|null",
+    "notes": "string",
+    "exercises": [
+      {
+        "name": "string",
+        "sets": 3,
+        "reps": "8-12|null",
+        "notes": "optional"
+      }
+    ]
+  },
+  "next_session_shape": {
+    "version": 1,
+    "generated_at": "ISO8601",
+    "based_on_session_id": "string",
+    "based_on_date": "YYYY-MM-DD",
+    "based_on_session_type": "string",
+    "session_type": "A_upper|B_lower|...",
+    "split_label": "string",
+    "suggested_date": "YYYY-MM-DD|null",
+    "suggested_date_note": "string|null",
+    "duration_min": {
+      "full": "number",
+      "short": "number"
+    },
+    "rest_between_sets": "string|null",
+    "goals": [
+      "string"
+    ],
+    "exercises": [
+      {
+        "name": "string",
+        "sets": "number",
+        "reps": "string|null",
+        "priority": "primary|secondary|accessory",
+        "notes": "string|null"
+      }
+    ],
+    "short_version": [
+      {
+        "name": "string",
+        "sets": "number",
+        "reps": "string|null"
+      }
+    ],
+    "notes": "string|null"
+  },
+  "next_session_rule": "Regenerate and overwrite next-session.json after every logged gym session; push only data/ to main."
+}

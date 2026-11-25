@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "file_layout": {
+    "index.json": "summary list for all reports",
+    "YYYY.json": "full reports for that year",
+    "raw/": "original Tanita API payload per scan"
+  },
+  "ui_hint": "Pivot table[] by key across reports (one row per key, one column per measured_at). Link headers with report_url/source_url. table[] is already filtered for display.",
+  "report_shape": {
+    "id": "string",
+    "measured_at": "YYYY-MM-DD HH:MM:SS",
+    "metrics": "flat numeric overview",
+    "segmental_muscle_kg": "object",
+    "segmental_fat_percent": "object",
+    "segmental_fat_kg": "object",
+    "scores": "object",
+    "ranges": "object",
+    "table": "filtered display rows only",
+    "raw_normalized": "all raw keys with numbers coerced",
+    "notes": "string|null",
+    "raw_saved": true,
+    "report_url": "same as source_url — full Tanita report link"
+  }
+}

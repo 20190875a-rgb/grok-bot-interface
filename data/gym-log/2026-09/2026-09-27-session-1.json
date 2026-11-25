@@ -1,0 +1,46 @@
+{
+  "id": "20260927-session-1",
+  "logged_at": "2026-09-27T21:21:32+08:00",
+  "date": "2026-09-27",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "B 下半＋上半 makeup：leg press／hip／core + row／incline chest；無 leg curl／extension／calf",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Core crunch",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Row",
+      "sets": 3,
+      "reps": null,
+      "notes": "makeup"
+    },
+    {
+      "name": "Incline chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": "makeup"
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

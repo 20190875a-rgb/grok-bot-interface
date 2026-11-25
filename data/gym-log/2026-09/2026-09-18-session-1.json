@@ -1,0 +1,28 @@
+{
+  "id": "20260918-session-1",
+  "logged_at": "2026-09-18T19:45:58+08:00",
+  "date": "2026-09-18",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "短版 A（較累）；只做胸／划船／lat；無肩／手臂",
+  "exercises": [
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Lat down"
+    }
+  ]
+}

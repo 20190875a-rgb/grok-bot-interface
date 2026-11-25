@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "month": "2026-10",
+  "sessions": [
+    {
+      "id": "20261002-session-1",
+      "date": "2026-10-02",
+      "session_type": "A_upper",
+      "file": "2026-10/2026-10-02-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20261008-session-1",
+      "date": "2026-10-08",
+      "session_type": "A_upper",
+      "file": "2026-10/2026-10-08-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20261010-session-1",
+      "date": "2026-10-10",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-10/2026-10-10-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20261012-session-1",
+      "date": "2026-10-12",
+      "session_type": "A_upper",
+      "file": "2026-10/2026-10-12-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20261013-session-1",
+      "date": "2026-10-13",
+      "session_type": "B_lower",
+      "file": "2026-10/2026-10-13-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20261014-session-1",
+      "date": "2026-10-14",
+      "session_type": "A_upper",
+      "file": "2026-10/2026-10-14-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20261020-session-1",
+      "date": "2026-10-20",
+      "session_type": "A_upper",
+      "file": "2026-10/2026-10-20-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20261021-session-1",
+      "date": "2026-10-21",
+      "session_type": "B_lower",
+      "file": "2026-10/2026-10-21-session-1.json",
+      "exercise_count": 4
+    },
+    {
+      "id": "20261022-session-1",
+      "date": "2026-10-22",
+      "session_type": "A_upper",
+      "file": "2026-10/2026-10-22-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20261023-session-1",
+      "date": "2026-10-23",
+      "session_type": "B_lower_plus_makeup",
+      "file": "2026-10/2026-10-23-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20261026-session-1",
+      "date": "2026-10-26",
+      "session_type": "A1_chest_bias",
+      "file": "2026-10/2026-10-26-session-1.json",
+      "exercise_count": 5
+    },
+    {
+      "id": "20261027-session-1",
+      "date": "2026-10-27",
+      "session_type": "B_lower",
+      "file": "2026-10/2026-10-27-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20261028-session-1",
+      "date": "2026-10-28",
+      "session_type": "A2_back_bias",
+      "file": "2026-10/2026-10-28-session-1.json",
+      "exercise_count": 6
+    },
+    {
+      "id": "20261030-session-1",
+      "date": "2026-10-30",
+      "session_type": "B_lower",
+      "file": "2026-10/2026-10-30-session-1.json",
+      "exercise_count": 6
+    }
+  ],
+  "updated_at": "2026-10-30T23:56:02+08:00",
+  "session_count": 14
+}

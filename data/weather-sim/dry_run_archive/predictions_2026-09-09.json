@@ -1,0 +1,593 @@
+{
+  "date": "2026-09-09",
+  "as_of_utc": "2026-09-09T06:50:00Z",
+  "as_of_hkt": "2026-09-09 14:50 HKT",
+  "forecast_provider": "Open-Meteo",
+  "model_sources": [
+    "ecmwf_ifs025",
+    "gfs_seamless",
+    "icon_seamless"
+  ],
+  "cities": {
+    "london": {
+      "station": "EGLC",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-09-10",
+          "predicted_tmax_c": 19.97,
+          "predicted_bucket": "20°C",
+          "model_sources": {
+            "ecmwf_ifs025": 18.3,
+            "gfs_seamless": 20.8,
+            "icon_seamless": 20.8
+          },
+          "ensemble_stdev_c": 1.44,
+          "ensemble_spread_c": 2.5,
+          "confidence": 0.55,
+          "notes": "Ensemble mean 19.97°C from ECMWF/GFS/ICON; bought YES 20°C @ 0.385",
+          "market_slug": "highest-temperature-in-london-on-september-10-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-09-11",
+          "predicted_tmax_c": 21.63,
+          "predicted_bucket": "22°C",
+          "model_sources": {
+            "ecmwf_ifs025": 21.4,
+            "gfs_seamless": 22.6,
+            "icon_seamless": 20.9
+          },
+          "ensemble_stdev_c": 0.87,
+          "ensemble_spread_c": 1.7,
+          "confidence": 0.65,
+          "notes": "Ensemble mean 21.63°C from ECMWF/GFS/ICON; bought YES 22°C @ 0.39",
+          "market_slug": "highest-temperature-in-london-on-september-11-2026"
+        },
+        "d3": {
+          "target_local_date": "2026-09-12",
+          "predicted_tmax_c": 23.1,
+          "predicted_bucket": "23°C",
+          "model_sources": {
+            "ecmwf_ifs025": 23.1,
+            "gfs_seamless": 23.9,
+            "icon_seamless": 22.3
+          },
+          "ensemble_stdev_c": 0.8,
+          "ensemble_spread_c": 1.6,
+          "confidence": 0.65,
+          "notes": "No Polymarket highest-temp market for 2026-09-12; paper bucket 23°C; bankroll unchanged",
+          "market_slug": null
+        }
+      }
+    },
+    "tokyo": {
+      "station": "RJTT",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-09-10",
+          "predicted_tmax_c": 22.2,
+          "predicted_bucket": "22°C",
+          "model_sources": {
+            "ecmwf_ifs025": 22.8,
+            "gfs_seamless": 22.1,
+            "icon_seamless": 21.7
+          },
+          "ensemble_stdev_c": 0.56,
+          "ensemble_spread_c": 1.1,
+          "confidence": 0.65,
+          "notes": "Ensemble mean 22.2°C from ECMWF/GFS/ICON; bought YES 22°C @ 0.34",
+          "market_slug": "highest-temperature-in-tokyo-on-september-10-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-09-11",
+          "predicted_tmax_c": 20.73,
+          "predicted_bucket": "21°C",
+          "model_sources": {
+            "ecmwf_ifs025": 20.4,
+            "gfs_seamless": 21.4,
+            "icon_seamless": 20.4
+          },
+          "ensemble_stdev_c": 0.58,
+          "ensemble_spread_c": 1.0,
+          "confidence": 0.65,
+          "notes": "Ensemble mean 20.73°C from ECMWF/GFS/ICON; bought YES 21°C @ 0.31",
+          "market_slug": "highest-temperature-in-tokyo-on-september-11-2026"
+        },
+        "d3": {
+          "target_local_date": "2026-09-12",
+          "predicted_tmax_c": 25.13,
+          "predicted_bucket": "25°C",
+          "model_sources": {
+            "ecmwf_ifs025": 26.7,
+            "gfs_seamless": 24.2,
+            "icon_seamless": 24.5
+          },
+          "ensemble_stdev_c": 1.37,
+          "ensemble_spread_c": 2.5,
+          "confidence": 0.55,
+          "notes": "No Polymarket highest-temp market for 2026-09-12; paper bucket 25°C; bankroll unchanged",
+          "market_slug": null
+        }
+      }
+    },
+    "hong_kong": {
+      "station": "VHHH",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-09-10",
+          "predicted_tmax_c": 29.8,
+          "predicted_bucket": "30°C",
+          "model_sources": {
+            "ecmwf_ifs025": 30.3,
+            "gfs_seamless": 29.2,
+            "icon_seamless": 29.9
+          },
+          "ensemble_stdev_c": 0.56,
+          "ensemble_spread_c": 1.1,
+          "confidence": 0.65,
+          "notes": "Ensemble mean 29.8°C from ECMWF/GFS/ICON; bought YES 30°C @ 0.385",
+          "market_slug": "highest-temperature-in-hong-kong-on-september-10-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-09-11",
+          "predicted_tmax_c": 30.93,
+          "predicted_bucket": "31°C",
+          "model_sources": {
+            "ecmwf_ifs025": 31.6,
+            "gfs_seamless": 29.6,
+            "icon_seamless": 31.6
+          },
+          "ensemble_stdev_c": 1.15,
+          "ensemble_spread_c": 2.0,
+          "confidence": 0.55,
+          "notes": "Ensemble mean 30.93°C from ECMWF/GFS/ICON; bought YES 31°C @ 0.235",
+          "market_slug": "highest-temperature-in-hong-kong-on-september-11-2026"
+        },
+        "d3": {
+          "target_local_date": "2026-09-12",
+          "predicted_tmax_c": 30.63,
+          "predicted_bucket": "31°C",
+          "model_sources": {
+            "ecmwf_ifs025": 31.0,
+            "gfs_seamless": 29.4,
+            "icon_seamless": 31.5
+          },
+          "ensemble_stdev_c": 1.1,
+          "ensemble_spread_c": 2.1,
+          "confidence": 0.55,
+          "notes": "No Polymarket highest-temp market for 2026-09-12; paper bucket 31°C; bankroll unchanged",
+          "market_slug": null
+        }
+      }
+    }
+  },
+  "polymarket_markets_found": {
+    "london_d1": {
+      "slug": "highest-temperature-in-london-on-september-10-2026",
+      "url": "https://polymarket.com/event/highest-temperature-in-london-on-september-10-2026",
+      "endDate": "2026-09-10T12:00:00Z",
+      "bucket_chosen": "20°C",
+      "yes_price": 0.385,
+      "conditionId": "0xfcbc215144a3f9af85f961edc1316d99aa85f27eaa6c0d459450de4df2cf521e",
+      "yes_token_id": "82398067663586676190991717002538582621357384529639111449718429087740048929670",
+      "all_buckets": [
+        {
+          "label": "16°C or below",
+          "yes_price": 0.0015,
+          "conditionId": "0xb1afdb11d0a519fe5e9a07cceefd155fec624feb1b020f532f3c250173c51115"
+        },
+        {
+          "label": "17°C",
+          "yes_price": 0.0015,
+          "conditionId": "0x3fe4071cceae3310c6db2c8ca789fffa46930078c633b81e794b05f5a3921ade"
+        },
+        {
+          "label": "18°C",
+          "yes_price": 0.015,
+          "conditionId": "0x68288a86447c397f41c9d0084a24ebddd40b2165dcd12da9215e86dcf5e00981"
+        },
+        {
+          "label": "19°C",
+          "yes_price": 0.03,
+          "conditionId": "0x6b5cb13256d911b5efa4a2cbfe9e3962ccb21ad96f27e5d3bc7e0594e9042c77"
+        },
+        {
+          "label": "20°C",
+          "yes_price": 0.385,
+          "conditionId": "0xfcbc215144a3f9af85f961edc1316d99aa85f27eaa6c0d459450de4df2cf521e"
+        },
+        {
+          "label": "21°C",
+          "yes_price": 0.505,
+          "conditionId": "0xe950d46d7a8865623d833e76f513abcf493a53ee137c0459f47d7a9d340dd4bc"
+        },
+        {
+          "label": "22°C",
+          "yes_price": 0.08,
+          "conditionId": "0x611f87119db5c45b8f95939941f4e6ce21143be47f032f8b5a5f46b3abbe6b58"
+        },
+        {
+          "label": "23°C",
+          "yes_price": 0.015,
+          "conditionId": "0x67abc5104dc43dacb39db563ef2a4a966189d8b97975b86d5a6001b33ed62097"
+        },
+        {
+          "label": "24°C",
+          "yes_price": 0.0025,
+          "conditionId": "0x219240848e312d71522b807d56817aed2c9e2a0fc1a0f8bc0bcb0c8cc8abd9d4"
+        },
+        {
+          "label": "25°C",
+          "yes_price": 0.001,
+          "conditionId": "0x9d0cca6b98b72c9d11d5fb8b3c04d53d0fabcff0277dd0b3bfa849558f78942d"
+        },
+        {
+          "label": "26°C or higher",
+          "yes_price": 0.002,
+          "conditionId": "0x19143985dc18798ce522ad1d60279a74d1de73450c971d943afd6d817e9cec0f"
+        }
+      ],
+      "resolution_source": "https://www.weather.gov/wrh/timeseries?site=eglc",
+      "resolution_note": "This market will resolve to the temperature range that contains the highest temperature recorded by NOAA at the London City Airport Station in degrees Celsius on 10 Sep '26."
+    },
+    "london_d2": {
+      "slug": "highest-temperature-in-london-on-september-11-2026",
+      "url": "https://polymarket.com/event/highest-temperature-in-london-on-september-11-2026",
+      "endDate": "2026-09-11T12:00:00Z",
+      "bucket_chosen": "22°C",
+      "yes_price": 0.39,
+      "conditionId": "0x0b3832a41cd3f6b9b0f44f17e2d1a6e2813b28806b2934146c79102551647362",
+      "yes_token_id": "31236417426424124321102336369254577517611785765914338166715122097889412585383",
+      "all_buckets": [
+        {
+          "label": "16°C or below",
+          "yes_price": 0.01,
+          "conditionId": "0xfe2f95978391316e5e2097b17f4b38d354b1c495baf9c05bede58b8044cadc8e"
+        },
+        {
+          "label": "17°C",
+          "yes_price": 0.02,
+          "conditionId": "0x15a859dac778a7ec0386802cb3c7d2fc4a8c8a152030e2ada176d7311659ae8b"
+        },
+        {
+          "label": "18°C",
+          "yes_price": 0.02,
+          "conditionId": "0x75e505f262825fc6079695ab1125a0e175335aa19ddfc952e1160c54f523d4e1"
+        },
+        {
+          "label": "19°C",
+          "yes_price": 0.03,
+          "conditionId": "0x497b1f010683a30bf1ff4bf53abcec980f3933ee425b041c4404ec33a904abb5"
+        },
+        {
+          "label": "20°C",
+          "yes_price": 0.07,
+          "conditionId": "0xa0fcf17f604b35f747a5a4f8649dca3efc538e1691b9c1b744aba1f5c49cf83e"
+        },
+        {
+          "label": "21°C",
+          "yes_price": 0.155,
+          "conditionId": "0x242e5b24eaf99c4f86487db163e1cdc15d9d3b2060fe3acb24cd459f4b8a735e"
+        },
+        {
+          "label": "22°C",
+          "yes_price": 0.39,
+          "conditionId": "0x0b3832a41cd3f6b9b0f44f17e2d1a6e2813b28806b2934146c79102551647362"
+        },
+        {
+          "label": "23°C",
+          "yes_price": 0.385,
+          "conditionId": "0x90863aa152c5ef1bc2d67ed686ce81beef94cd5b4d3e362a1b39b6b3f31207d9"
+        },
+        {
+          "label": "24°C",
+          "yes_price": 0.07,
+          "conditionId": "0xa2e567cb5f704c47ac2edf519654d92f14299927a632d9d4e36c02a72ff2fba1"
+        },
+        {
+          "label": "25°C",
+          "yes_price": 0.07,
+          "conditionId": "0xd908e5ffa174782db889dbd1b4dff81b3df9634b0f8e5c02dbf644eeb48d3542"
+        },
+        {
+          "label": "26°C or higher",
+          "yes_price": 0.01,
+          "conditionId": "0xe09423c74f7d5fb517fbf41fe87211796bbe66894eccc271078ed27329588b77"
+        }
+      ],
+      "resolution_source": "https://www.weather.gov/wrh/timeseries?site=eglc",
+      "resolution_note": "This market will resolve to the temperature range that contains the highest temperature recorded by NOAA at the London City Airport Station in degrees Celsius on 11 Sep '26."
+    },
+    "tokyo_d1": {
+      "slug": "highest-temperature-in-tokyo-on-september-10-2026",
+      "url": "https://polymarket.com/event/highest-temperature-in-tokyo-on-september-10-2026",
+      "endDate": "2026-09-10T12:00:00Z",
+      "bucket_chosen": "22°C",
+      "yes_price": 0.34,
+      "conditionId": "0x32c302f34749a9a9d7b9b69019742bb6f98dc5be852e5a6a95fb8cbd11ac5fe5",
+      "yes_token_id": "14758533049556613704042789382403356404108135209214928726950718794753569677013",
+      "all_buckets": [
+        {
+          "label": "17°C or below",
+          "yes_price": 0.0005,
+          "conditionId": "0x94155f6df504bd5dd558cf18f902ba1345639d2418b96c2f0e54e7f1095f98fe"
+        },
+        {
+          "label": "18°C",
+          "yes_price": 0.0015,
+          "conditionId": "0x03ad07881dd375df8bb45d88a23864c429448a397710483a180af4efb50a6cce"
+        },
+        {
+          "label": "19°C",
+          "yes_price": 0.015,
+          "conditionId": "0x88776edff98d7271b870ef90c325f260d50b742b9da315e2b0c3c4db7dece268"
+        },
+        {
+          "label": "20°C",
+          "yes_price": 0.025,
+          "conditionId": "0x74e3f2542438336b83ad6f5d93bf4dc1712c3898328286a9757020a370134b37"
+        },
+        {
+          "label": "21°C",
+          "yes_price": 0.11,
+          "conditionId": "0xbacf92d33ea83e6c3ac2c9e35d66dbc606479e738a8c876b47c8c051c3bddf6f"
+        },
+        {
+          "label": "22°C",
+          "yes_price": 0.34,
+          "conditionId": "0x32c302f34749a9a9d7b9b69019742bb6f98dc5be852e5a6a95fb8cbd11ac5fe5"
+        },
+        {
+          "label": "23°C",
+          "yes_price": 0.35,
+          "conditionId": "0xbf4d4d504d164fb302182f03d594488e6545ecde10fb9bb51297ed3074a16b1d"
+        },
+        {
+          "label": "24°C",
+          "yes_price": 0.155,
+          "conditionId": "0x13223b3912d4dfb3ba44fa06060c9606239e5a2e1d17248baba43cffbdc4f511"
+        },
+        {
+          "label": "25°C",
+          "yes_price": 0.055,
+          "conditionId": "0x56f317a36ab3e49c606bf1ef987cadf309866d1b371a2c191607f401ecb957cc"
+        },
+        {
+          "label": "26°C",
+          "yes_price": 0.012,
+          "conditionId": "0xf5a5ebfa4b02474c1aeb61e18e2105e13f902d7a88cd202a7a653c8adfb3373a"
+        },
+        {
+          "label": "27°C or higher",
+          "yes_price": 0.004,
+          "conditionId": "0x5bec9a406986c3776ad69a04a205ab32ce4e189b35e5c470e5fcaf6e40235f7d"
+        }
+      ],
+      "resolution_source": "https://www.weather.gov/wrh/timeseries?site=rjtt",
+      "resolution_note": "This market will resolve to the temperature range that contains the highest temperature recorded by NOAA at the Tokyo Haneda Airport Station in degrees Celsius on 10 Sep '26."
+    },
+    "tokyo_d2": {
+      "slug": "highest-temperature-in-tokyo-on-september-11-2026",
+      "url": "https://polymarket.com/event/highest-temperature-in-tokyo-on-september-11-2026",
+      "endDate": "2026-09-11T12:00:00Z",
+      "bucket_chosen": "21°C",
+      "yes_price": 0.31,
+      "conditionId": "0x8c616876dc57ba8c136b8c78037166a9a43cec37f14f6f11482faabae3dc12d3",
+      "yes_token_id": "85030574537110370004818563284046831334788284502344470167776240542585553042393",
+      "all_buckets": [
+        {
+          "label": "15°C or below",
+          "yes_price": 0.003,
+          "conditionId": "0x17fbd1c99d8c93c1a33d7a201076015f53fa3264b0817b0501701a679f48b781"
+        },
+        {
+          "label": "16°C",
+          "yes_price": 0.015,
+          "conditionId": "0x0455a7f7c8fd00a3748ce138ab9ed3c5fe3c0472f427cf8540d1fd54d17373ce"
+        },
+        {
+          "label": "17°C",
+          "yes_price": 0.015,
+          "conditionId": "0xcc7491e63050e242fc9141fc82fd76aae4a8c90288cb45a6a2793fa72abe2f6a"
+        },
+        {
+          "label": "18°C",
+          "yes_price": 0.02,
+          "conditionId": "0xd13f9160bfe90aa02ec86bec6e3f1ea4be8ee59f6d08aa31bf5382b2b8419ae6"
+        },
+        {
+          "label": "19°C",
+          "yes_price": 0.06,
+          "conditionId": "0xe44c4906bdc6e67fd32ecceede990fd8936a75f047a6cd2906d2c366be3c0c71"
+        },
+        {
+          "label": "20°C",
+          "yes_price": 0.135,
+          "conditionId": "0xae3afa87f44be79e99c740a6d39a8bd0862bec7d9fc8902df0293c925b75b879"
+        },
+        {
+          "label": "21°C",
+          "yes_price": 0.31,
+          "conditionId": "0x8c616876dc57ba8c136b8c78037166a9a43cec37f14f6f11482faabae3dc12d3"
+        },
+        {
+          "label": "22°C",
+          "yes_price": 0.26,
+          "conditionId": "0x6d4116d3ac12df37e938ee42e1b0e9513d0686ee37c46bc033de92899316afac"
+        },
+        {
+          "label": "23°C",
+          "yes_price": 0.2,
+          "conditionId": "0x2b476d54912d5c424e1170f35f321632502e43ee992dc8ff8d5ee3bad893055a"
+        },
+        {
+          "label": "24°C",
+          "yes_price": 0.04,
+          "conditionId": "0xfbb052033759b25c0730e57dc38e91a48464e2c7e45fe32beecf251a0abb5ad9"
+        },
+        {
+          "label": "25°C or higher",
+          "yes_price": 0.006,
+          "conditionId": "0x8c87bb6dacd7ca5c052af610a4dbdcf7773d5615a41bce3e8711134e39f0c9c8"
+        }
+      ],
+      "resolution_source": "https://www.weather.gov/wrh/timeseries?site=rjtt",
+      "resolution_note": "This market will resolve to the temperature range that contains the highest temperature recorded by NOAA at the Tokyo Haneda Airport Station in degrees Celsius on 11 Sep '26."
+    },
+    "hong_kong_d1": {
+      "slug": "highest-temperature-in-hong-kong-on-september-10-2026",
+      "url": "https://polymarket.com/event/highest-temperature-in-hong-kong-on-september-10-2026",
+      "endDate": "2026-09-10T12:00:00Z",
+      "bucket_chosen": "30°C",
+      "yes_price": 0.385,
+      "conditionId": "0x12995bdf53e30de544b25e461134105161deff0b43afe79a428d97c91da1ea2b",
+      "yes_token_id": "19673752813969929545900125943137564029641905861856775647282666787252304348840",
+      "all_buckets": [
+        {
+          "label": "26°C or below",
+          "yes_price": 0.0015,
+          "conditionId": "0xe936232e6aa515d57210bbe169e1d8e58b1b90ce0105837801362447882b576c"
+        },
+        {
+          "label": "27°C",
+          "yes_price": 0.0035,
+          "conditionId": "0x260dd0fe42e5c15c8fea66e8d100140607f05d5dc67386f6a28b7190819886ad"
+        },
+        {
+          "label": "28°C",
+          "yes_price": 0.02,
+          "conditionId": "0x2eb13e5f6f903744e7bf0a60fc0c3d8eec919ea98e5ca33e3dc2202b17510b97"
+        },
+        {
+          "label": "29°C",
+          "yes_price": 0.055,
+          "conditionId": "0x40ff97ee47c24376db547efd4c8b2b850517c65c6e818fd7fb88265372dc9a72"
+        },
+        {
+          "label": "30°C",
+          "yes_price": 0.385,
+          "conditionId": "0x12995bdf53e30de544b25e461134105161deff0b43afe79a428d97c91da1ea2b"
+        },
+        {
+          "label": "31°C",
+          "yes_price": 0.415,
+          "conditionId": "0x4acc4551fbb5683919f1b8bd4bc13dc0970f81880c15bec3c520ecf63af96926"
+        },
+        {
+          "label": "32°C",
+          "yes_price": 0.14,
+          "conditionId": "0x06183095b48219889ba6e1cb78648e67c1cd95dcd2f89356ad84f46b2c4ee060"
+        },
+        {
+          "label": "33°C",
+          "yes_price": 0.015,
+          "conditionId": "0xcc6d1083e476997143c1b22c69bd47ac554dd94dc273dac241a2dfcc7c6d70cf"
+        },
+        {
+          "label": "34°C",
+          "yes_price": 0.002,
+          "conditionId": "0x5cf0e83a8e136b571534eb5a2e092f0cfde4586e33eb7aca934725d92cadbadd"
+        },
+        {
+          "label": "35°C",
+          "yes_price": 0.0025,
+          "conditionId": "0xb02b498575f078aea65ec7e082b9e3ee06d10ff4b56538e8c64bdada55f06b3a"
+        },
+        {
+          "label": "36°C or higher",
+          "yes_price": 0.002,
+          "conditionId": "0x5c44f103ea1f9ee6232efc4fc1e80ee4e494b43d6f24a58c48262337d7cc0a54"
+        }
+      ],
+      "resolution_source": null,
+      "resolution_note": "This market will resolve to the temperature range that contains the highest temperature recorded by the Hong Kong Observatory in degrees Celsius on 10 Sep '26."
+    },
+    "hong_kong_d2": {
+      "slug": "highest-temperature-in-hong-kong-on-september-11-2026",
+      "url": "https://polymarket.com/event/highest-temperature-in-hong-kong-on-september-11-2026",
+      "endDate": "2026-09-11T12:00:00Z",
+      "bucket_chosen": "31°C",
+      "yes_price": 0.235,
+      "conditionId": "0x2bffbcdb37dbf96ed82a2e28f7c66133e81bd9c38a146e11497d9668c238fe3d",
+      "yes_token_id": "76928694809965907758275790219027019371354802779413324622446341967385737835316",
+      "all_buckets": [
+        {
+          "label": "26°C or below",
+          "yes_price": 0.003,
+          "conditionId": "0x3f2b3309b4b8858ff6f39f5ab18b1ae61063beff1f95befb06219c4221169790"
+        },
+        {
+          "label": "27°C",
+          "yes_price": 0.01,
+          "conditionId": "0xd1424ae8a59cf12f6257db51fed0e4593b7af9231089df55e2c5854c4b4f53dd"
+        },
+        {
+          "label": "28°C",
+          "yes_price": 0.03,
+          "conditionId": "0x24b3a3ae30cf0669b7343875357e3ccbb1ba5d45bd281b0154cbbf747eccef39"
+        },
+        {
+          "label": "29°C",
+          "yes_price": 0.12,
+          "conditionId": "0x36b6ac1c0148de7f01b8b0a97269332b3f2a5e71bc9d4837b1642aef4e82330e"
+        },
+        {
+          "label": "30°C",
+          "yes_price": 0.18,
+          "conditionId": "0x4450a3d3c83079636f0c06abf9a9c3047975c8f3d83a089dd4f3385b1c4aba08"
+        },
+        {
+          "label": "31°C",
+          "yes_price": 0.235,
+          "conditionId": "0x2bffbcdb37dbf96ed82a2e28f7c66133e81bd9c38a146e11497d9668c238fe3d"
+        },
+        {
+          "label": "32°C",
+          "yes_price": 0.315,
+          "conditionId": "0x1326c735ba84ab761791851a6d37b6155814b1509e596748940e28e119e4e774"
+        },
+        {
+          "label": "33°C",
+          "yes_price": 0.22,
+          "conditionId": "0xca072d0cb589babe1f418e1aaaf8764d76ddbe0a3049873c98f2de50ef105131"
+        },
+        {
+          "label": "34°C",
+          "yes_price": 0.03,
+          "conditionId": "0x5c8d2a3efc0deb82e0649f705eaf64482d4b049359a5193e4c4e094a7baef1e5"
+        },
+        {
+          "label": "35°C",
+          "yes_price": 0.025,
+          "conditionId": "0x683f70f15d9f3b51109f2c91baa33dd645891253d76f1e7050b38e1d13b9177f"
+        },
+        {
+          "label": "36°C or higher",
+          "yes_price": 0.003,
+          "conditionId": "0xd508f1a647aada3eeee747aee074330a4c6dd5b684952f27cea6231ec5c2e329"
+        }
+      ],
+      "resolution_source": null,
+      "resolution_note": "This market will resolve to the temperature range that contains the highest temperature recorded by the Hong Kong Observatory in degrees Celsius on 11 Sep '26."
+    }
+  },
+  "polymarket_markets_missing": [
+    {
+      "city": "london",
+      "horizon": 3,
+      "target_date": "2026-09-12",
+      "expected_slug": "highest-temperature-in-london-on-september-12-2026"
+    },
+    {
+      "city": "tokyo",
+      "horizon": 3,
+      "target_date": "2026-09-12",
+      "expected_slug": "highest-temperature-in-tokyo-on-september-12-2026"
+    },
+    {
+      "city": "hong_kong",
+      "horizon": 3,
+      "target_date": "2026-09-12",
+      "expected_slug": "highest-temperature-in-hong-kong-on-september-12-2026"
+    }
+  ]
+}

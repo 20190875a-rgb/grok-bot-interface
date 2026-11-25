@@ -1,0 +1,40 @@
+{
+  "id": "20261012-session-1",
+  "logged_at": "2026-10-12T19:01:30+08:00",
+  "date": "2026-10-12",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "周一 A：chest／shoulder／triceps／飛膊／cable row 各3",
+  "exercises": [
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Shoulder press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Triceps extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Triceps curl"
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫飛膊"
+    },
+    {
+      "name": "Cable row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

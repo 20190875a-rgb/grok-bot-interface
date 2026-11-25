@@ -1,0 +1,40 @@
+{
+  "id": "20260909-session-2",
+  "logged_at": "2026-09-09T23:21:12+08:00",
+  "date": "2026-09-09",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "第二間gym；接續日間session-1。用戶寫 squad=squat、clef=calf。3D Multi Abduction 確認3組。",
+  "exercises": [
+    {
+      "name": "Panatta Super Squat",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 super squad"
+    },
+    {
+      "name": "3D Multi Abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶確認3組；髖外展類"
+    },
+    {
+      "name": "Core crunch",
+      "sets": null,
+      "reps": null,
+      "notes": "中間3組、左2、右2"
+    },
+    {
+      "name": "Calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 clef raise"
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "夾腿／內收"
+    }
+  ]
+}

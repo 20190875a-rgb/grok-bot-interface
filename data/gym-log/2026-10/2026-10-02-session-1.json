@@ -1,0 +1,40 @@
+{
+  "id": "20261002-session-1",
+  "logged_at": "2026-10-03T00:07:02+08:00",
+  "date": "2026-10-02",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "凌晨補記，歸10/2晚。A：shoulder press 2；chest／pulldown／seated row 3；curl 3",
+  "exercises": [
+    {
+      "name": "Shoulder press",
+      "sets": 2,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Seated row",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Seating row"
+    },
+    {
+      "name": "Biceps curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

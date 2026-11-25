@@ -1,0 +1,46 @@
+{
+  "id": "20260915-session-1",
+  "logged_at": "2026-09-15T18:58:33+08:00",
+  "date": "2026-09-15",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "B legs + Panatta standing multi fly 夾胸 makeup；有做 hip abduction（上次 A 做過 adduction）",
+  "exercises": [
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Panatta standing multi fly（夾胸）",
+      "sets": 3,
+      "reps": null,
+      "notes": "makeup chest"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

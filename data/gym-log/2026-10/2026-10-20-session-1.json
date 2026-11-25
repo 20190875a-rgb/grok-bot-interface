@@ -1,0 +1,40 @@
+{
+  "id": "20261020-session-1",
+  "logged_at": "2026-10-20T18:45:53+08:00",
+  "date": "2026-10-20",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "周二 A：iso lateral incline push／super high row／shoulder press／lat pulldown／standing chest fly 各3",
+  "exercises": [
+    {
+      "name": "ISO lateral incline press",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 ISO lateral incline push"
+    },
+    {
+      "name": "Super high row",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Súper high row"
+    },
+    {
+      "name": "Shoulder press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Standing chest fly",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing Chest fly"
+    }
+  ]
+}

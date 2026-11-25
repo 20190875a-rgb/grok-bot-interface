@@ -1,0 +1,68 @@
+{
+  "version": 3,
+  "label": "body-reports",
+  "timezone": "Asia/Hong_Kong",
+  "cadence": "monthly",
+  "updated_at": "2026-11-12 18:26:13",
+  "schema_note": "Full Tanita fields in metrics + table[] for UI; raw/ keeps API payload; numbers as numbers, null if missing.",
+  "reports": [
+    {
+      "id": "2026-07-31-MOS1-57452",
+      "measured_at": "2026-07-31 00:03:25",
+      "player_id": "57452",
+      "weight_kg": 58.1,
+      "fat_percent": 18.3,
+      "muscle_kg": 45,
+      "smm_kg": 23.3,
+      "bmi": 18.5,
+      "file": "2026.json",
+      "raw_file": "raw/2026-07-31-57452.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=57452&language=tc",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=57452&language=tc"
+    },
+    {
+      "id": "2026-09-08-MOS1-69289",
+      "measured_at": "2026-09-08 18:24:47",
+      "player_id": "69289",
+      "weight_kg": 59.3,
+      "fat_percent": 18.5,
+      "muscle_kg": 45.8,
+      "smm_kg": 24.0,
+      "bmi": 19.1,
+      "file": "2026.json",
+      "raw_file": "raw/2026-09-08-69289.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=69289&language=tc",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=69289&language=tc"
+    },
+    {
+      "id": "2026-10-10-MOS1-79538",
+      "measured_at": "2026-10-10 00:01:37",
+      "venue_id": "MOS1",
+      "player_id": "79538",
+      "weight_kg": 61.6,
+      "fat_percent": 15.9,
+      "muscle_kg": 49.1,
+      "smm_kg": 26.8,
+      "bmi": 19.7,
+      "file": "2026.json",
+      "raw_file": "raw/2026-10-10-79538.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=79538&language=tc",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=MOS1&player_id=79538&language=tc"
+    },
+    {
+      "id": "2026-11-12-SM1-89483",
+      "measured_at": "2026-11-12 18:26:13",
+      "venue_id": "SM1",
+      "player_id": "89483",
+      "weight_kg": 61.1,
+      "fat_percent": 20.9,
+      "muscle_kg": 45.8,
+      "smm_kg": 23.3,
+      "bmi": 19.5,
+      "file": "2026.json",
+      "raw_file": "raw/2026-11-12-89483.json",
+      "report_url": "https://efx24healthscore.com/tanita/report/?venue_id=SM1&player_id=89483&language=tc",
+      "source_url": "https://efx24healthscore.com/tanita/report/?venue_id=SM1&player_id=89483&language=tc"
+    }
+  ]
+}

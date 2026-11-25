@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-10",
+  "as_of_utc": "2026-11-10T01:18:11Z",
+  "as_of_hkt": "2026-11-10 09:18 HKT",
+  "forecast_provider": "Open-Meteo",
+  "model_sources": [
+    "ecmwf_ifs025",
+    "gfs_seamless",
+    "icon_seamless"
+  ],
+  "strategy": "v3.2",
+  "cities": {
+    "london": {
+      "station": "EGLC",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-11-11",
+          "raw_predicted_tmax_c": 9.4,
+          "bias_c": -0.25,
+          "predicted_tmax_c": 9.65,
+          "predicted_bucket": "10°C",
+          "model_sources": {
+            "ecmwf_ifs025": 9.2,
+            "gfs_seamless": 9.2,
+            "icon_seamless": 9.8
+          },
+          "ensemble_stdev_c": 0.28,
+          "ensemble_spread_c": 0.6,
+          "confidence": 0.71,
+          "model_p": 0.6583,
+          "edge": 0.1583,
+          "strategy": "v3.2",
+          "notes": "v3.2 Bias-corrected 9.4→9.65°C (bias -0.25); edge 0.1583: model_p=0.6583 > YES@0.5+0.1; YES>=0.25; bought YES 10°C",
+          "market_slug": "highest-temperature-in-london-on-november-11-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-11-12",
+          "raw_predicted_tmax_c": 9.07,
+          "bias_c": -0.22,
+          "predicted_tmax_c": 9.29,
+          "predicted_bucket": "9°C",
+          "model_sources": {
+            "ecmwf_ifs025": 8.2,
+            "gfs_seamless": 9.1,
+            "icon_seamless": 9.9
+          },
+          "ensemble_stdev_c": 0.69,
+          "ensemble_spread_c": 1.7,
+          "confidence": 0.65,
+          "model_p": 0.4212,
+          "edge": null,
+          "strategy": "v3.2",
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        },
+        "d3": {
+          "target_local_date": "2026-11-13",
+          "raw_predicted_tmax_c": 7.23,
+          "bias_c": -0.25,
+          "predicted_tmax_c": 7.48,
+          "predicted_bucket": "7°C",
+          "model_sources": {
+            "ecmwf_ifs025": 6.6,
+            "gfs_seamless": 7.6,
+            "icon_seamless": 7.5
+          },
+          "ensemble_stdev_c": 0.45,
+          "ensemble_spread_c": 1.0,
+          "confidence": 0.68,
+          "model_p": 0.491,
+          "edge": null,
+          "strategy": "v3.2",
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        }
+      }
+    },
+    "tokyo": {
+      "station": "RJTT",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-11-11",
+          "raw_predicted_tmax_c": 13.5,
+          "bias_c": -0.33,
+          "predicted_tmax_c": 13.83,
+          "predicted_bucket": "14°C",
+          "model_sources": {
+            "ecmwf_ifs025": 12.4,
+            "gfs_seamless": 14.6,
+            "icon_seamless": 13.5
+          },
+          "ensemble_stdev_c": 0.9,
+          "ensemble_spread_c": 2.2,
+          "confidence": 0.62,
+          "model_p": 0.3467,
+          "edge": -0.1333,
+          "strategy": "v3.2",
+          "notes": "v3.2 Bias-corrected 13.5→13.83°C (bias -0.33); no fill model_p=0.3467 vs YES@0.48 (edge=-0.1333 need>=0.1)",
+          "market_slug": "highest-temperature-in-tokyo-on-november-11-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-11-12",
+          "raw_predicted_tmax_c": 16.97,
+          "bias_c": -0.08,
+          "predicted_tmax_c": 17.05,
+          "predicted_bucket": "17°C",
+          "model_sources": {
+            "ecmwf_ifs025": 15.7,
+            "gfs_seamless": 18.2,
+            "icon_seamless": 17.0
+          },
+          "ensemble_stdev_c": 1.02,
+          "ensemble_spread_c": 2.5,
+          "confidence": 0.6,
+          "model_p": 0.3106,
+          "edge": null,
+          "strategy": "v3.2",
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        },
+        "d3": {
+          "target_local_date": "2026-11-13",
+          "raw_predicted_tmax_c": 18.5,
+          "bias_c": -0.15,
+          "predicted_tmax_c": 18.65,
+          "predicted_bucket": "19°C",
+          "model_sources": {
+            "ecmwf_ifs025": 17.9,
+            "gfs_seamless": 19.4,
+            "icon_seamless": 18.2
+          },
+          "ensemble_stdev_c": 0.65,
+          "ensemble_spread_c": 1.5,
+          "confidence": 0.65,
+          "model_p": 0.4507,
+          "edge": null,
+          "strategy": "v3.2",
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        }
+      }
+    },
+    "hong_kong": {
+      "station": "VHHH",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-11-11",
+          "raw_predicted_tmax_c": 24.17,
+          "bias_c": -0.64,
+          "predicted_tmax_c": 24.81,
+          "predicted_bucket": "25°C",
+          "model_sources": {
+            "ecmwf_ifs025": 24.3,
+            "gfs_seamless": 24.1,
+            "icon_seamless": 24.1
+          },
+          "ensemble_stdev_c": 0.09,
+          "ensemble_spread_c": 0.2,
+          "confidence": 0.74,
+          "model_p": 0.7878,
+          "edge": 0.3878,
+          "strategy": "v3.2",
+          "notes": "v3.2 Bias-corrected 24.17→24.81°C (bias -0.64); edge 0.3878: model_p=0.7878 > YES@0.4+0.1; YES>=0.25; bought YES 25°C",
+          "market_slug": "highest-temperature-in-hong-kong-on-november-11-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-11-12",
+          "raw_predicted_tmax_c": 26.27,
+          "bias_c": -1.4,
+          "predicted_tmax_c": 27.67,
+          "predicted_bucket": "28°C",
+          "model_sources": {
+            "ecmwf_ifs025": 26.5,
+            "gfs_seamless": 25.2,
+            "icon_seamless": 27.1
+          },
+          "ensemble_stdev_c": 0.79,
+          "ensemble_spread_c": 1.9,
+          "confidence": 0.63,
+          "model_p": 0.3799,
+          "edge": null,
+          "strategy": "v3.2",
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        },
+        "d3": {
+          "target_local_date": "2026-11-13",
+          "raw_predicted_tmax_c": 26.1,
+          "bias_c": -1.05,
+          "predicted_tmax_c": 27.15,
+          "predicted_bucket": "27°C",
+          "model_sources": {
+            "ecmwf_ifs025": 26.5,
+            "gfs_seamless": 25.4,
+            "icon_seamless": 26.4
+          },
+          "ensemble_stdev_c": 0.5,
+          "ensemble_spread_c": 1.1,
+          "confidence": 0.68,
+          "model_p": 0.6191,
+          "edge": null,
+          "strategy": "v3.2",
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        }
+      }
+    }
+  }
+}

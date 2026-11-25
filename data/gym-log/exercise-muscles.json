@@ -1,0 +1,870 @@
+{
+  "version": 3,
+  "updated": "2026-11-23T18:37:43+08:00",
+  "package": "body-muscles",
+  "weight_defaults": {
+    "main": 1.0,
+    "supporting": 0.4
+  },
+  "scoring": {
+    "per_set": "For each logged set, add weight_main to each main MuscleId and weight_supporting to each supporting MuscleId.",
+    "overall_normalize": "After summing across all sessions in scope, intensity_i = round(10 * score_i / max(scores)) capped 0-10. selected=false unless UI selects.",
+    "session_absolute": "For a single session: intensity_i = min(10, round(score_i * 2)) (tune multiplier). Prefer frontend compute from gym-log + this map so every sync auto-updates.",
+    "bodyState": "Partial<Record<MuscleId, { intensity: 0-10, selected: boolean }>> shared across FRONT+BACK BodyCharts.",
+    "alias_resolve": "Strip fullwidth/ASCII parentheses and Chinese suffixes, casefold, match against aliases then canonical keys. Prefer most specific canonical (Super high row / Iso-lateral incline low row) before generic Seated row."
+  },
+  "changelog": "v3: more accurate roles — split Super high row vs Iso-lateral incline low row vs Cable/Seated row; biceps off lat-pulldown main; front delts off chest-press main; drop knee/elbow/foot joint ids; Technogym Upper Back rear-delt+mid-trap; fly=夾胸 only.",
+  "exercises": {
+    "Chest press": {
+      "aliases": [
+        "chest press",
+        "Machine chest press",
+        "machine chest press"
+      ],
+      "main": [
+        "chest-upper-left",
+        "chest-upper-right",
+        "chest-lower-left",
+        "chest-lower-right"
+      ],
+      "supporting": [
+        "shoulder-front-left",
+        "shoulder-front-right",
+        "triceps-long-left",
+        "triceps-long-right",
+        "triceps-lateral-left",
+        "triceps-lateral-right"
+      ],
+      "notes": "Flat machine chest press: pecs (clavicular+sternal) primary; anterior delts + triceps secondary.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "ISO lateral incline press": {
+      "aliases": [
+        "Iso-lateral incline press",
+        "ISO lateral incline press",
+        "Incline chest press",
+        "incline chest press",
+        "Iso lateral incline press"
+      ],
+      "main": [
+        "chest-upper-left",
+        "chest-upper-right"
+      ],
+      "supporting": [
+        "shoulder-front-left",
+        "shoulder-front-right",
+        "triceps-long-left",
+        "triceps-long-right",
+        "triceps-lateral-left",
+        "triceps-lateral-right",
+        "chest-lower-left",
+        "chest-lower-right"
+      ],
+      "notes": "Incline path: clavicular pecs primary; front delts + triceps secondary; lower pecs assist lightly.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Decline chest press": {
+      "aliases": [
+        "decline chest press",
+        "Decline Chest press"
+      ],
+      "main": [
+        "chest-lower-left",
+        "chest-lower-right"
+      ],
+      "supporting": [
+        "shoulder-front-left",
+        "shoulder-front-right",
+        "triceps-long-left",
+        "triceps-long-right",
+        "triceps-lateral-left",
+        "triceps-lateral-right",
+        "chest-upper-left",
+        "chest-upper-right"
+      ],
+      "notes": "Decline: sternal/lower pecs primary; front delts + triceps secondary.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Chest fly": {
+      "aliases": [
+        "Pectoral fly",
+        "pectoral fly",
+        "Standing chest fly",
+        "standing chest fly",
+        "Chest flies",
+        "chest flyes",
+        "chest flyes（飛鳥）",
+        "Pectoral fly（飛鳥）",
+        "Pectoral fly upward",
+        "Pectoral fly upward（飛鳥向上）",
+        "pectoral fly upward",
+        "夾胸",
+        "Panatta standing multi fly",
+        "Panatta standing multi fly（夾胸）",
+        "Standing multi fly（夾胸）",
+        "Standing multi fly"
+      ],
+      "main": [
+        "chest-upper-left",
+        "chest-upper-right",
+        "chest-lower-left",
+        "chest-lower-right"
+      ],
+      "supporting": [
+        "shoulder-front-left",
+        "shoulder-front-right",
+        "serratus-anterior-left",
+        "serratus-anterior-right"
+      ],
+      "notes": "Horizontal adduction fly / 夾胸 (incl. fly upward). Pec fibers primary; front delts + serratus stabilize. Not reverse-fly.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Lat pulldown": {
+      "aliases": [
+        "lat pulldown",
+        "Lat pulldown（下拉）",
+        "lat pulldown（高位下拉）",
+        "Lat Pulldown",
+        "Lateral pulldown"
+      ],
+      "main": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right"
+      ],
+      "supporting": [
+        "biceps-left",
+        "biceps-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "traps-lower-left",
+        "traps-lower-right",
+        "forearm-flexors-left",
+        "forearm-flexors-right"
+      ],
+      "notes": "Vertical pull: lats primary (all segments); biceps + rear delts + lower traps assist.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "ISO lateral wide pulldown": {
+      "aliases": [
+        "Iso-lateral wide pulldown",
+        "ISO lateral wide pulldown",
+        "Wide lat pulldown",
+        "wide lat pulldown"
+      ],
+      "main": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right"
+      ],
+      "supporting": [
+        "biceps-left",
+        "biceps-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "traps-mid-left",
+        "traps-mid-right"
+      ],
+      "notes": "Wide iso-lateral pulldown: lat-dominant; biceps + rear delts secondary (less mid-trap than a row).",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Cable row": {
+      "aliases": [
+        "Cable row（划船）",
+        "Seated cable row",
+        "seated cable row",
+        "cable row"
+      ],
+      "main": [
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right",
+        "traps-mid-left",
+        "traps-mid-right"
+      ],
+      "supporting": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "biceps-left",
+        "biceps-right",
+        "traps-lower-left",
+        "traps-lower-right",
+        "forearm-flexors-left",
+        "forearm-flexors-right"
+      ],
+      "notes": "Horizontal seated/cable row (elbows ~mid): mid+lower lats + mid traps primary; rear delts + biceps assist.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Seated row": {
+      "aliases": [
+        "seated row",
+        "seated row（坐姿划船）",
+        "Seated Row",
+        "Row",
+        "row"
+      ],
+      "main": [
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right",
+        "traps-mid-left",
+        "traps-mid-right"
+      ],
+      "supporting": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "biceps-left",
+        "biceps-right",
+        "traps-lower-left",
+        "traps-lower-right",
+        "forearm-flexors-left",
+        "forearm-flexors-right"
+      ],
+      "notes": "Generic/machine seated row — same pattern as cable row unless logged as high/low variant.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Super high row": {
+      "aliases": [
+        "super high row",
+        "High row",
+        "high row",
+        "Machine high row",
+        "ISO lateral high row",
+        "ISO high row"
+      ],
+      "main": [
+        "traps-mid-left",
+        "traps-mid-right",
+        "traps-upper-left",
+        "traps-upper-right",
+        "traps-lower-left",
+        "traps-lower-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "lats-upper-left",
+        "lats-upper-right"
+      ],
+      "supporting": [
+        "lats-mid-left",
+        "lats-mid-right",
+        "biceps-left",
+        "biceps-right",
+        "lower-back-erectors-left",
+        "lower-back-erectors-right"
+      ],
+      "notes": "High-elbow / super high row: traps (U/M/L) + rear delts + upper lats primary; mid lats + biceps assist. Less lower-lat than low row.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Iso-lateral incline low row": {
+      "aliases": [
+        "Iso-lateral incline low row",
+        "ISO lateral incline low row",
+        "iso-lateral incline low row",
+        "Incline low row",
+        "Low row",
+        "low row",
+        "ISO lateral low row",
+        "ISO lateral Low row",
+        "Iso lateral low row"
+      ],
+      "main": [
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right",
+        "lats-upper-left",
+        "lats-upper-right"
+      ],
+      "supporting": [
+        "traps-mid-left",
+        "traps-mid-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "biceps-left",
+        "biceps-right",
+        "traps-lower-left",
+        "traps-lower-right"
+      ],
+      "notes": "Iso-lateral incline low row (elbows tucked): lat-dominant (esp mid/lower); mid traps + rear delts + biceps secondary.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Upper back": {
+      "aliases": [
+        "Upper Back",
+        "Upper back machine",
+        "Technogym Upper Back",
+        "Technogym upper back",
+        "technogym upper back",
+        "Selection Upper Back",
+        "Technogym Selection Upper Back"
+      ],
+      "main": [
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "traps-mid-left",
+        "traps-mid-right"
+      ],
+      "supporting": [
+        "traps-upper-left",
+        "traps-upper-right",
+        "traps-lower-left",
+        "traps-lower-right",
+        "biceps-left",
+        "biceps-right"
+      ],
+      "notes": "Technogym Selection Upper Back: high-elbow seated pull for rear delts + rhomboids/mid traps; biceps + upper/lower traps assist. Lats not primary on this machine.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Rear deltoid": {
+      "aliases": [
+        "Rear delt",
+        "rear delt",
+        "reverse fly",
+        "Rear delt fly",
+        "rear deltoid",
+        "Reverse pec deck"
+      ],
+      "main": [
+        "deltoid-rear-left",
+        "deltoid-rear-right"
+      ],
+      "supporting": [
+        "traps-mid-left",
+        "traps-mid-right",
+        "traps-upper-left",
+        "traps-upper-right"
+      ],
+      "notes": "Rear-delt isolation / reverse fly: posterior deltoid primary; mid/upper traps assist scapular retraction.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Shoulder press": {
+      "aliases": [
+        "Machine shoulder press",
+        "Overhead press",
+        "shoulder press",
+        "OHP"
+      ],
+      "main": [
+        "shoulder-front-left",
+        "shoulder-front-right",
+        "shoulder-side-left",
+        "shoulder-side-right"
+      ],
+      "supporting": [
+        "triceps-long-left",
+        "triceps-long-right",
+        "triceps-lateral-left",
+        "triceps-lateral-right",
+        "traps-upper-left",
+        "traps-upper-right",
+        "chest-upper-left",
+        "chest-upper-right"
+      ],
+      "notes": "Machine OHP: anterior + lateral delts primary; triceps + upper traps secondary; upper chest assists lockout.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Shoulder press dumbbell": {
+      "aliases": [
+        "Dumbbell shoulder press",
+        "DB shoulder press",
+        "dumbbell shoulder press",
+        "db shoulder press"
+      ],
+      "main": [
+        "shoulder-front-left",
+        "shoulder-front-right",
+        "shoulder-side-left",
+        "shoulder-side-right"
+      ],
+      "supporting": [
+        "triceps-long-left",
+        "triceps-long-right",
+        "triceps-lateral-left",
+        "triceps-lateral-right",
+        "traps-upper-left",
+        "traps-upper-right"
+      ],
+      "notes": "DB OHP: same deltoid emphasis as machine; less fixed path so traps stabilize more, less guaranteed upper-chest assist.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Lateral raise": {
+      "aliases": [
+        "Side raise",
+        "side raise",
+        "Machine lateral raise",
+        "machine lateral raise",
+        "Shandong Lateral raise",
+        "Shandong lateral raise",
+        "Standing Lateral raise",
+        "Standing lateral raise"
+      ],
+      "main": [
+        "shoulder-side-left",
+        "shoulder-side-right"
+      ],
+      "supporting": [
+        "traps-upper-left",
+        "traps-upper-right",
+        "shoulder-front-left",
+        "shoulder-front-right"
+      ],
+      "notes": "Abduction raise: lateral delts primary; upper traps + front delts often cheat/assist.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Biceps curl": {
+      "aliases": [
+        "biceps machine",
+        "Bicep curl",
+        "bicep curl",
+        "Machine biceps curl",
+        "Cable biceps curl",
+        "biceps curl"
+      ],
+      "main": [
+        "biceps-left",
+        "biceps-right"
+      ],
+      "supporting": [
+        "forearm-flexors-left",
+        "forearm-flexors-right",
+        "forearm-left",
+        "forearm-right"
+      ],
+      "notes": "Elbow flexion: biceps primary; brachialis/forearm flexors assist (mapped to forearm ids).",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Cable triceps": {
+      "aliases": [
+        "Triceps extension",
+        "Triceps cable",
+        "triceps cable",
+        "triceps machine",
+        "Triceps machine",
+        "Triceps pushdown",
+        "Cable triceps extension",
+        "cable triceps"
+      ],
+      "main": [
+        "triceps-long-left",
+        "triceps-long-right",
+        "triceps-lateral-left",
+        "triceps-lateral-right"
+      ],
+      "supporting": [
+        "forearm-extensors-left",
+        "forearm-extensors-right"
+      ],
+      "notes": "Elbow extension: long + lateral heads primary (no medial-head id in package); forearm extensors stabilize.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Leg press": {
+      "aliases": [
+        "leg press",
+        "Super leg press",
+        "super leg press",
+        "Machine leg press"
+      ],
+      "main": [
+        "quads-left",
+        "quads-right",
+        "gluteus-maximus-left",
+        "gluteus-maximus-right"
+      ],
+      "supporting": [
+        "adductors-left",
+        "adductors-right",
+        "hamstrings-medial-left",
+        "hamstrings-medial-right",
+        "hamstrings-lateral-left",
+        "hamstrings-lateral-right"
+      ],
+      "notes": "Machine leg press: quads + glute max primary; adductors + hamstrings assist depending on foot placement.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Panatta Super Squat": {
+      "aliases": [
+        "Standing squat",
+        "standing squat",
+        "Super Squat",
+        "Machine squat",
+        "Panatta squat",
+        "panatta super squat machine"
+      ],
+      "main": [
+        "quads-left",
+        "quads-right",
+        "gluteus-maximus-left",
+        "gluteus-maximus-right"
+      ],
+      "supporting": [
+        "hamstrings-medial-left",
+        "hamstrings-medial-right",
+        "hamstrings-lateral-left",
+        "hamstrings-lateral-right",
+        "adductors-left",
+        "adductors-right",
+        "lower-back-erectors-left",
+        "lower-back-erectors-right"
+      ],
+      "notes": "Machine/standing squat pattern: quads + glutes primary; hamstrings/adductors/erectors stabilize.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Leg extension": {
+      "aliases": [
+        "Seated leg extension",
+        "seated leg extension",
+        "leg extension"
+      ],
+      "main": [
+        "quads-left",
+        "quads-right"
+      ],
+      "supporting": [],
+      "notes": "Open-chain knee extension: quads only as meaningful movers (no joint ids).",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Leg curl": {
+      "aliases": [
+        "Lying leg curl",
+        "lying leg curl",
+        "Seated leg curl",
+        "seated leg curl",
+        "leg curl",
+        "SearingLeg curl",
+        "SeatingLeg curl"
+      ],
+      "main": [
+        "hamstrings-medial-left",
+        "hamstrings-medial-right",
+        "hamstrings-lateral-left",
+        "hamstrings-lateral-right"
+      ],
+      "supporting": [
+        "calves-gastroc-medial-left",
+        "calves-gastroc-medial-right",
+        "calves-gastroc-lateral-left",
+        "calves-gastroc-lateral-right"
+      ],
+      "notes": "Knee flexion: medial+lateral hamstrings primary; gastroc assists knee flexion.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Standing calf raise": {
+      "aliases": [
+        "Calf raise",
+        "calf raise",
+        "Machine calf raise",
+        "Standing calves",
+        "Standing calf",
+        "standing calf"
+      ],
+      "main": [
+        "calves-gastroc-medial-left",
+        "calves-gastroc-medial-right",
+        "calves-gastroc-lateral-left",
+        "calves-gastroc-lateral-right",
+        "calves-soleus-left",
+        "calves-soleus-right"
+      ],
+      "supporting": [],
+      "notes": "Standing plantarflexion: gastroc (medial+lateral) + soleus. Straight-knee biases gastroc; soleus still active.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Hip adduction": {
+      "aliases": [
+        "Adductor machine",
+        "Inner thigh",
+        "hip adduction",
+        "adductor"
+      ],
+      "main": [
+        "adductors-left",
+        "adductors-right"
+      ],
+      "supporting": [],
+      "notes": "Machine hip adduction: adductors primary; other hip muscles negligible for heatmap.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Hip abduction": {
+      "aliases": [
+        "Abductor machine",
+        "Outer thigh",
+        "hip abduction",
+        "abductor"
+      ],
+      "main": [
+        "gluteus-medius-left",
+        "gluteus-medius-right"
+      ],
+      "supporting": [
+        "gluteus-maximus-left",
+        "gluteus-maximus-right"
+      ],
+      "notes": "Machine hip abduction: glute medius primary; glute max assists.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Panatta Master Gluteus": {
+      "aliases": [
+        "Master Gluteus",
+        "Master Gluteus Plus",
+        "Panatta Master Gluteus",
+        "master gluteus",
+        "Super Gluteus",
+        "Super gluteus",
+        "super gluteus",
+        "Super cluetus",
+        "super cluetus"
+      ],
+      "main": [
+        "gluteus-maximus-left",
+        "gluteus-maximus-right",
+        "gluteus-medius-left",
+        "gluteus-medius-right"
+      ],
+      "supporting": [
+        "hamstrings-medial-left",
+        "hamstrings-medial-right",
+        "hamstrings-lateral-left",
+        "hamstrings-lateral-right"
+      ],
+      "notes": "Panatta Master Gluteus: glute max + medius primary; hamstrings assist hip extension.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "3D Multi Abduction": {
+      "aliases": [
+        "3D Abductor",
+        "Panatta 3D Abductor",
+        "3D Multi Abduction",
+        "3d multi abduction",
+        "3D multi abduction"
+      ],
+      "main": [
+        "gluteus-medius-left",
+        "gluteus-medius-right"
+      ],
+      "supporting": [
+        "gluteus-maximus-left",
+        "gluteus-maximus-right",
+        "obliques-left",
+        "obliques-right"
+      ],
+      "notes": "3D multi-plane abduction: glute medius primary; glute max + obliques stabilize trunk/hip.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Core crunch": {
+      "aliases": [
+        "Abdominal crunch",
+        "Crunch",
+        "Machine crunch",
+        "abdominal crunch",
+        "core crunch",
+        "Abdominal",
+        "Abdominal machine",
+        "Ab crunch",
+        "Panatta Total Core Crunch",
+        "Panatta total core crunch",
+        "Total Core Crunch",
+        "total core crunch",
+        "Pannatt total core crunch"
+      ],
+      "main": [
+        "abs-upper-left",
+        "abs-upper-right",
+        "abs-lower-left",
+        "abs-lower-right"
+      ],
+      "supporting": [
+        "obliques-left",
+        "obliques-right",
+        "hip-flexor-left",
+        "hip-flexor-right"
+      ],
+      "notes": "Crunch: rectus abdominis primary; obliques + hip flexors assist if ROM includes hip flexion.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Hammer strength row": {
+      "aliases": [
+        "Hammer strength row machine",
+        "Hammer row",
+        "HS row",
+        "反手下手把划船"
+      ],
+      "main": [
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right",
+        "traps-mid-left",
+        "traps-mid-right"
+      ],
+      "supporting": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "biceps-left",
+        "biceps-right",
+        "traps-lower-left",
+        "traps-lower-right",
+        "forearm-flexors-left",
+        "forearm-flexors-right"
+      ],
+      "notes": "Plate-loaded Hammer Strength row; underhand low grip（反手下手把）偏下背／中背。",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "ISO lateral bench press": {
+      "aliases": [
+        "Iso-lateral bench press",
+        "ISO lateral bench press",
+        "Iso lateral bench press",
+        "ISO-Lateral Bench Press",
+        "Iso-lateral chest press",
+        "ISO lateral chest press",
+        "Iso lateral chest press"
+      ],
+      "main": [
+        "chest-upper-left",
+        "chest-upper-right",
+        "chest-lower-left",
+        "chest-lower-right"
+      ],
+      "supporting": [
+        "shoulder-front-left",
+        "shoulder-front-right",
+        "triceps-long-left",
+        "triceps-long-right",
+        "triceps-lateral-left",
+        "triceps-lateral-right"
+      ],
+      "notes": "Flat iso-lateral bench/chest press (not incline): pecs (clavicular+sternal) primary; anterior delts + triceps secondary.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Panatta pullover": {
+      "aliases": [
+        "Panatta Pullover",
+        "panatta pullover",
+        "Pullover",
+        "pullover",
+        "Machine pullover",
+        "machine pullover",
+        "Panatta pullover machine"
+      ],
+      "main": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right"
+      ],
+      "supporting": [
+        "serratus-anterior-left",
+        "serratus-anterior-right",
+        "chest-lower-left",
+        "chest-lower-right",
+        "triceps-long-left",
+        "triceps-long-right"
+      ],
+      "notes": "Machine pullover (Panatta): lats primary through shoulder extension; serratus, sternal pecs and long-head triceps assist.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Life Fitness pulldown": {
+      "aliases": [
+        "life fitness pulldown",
+        "Life Fitness Pulldown",
+        "Life fitness pulldown",
+        "LF pulldown",
+        "lf pulldown",
+        "Pulldown",
+        "pulldown"
+      ],
+      "main": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right"
+      ],
+      "supporting": [
+        "biceps-left",
+        "biceps-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "traps-lower-left",
+        "traps-lower-right",
+        "forearm-flexors-left",
+        "forearm-flexors-right"
+      ],
+      "notes": "Life Fitness vertical pulldown; user reports similar grip to cable Lat pulldown. Same lat-primary map (all segments); biceps + rear delts + lower traps assist.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Pendulum squat": {
+      "aliases": [
+        "pendulum squat",
+        "Pendulum Squat",
+        "Pendulum squat machine",
+        "pendulum squat machine"
+      ],
+      "main": [
+        "quads-left",
+        "quads-right",
+        "gluteus-maximus-left",
+        "gluteus-maximus-right"
+      ],
+      "supporting": [
+        "hamstrings-medial-left",
+        "hamstrings-medial-right",
+        "hamstrings-lateral-left",
+        "hamstrings-lateral-right",
+        "adductors-left",
+        "adductors-right"
+      ],
+      "notes": "Pendulum squat machine: quads + glute max primary; hamstrings/adductors assist. Guided pendulum path typically less axial/erector load than a standing squat.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "as_of": "2026-09-09T06:50:00Z",
+  "as_of_hkt": "2026-09-09 14:50 HKT",
+  "forecast": [
+    {
+      "name": "Open-Meteo Forecast API",
+      "url": "https://api.open-meteo.com/v1/forecast",
+      "purpose": "Multi-model daily temperature_2m_max at station lat/lon; no API key",
+      "models_used": [
+        "ecmwf_ifs025",
+        "gfs_seamless",
+        "icon_seamless"
+      ],
+      "used_in_dry_run": true
+    },
+    {
+      "name": "Open-Meteo ECMWF IFS 0.25°",
+      "url": "https://api.open-meteo.com/v1/forecast?models=ecmwf_ifs025",
+      "purpose": "ECMWF global deterministic via Open-Meteo",
+      "used_in_dry_run": true
+    },
+    {
+      "name": "Open-Meteo GFS Seamless",
+      "url": "https://api.open-meteo.com/v1/forecast?models=gfs_seamless",
+      "purpose": "NOAA GFS blended short-range",
+      "used_in_dry_run": true
+    },
+    {
+      "name": "Open-Meteo ICON Seamless",
+      "url": "https://api.open-meteo.com/v1/forecast?models=icon_seamless",
+      "purpose": "DWD ICON global/EU seamless",
+      "used_in_dry_run": true
+    },
+    {
+      "name": "JMA / UKMO via Open-Meteo (optional)",
+      "url": "https://open-meteo.com/en/docs",
+      "purpose": "Additional regional models when available for Asia/Europe; not pulled this dry-run",
+      "used_in_dry_run": false
+    }
+  ],
+  "observations_settlement": [
+    {
+      "name": "AviationWeather METAR",
+      "url": "https://aviationweather.gov/api/data/metar?ids=EGLC,EGLL,RJTT,VHHH&format=json",
+      "purpose": "Live METAR obs for EGLC/EGLL, RJTT, VHHH; cross-check highs",
+      "used_in_dry_run": false,
+      "note": "For settlement verify after target day closes"
+    },
+    {
+      "name": "NOAA WRH timeseries EGLC (London Polymarket)",
+      "url": "https://www.weather.gov/wrh/timeseries?site=eglc",
+      "purpose": "Official Polymarket London resolution source (London City)",
+      "used_in_dry_run": false,
+      "verified_market_station": "EGLC"
+    },
+    {
+      "name": "NOAA WRH timeseries RJTT (Tokyo Polymarket)",
+      "url": "https://www.weather.gov/wrh/timeseries?site=rjtt",
+      "purpose": "Official Polymarket Tokyo resolution source (Haneda)",
+      "used_in_dry_run": false,
+      "verified_market_station": "RJTT"
+    },
+    {
+      "name": "Hong Kong Observatory Absolute Daily Max",
+      "url": "https://www.hko.gov.hk/en/cis/dailyExtract.htm",
+      "purpose": "Polymarket HK high-temp resolution (HKO, not necessarily VHHH METAR)",
+      "used_in_dry_run": false
+    },
+    {
+      "name": "Open-Meteo Historical/Archive",
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "purpose": "Post-hoc daily max archive for backtest",
+      "used_in_dry_run": false
+    },
+    {
+      "name": "JMA (Tokyo)",
+      "url": "https://www.jma.go.jp/bosai/forecast/",
+      "purpose": "Japan Met Agency official obs/forecast cross-check",
+      "used_in_dry_run": false
+    },
+    {
+      "name": "UK Met Office (London)",
+      "url": "https://www.metoffice.gov.uk/",
+      "purpose": "UK official forecast/obs cross-check",
+      "used_in_dry_run": false
+    }
+  ],
+  "markets": [
+    {
+      "name": "Polymarket Gamma API events",
+      "url": "https://gamma-api.polymarket.com/events?slug={slug}",
+      "search_url": "https://gamma-api.polymarket.com/public-search?q=",
+      "purpose": "Open weather/temperature markets, buckets, prices, conditionIds",
+      "used_in_dry_run": true
+    },
+    {
+      "name": "Polymarket event pages",
+      "url": "https://polymarket.com/event/{slug}",
+      "purpose": "Human-readable market UI",
+      "used_in_dry_run": true
+    }
+  ],
+  "stations_verified_vs_markets": {
+    "london": {
+      "preferred": "EGLC",
+      "fallback": "EGLL",
+      "market_uses": "EGLC (London City Airport / NOAA site=eglc)",
+      "match": true
+    },
+    "tokyo": {
+      "preferred": "RJTT",
+      "fallback": "RJAA",
+      "market_uses": "RJTT (Tokyo Haneda / NOAA site=rjtt)",
+      "match": true
+    },
+    "hong_kong": {
+      "preferred": "VHHH",
+      "market_uses": "Hong Kong Observatory Absolute Daily Maximum (not METAR VHHH)",
+      "match": "forecast_at_VHHH_settle_via_HKO",
+      "note": "Forecast proxy VHHH; settlement is HKO per market rules"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "20260928-session-1",
+  "logged_at": "2026-09-28T18:48:16+08:00",
+  "date": "2026-09-28",
+  "session_type": "A_upper",
+  "rest_between_sets": null,
+  "notes": "A 上半；iso-lateral incline press + incline low row；有 triceps cable + pectoral fly；curl 2；無 lateral／rear delt／平面 chest press",
+  "exercises": [
+    {
+      "name": "Iso-lateral incline press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Iso-lateral incline low row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Triceps cable",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lat pulldown",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Biceps curl",
+      "sets": 2,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Pectoral fly",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

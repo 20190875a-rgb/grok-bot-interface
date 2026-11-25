@@ -1,0 +1,46 @@
+{
+  "id": "20261023-session-1",
+  "logged_at": "2026-10-23T12:29:46+08:00",
+  "date": "2026-10-23",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "周五 B：leg press／curl／extension／hip ab+adduction 各3；另加 shoulder press 2（makeup）",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Lying leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Leg curl"
+    },
+    {
+      "name": "Seated leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Leg extension"
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Hip adduction/abduction 3（兩邊）"
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": "同上"
+    },
+    {
+      "name": "Shoulder press",
+      "sets": 2,
+      "reps": null,
+      "notes": "makeup；用戶寫 Shoulder press 2"
+    }
+  ]
+}

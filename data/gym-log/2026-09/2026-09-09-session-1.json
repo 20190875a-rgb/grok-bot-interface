@@ -1,0 +1,35 @@
+{
+  "id": "20260909-session-1",
+  "logged_at": "2026-09-09T19:07:40+08:00",
+  "date": "2026-09-09",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "機少；昨晚約2點先瞓；incline chest 補昨天；可能稍後去第二間gym",
+  "exercises": [
+    {
+      "name": "leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "incline chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": "補昨天A日"
+    },
+    {
+      "name": "leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ],
+  "file": "2026-09/2026-09-09-session-1.json"
+}

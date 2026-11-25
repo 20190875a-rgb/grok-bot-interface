@@ -1,0 +1,34 @@
+{
+  "id": "20261111-session-1",
+  "logged_at": "2026-11-11T18:30:40+08:00",
+  "date": "2026-11-11",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "11/11 提早做 B（原建議約 11/12）：Leg press／Hip abduction／Standing calf／Abdominal 各3。冇腿彎、腿伸、Master Gluteus（對照 refine）。",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing calf"
+    },
+    {
+      "name": "Abdominal",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Abdominal；當 Core crunch／腹肌機。計劃建議 2，實際做 3"
+    }
+  ]
+}

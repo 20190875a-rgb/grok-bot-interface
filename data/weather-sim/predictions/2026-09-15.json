@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-15",
+  "as_of_utc": "2026-09-15T01:42:43Z",
+  "as_of_hkt": "2026-09-15 09:42 HKT",
+  "forecast_provider": "Open-Meteo",
+  "model_sources": [
+    "ecmwf_ifs025",
+    "gfs_seamless",
+    "icon_seamless"
+  ],
+  "cities": {
+    "london": {
+      "station": "EGLC",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-09-16",
+          "predicted_tmax_c": 18.63,
+          "predicted_bucket": "19°C",
+          "model_sources": {
+            "ecmwf_ifs025": 19.1,
+            "gfs_seamless": 18.7,
+            "icon_seamless": 18.1
+          },
+          "ensemble_stdev_c": 0.41,
+          "ensemble_spread_c": 1.0,
+          "confidence": 0.69,
+          "notes": "Ensemble mean 18.63°C; bought YES 19°C @ 0.21",
+          "market_slug": "highest-temperature-in-london-on-september-16-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-09-17",
+          "predicted_tmax_c": 20.47,
+          "predicted_bucket": "20°C",
+          "model_sources": {
+            "ecmwf_ifs025": 20.2,
+            "gfs_seamless": 21.0,
+            "icon_seamless": 20.2
+          },
+          "ensemble_stdev_c": 0.38,
+          "ensemble_spread_c": 0.8,
+          "confidence": 0.69,
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        },
+        "d3": {
+          "target_local_date": "2026-09-18",
+          "predicted_tmax_c": 18.67,
+          "predicted_bucket": "19°C",
+          "model_sources": {
+            "ecmwf_ifs025": 18.4,
+            "gfs_seamless": 19.2,
+            "icon_seamless": 18.4
+          },
+          "ensemble_stdev_c": 0.38,
+          "ensemble_spread_c": 0.8,
+          "confidence": 0.69,
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        }
+      }
+    },
+    "tokyo": {
+      "station": "RJTT",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-09-16",
+          "predicted_tmax_c": 22.83,
+          "predicted_bucket": "23°C",
+          "model_sources": {
+            "ecmwf_ifs025": 23.1,
+            "gfs_seamless": 22.7,
+            "icon_seamless": 22.7
+          },
+          "ensemble_stdev_c": 0.19,
+          "ensemble_spread_c": 0.4,
+          "confidence": 0.72,
+          "notes": "Ensemble mean 22.83°C; bought YES 23°C @ 0.21",
+          "market_slug": "highest-temperature-in-tokyo-on-september-16-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-09-17",
+          "predicted_tmax_c": 23.47,
+          "predicted_bucket": "23°C",
+          "model_sources": {
+            "ecmwf_ifs025": 24.2,
+            "gfs_seamless": 21.8,
+            "icon_seamless": 24.4
+          },
+          "ensemble_stdev_c": 1.18,
+          "ensemble_spread_c": 2.6,
+          "confidence": 0.57,
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        },
+        "d3": {
+          "target_local_date": "2026-09-18",
+          "predicted_tmax_c": 24.13,
+          "predicted_bucket": "24°C",
+          "model_sources": {
+            "ecmwf_ifs025": 24.3,
+            "gfs_seamless": 23.5,
+            "icon_seamless": 24.6
+          },
+          "ensemble_stdev_c": 0.46,
+          "ensemble_spread_c": 1.1,
+          "confidence": 0.68,
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        }
+      }
+    },
+    "hong_kong": {
+      "station": "VHHH",
+      "horizons": {
+        "d1": {
+          "target_local_date": "2026-09-16",
+          "predicted_tmax_c": 30.1,
+          "predicted_bucket": "30°C",
+          "model_sources": {
+            "ecmwf_ifs025": 29.3,
+            "gfs_seamless": 31.1,
+            "icon_seamless": 29.9
+          },
+          "ensemble_stdev_c": 0.75,
+          "ensemble_spread_c": 1.8,
+          "confidence": 0.64,
+          "notes": "Ensemble mean 30.1°C; bought YES 30°C @ 0.27",
+          "market_slug": "highest-temperature-in-hong-kong-on-september-16-2026"
+        },
+        "d2": {
+          "target_local_date": "2026-09-17",
+          "predicted_tmax_c": 30.07,
+          "predicted_bucket": "30°C",
+          "model_sources": {
+            "ecmwf_ifs025": 28.8,
+            "gfs_seamless": 30.9,
+            "icon_seamless": 30.5
+          },
+          "ensemble_stdev_c": 0.91,
+          "ensemble_spread_c": 2.1,
+          "confidence": 0.61,
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        },
+        "d3": {
+          "target_local_date": "2026-09-18",
+          "predicted_tmax_c": 30.73,
+          "predicted_bucket": "31°C",
+          "model_sources": {
+            "ecmwf_ifs025": 29.5,
+            "gfs_seamless": 31.4,
+            "icon_seamless": 31.3
+          },
+          "ensemble_stdev_c": 0.87,
+          "ensemble_spread_c": 1.9,
+          "confidence": 0.62,
+          "notes": "Paper prediction only; bankroll not deducted until market exists",
+          "market_slug": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1558 @@
+{
+  "version": 1,
+  "timezone": "Asia/Hong_Kong",
+  "month": "2026-10",
+  "daily_targets": {
+    "kcal": 2200,
+    "protein_g": 110,
+    "protein_g_min": 100,
+    "protein_g_max": 120,
+    "carb_g": 260,
+    "fat_g": 70,
+    "goal": "lean_muscle_gain",
+    "note": "Daily guide; primary success metric is 7-day average ≈ these numbers"
+  },
+  "entries": [
+    {
+      "id": "20261001-breakfast-1",
+      "logged_at": "2026-10-01T23:28:32+08:00",
+      "date": "2026-10-01",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "方包",
+          "amount": "2片",
+          "kcal": 220.0,
+          "protein_g": 7.4,
+          "carb_g": 40.0,
+          "fat_g": 2.6,
+          "estimate": true,
+          "notes": "由9/27厚塗多士按比例"
+        },
+        {
+          "name": "花生醬",
+          "amount": "厚塗約48g（2片）",
+          "kcal": 282.0,
+          "protein_g": 12.0,
+          "carb_g": 8.0,
+          "fat_g": 24.0,
+          "estimate": true,
+          "notes": "每片厚塗約24g"
+        }
+      ],
+      "totals": {
+        "kcal": 502.0,
+        "protein_g": 19.4,
+        "carb_g": 48.0,
+        "fat_g": 26.6
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261001-dinner-1",
+      "logged_at": "2026-10-01T23:28:32+08:00",
+      "date": "2026-10-01",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "胡椒豬雞米線",
+          "amount": "1碗",
+          "kcal": 680.0,
+          "protein_g": 32.0,
+          "carb_g": 70.0,
+          "fat_g": 28.0,
+          "estimate": true,
+          "notes": "豬＋雞米線湯麵粗估±80kcal"
+        }
+      ],
+      "totals": {
+        "kcal": 680.0,
+        "protein_g": 32.0,
+        "carb_g": 70.0,
+        "fat_g": 28.0
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261001-lunch-1",
+      "logged_at": "2026-10-01T23:28:32+08:00",
+      "date": "2026-10-01",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "大家樂切雞瀨粉",
+          "amount": "1碟",
+          "kcal": 620.0,
+          "protein_g": 28.0,
+          "carb_g": 75.0,
+          "fat_g": 22.0,
+          "estimate": true,
+          "notes": "茶餐廳切雞瀨粉粗估±80kcal"
+        },
+        {
+          "name": "豉油雞腿",
+          "amount": "1隻",
+          "kcal": 220.0,
+          "protein_g": 22.0,
+          "carb_g": 2.0,
+          "fat_g": 14.0,
+          "estimate": true,
+          "notes": "帶皮雞腿約120g熟重"
+        }
+      ],
+      "totals": {
+        "kcal": 840.0,
+        "protein_g": 50.0,
+        "carb_g": 77.0,
+        "fat_g": 36.0
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261001-snack-whey-1",
+      "logged_at": "2026-10-01T23:38:45+08:00",
+      "date": "2026-10-01",
+      "meal": "snack",
+      "items": [
+        {
+          "name": "牛奶",
+          "amount": "約236ml",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 276.0,
+        "protein_g": 31.6,
+        "carb_g": 16.0,
+        "fat_g": 10.6
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261002-breakfast-1",
+      "logged_at": "2026-10-03T00:08:46+08:00",
+      "date": "2026-10-02",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "菠蘿奶黃包",
+          "amount": "1個（偏細）",
+          "kcal": 180.0,
+          "protein_g": 4.0,
+          "carb_g": 28.0,
+          "fat_g": 6.0,
+          "estimate": true,
+          "notes": "細包粗估"
+        },
+        {
+          "name": "雞胸肉",
+          "amount": "80g",
+          "kcal": 88.0,
+          "protein_g": 18.4,
+          "carb_g": 0.0,
+          "fat_g": 1.0,
+          "estimate": false,
+          "notes": "100g=110／23"
+        }
+      ],
+      "totals": {
+        "kcal": 268.0,
+        "protein_g": 22.4,
+        "carb_g": 28.0,
+        "fat_g": 7.0
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261002-dinner-1",
+      "logged_at": "2026-10-03T00:08:46+08:00",
+      "date": "2026-10-02",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "⅔碗",
+          "kcal": 133.0,
+          "protein_g": 2.7,
+          "carb_g": 29.3,
+          "fat_g": 0.3,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "魚柳",
+          "amount": "1塊（估約120g）",
+          "kcal": 180.0,
+          "protein_g": 26.0,
+          "carb_g": 0.0,
+          "fat_g": 8.0,
+          "estimate": true,
+          "notes": "白魚柳，估熟重約120g"
+        },
+        {
+          "name": "菜",
+          "amount": "1碗",
+          "kcal": 80.0,
+          "protein_g": 3.0,
+          "carb_g": 5.0,
+          "fat_g": 5.5,
+          "estimate": true,
+          "notes": "一碗炒菜"
+        },
+        {
+          "name": "牛奶",
+          "amount": "約236ml",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 669.0,
+        "protein_g": 63.3,
+        "carb_g": 50.3,
+        "fat_g": 24.4
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261002-lunch-1",
+      "logged_at": "2026-10-03T00:10:03+08:00",
+      "date": "2026-10-02",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "海南雞",
+          "amount": "約¼隻（熟肉約200g）",
+          "kcal": 330.0,
+          "protein_g": 40.0,
+          "carb_g": 2.0,
+          "fat_g": 18.0,
+          "estimate": true,
+          "notes": "用戶：約四分之一隻"
+        },
+        {
+          "name": "油飯",
+          "amount": "1⅓碗（熟約270g）",
+          "kcal": 400.0,
+          "protein_g": 6.0,
+          "carb_g": 62.0,
+          "fat_g": 14.0,
+          "estimate": true,
+          "notes": "白飯一碗=200kcal；油飯按約1.5倍，1⅓碗"
+        }
+      ],
+      "totals": {
+        "kcal": 730.0,
+        "protein_g": 46.0,
+        "carb_g": 64.0,
+        "fat_g": 32.0
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261012-lunch-1",
+      "logged_at": "2026-10-12T18:22:07+08:00",
+      "date": "2026-10-12",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "160g",
+          "kcal": 176.0,
+          "protein_g": 36.8,
+          "carb_g": 0.0,
+          "fat_g": 1.9,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        },
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200.0,
+          "protein_g": 4.0,
+          "carb_g": 44.0,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "蝦仁炒蛋",
+          "amount": "半碗（估約120g）",
+          "kcal": 165.0,
+          "protein_g": 14.0,
+          "carb_g": 2.0,
+          "fat_g": 11.0,
+          "estimate": true,
+          "notes": "約1蛋＋少許蝦仁少油；±30kcal"
+        },
+        {
+          "name": "菜",
+          "amount": "半碗（估約80g）",
+          "kcal": 40.0,
+          "protein_g": 2.0,
+          "carb_g": 3.8,
+          "fat_g": 1.5,
+          "estimate": true,
+          "notes": "炒菜半碗"
+        }
+      ],
+      "totals": {
+        "kcal": 581.0,
+        "protein_g": 56.8,
+        "carb_g": 49.8,
+        "fat_g": 14.8
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261012-dinner-1",
+      "logged_at": "2026-10-13T12:52:54+08:00",
+      "date": "2026-10-12",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "菜心",
+          "amount": "半碗（估約80g）",
+          "kcal": 40.0,
+          "protein_g": 2.0,
+          "carb_g": 3.8,
+          "fat_g": 1.5,
+          "estimate": true,
+          "notes": "炒菜半碗"
+        },
+        {
+          "name": "豬扒",
+          "amount": "50g",
+          "kcal": 111.0,
+          "protein_g": 12.1,
+          "carb_g": 0.0,
+          "fat_g": 6.4,
+          "estimate": true,
+          "notes": "同9/19、9/30約50g豬扒比例"
+        },
+        {
+          "name": "白飯",
+          "amount": "⅔碗（熟約133g）",
+          "kcal": 133.0,
+          "protein_g": 2.7,
+          "carb_g": 29.3,
+          "fat_g": 0.3,
+          "estimate": false,
+          "notes": "半碗=100；⅔按比例"
+        },
+        {
+          "name": "蕃茄",
+          "amount": "¼個（估約40g）",
+          "kcal": 7.0,
+          "protein_g": 0.4,
+          "carb_g": 1.5,
+          "fat_g": 0.1,
+          "estimate": true,
+          "notes": "用戶：1/4蕃茄"
+        }
+      ],
+      "totals": {
+        "kcal": 291.0,
+        "protein_g": 17.2,
+        "carb_g": 34.6,
+        "fat_g": 8.3
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261013-lunch-1",
+      "logged_at": "2026-10-13T12:52:54+08:00",
+      "date": "2026-10-13",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "菜心",
+          "amount": "半碗（估約80g）",
+          "kcal": 40.0,
+          "protein_g": 2.0,
+          "carb_g": 3.8,
+          "fat_g": 1.5,
+          "estimate": true,
+          "notes": "炒菜半碗"
+        },
+        {
+          "name": "豬扒",
+          "amount": "50g",
+          "kcal": 111.0,
+          "protein_g": 12.1,
+          "carb_g": 0.0,
+          "fat_g": 6.4,
+          "estimate": true,
+          "notes": "同9/19、9/30約50g豬扒比例"
+        },
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200.0,
+          "protein_g": 4.0,
+          "carb_g": 44.0,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "蕃茄",
+          "amount": "½個（2/4，估約80g）",
+          "kcal": 14.0,
+          "protein_g": 0.8,
+          "carb_g": 3.0,
+          "fat_g": 0.2,
+          "estimate": true,
+          "notes": "用戶：2/4蕃茄"
+        }
+      ],
+      "totals": {
+        "kcal": 365.0,
+        "protein_g": 18.9,
+        "carb_g": 50.8,
+        "fat_g": 8.5
+      },
+      "source": "user_report",
+      "notes": "用戶更正相估分量"
+    },
+    {
+      "id": "20261013-snack-1",
+      "logged_at": "2026-10-13T13:02:17+08:00",
+      "date": "2026-10-13",
+      "meal": "snack",
+      "items": [
+        {
+          "name": "麥當勞巨無霸",
+          "amount": "1個",
+          "kcal": 496.0,
+          "protein_g": 25.6,
+          "carb_g": 42.7,
+          "fat_g": 24.6,
+          "estimate": false,
+          "notes": "McDonald's HK nutrition PDF：Big Mac® per serving（同9/20）"
+        }
+      ],
+      "totals": {
+        "kcal": 496.0,
+        "protein_g": 25.6,
+        "carb_g": 42.7,
+        "fat_g": 24.6
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261013-dinner-1",
+      "logged_at": "2026-10-14T09:30:01+08:00",
+      "date": "2026-10-13",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "⅔碗（熟約133g）",
+          "kcal": 133.0,
+          "protein_g": 2.7,
+          "carb_g": 29.3,
+          "fat_g": 0.3,
+          "estimate": false,
+          "notes": "半碗=100；⅔按比例"
+        },
+        {
+          "name": "三文魚",
+          "amount": "70g",
+          "kcal": 146.0,
+          "protein_g": 15.8,
+          "carb_g": 0.0,
+          "fat_g": 9.1,
+          "estimate": true,
+          "notes": "按先前約120g熟≈250kcal／27g蛋白比例；±15kcal"
+        },
+        {
+          "name": "菜",
+          "amount": "1碗（估約160g）",
+          "kcal": 80.0,
+          "protein_g": 3.0,
+          "carb_g": 5.0,
+          "fat_g": 5.5,
+          "estimate": true,
+          "notes": "一碗炒菜"
+        },
+        {
+          "name": "牛奶",
+          "amount": "約236ml（1杯）",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯全脂；牛奶沖蛋白粉"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 635.0,
+        "protein_g": 53.1,
+        "carb_g": 50.3,
+        "fat_g": 25.5
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261014-lunch-1",
+      "logged_at": "2026-10-14T12:48:40+08:00",
+      "date": "2026-10-14",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200.0,
+          "protein_g": 4.0,
+          "carb_g": 44.0,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "菜",
+          "amount": "半碗（估約80g）",
+          "kcal": 40.0,
+          "protein_g": 2.0,
+          "carb_g": 3.8,
+          "fat_g": 1.5,
+          "estimate": true,
+          "notes": "炒菜半碗"
+        },
+        {
+          "name": "三文魚",
+          "amount": "80g",
+          "kcal": 167.0,
+          "protein_g": 18.1,
+          "carb_g": 0.0,
+          "fat_g": 10.4,
+          "estimate": true,
+          "notes": "按先前約120g熟≈250kcal／27g蛋白比例；±15kcal"
+        },
+        {
+          "name": "雞肉",
+          "amount": "15g",
+          "kcal": 16.5,
+          "protein_g": 3.5,
+          "carb_g": 0.0,
+          "fat_g": 0.3,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        }
+      ],
+      "totals": {
+        "kcal": 423.5,
+        "protein_g": 27.6,
+        "carb_g": 47.8,
+        "fat_g": 12.6
+      },
+      "source": "user_report",
+      "notes": "用戶附相確認"
+    },
+    {
+      "id": "20261014-snack-1",
+      "logged_at": "2026-10-14T18:49:04+08:00",
+      "date": "2026-10-14",
+      "meal": "snack",
+      "items": [
+        {
+          "name": "菠蘿包",
+          "amount": "1個（港式麵包店，一般大細）",
+          "kcal": 320.0,
+          "protein_g": 6.0,
+          "carb_g": 45.0,
+          "fat_g": 13.0,
+          "estimate": true,
+          "notes": "港式菠蘿包無餡標準粗估；細可−40／大可+50"
+        },
+        {
+          "name": "叉燒包",
+          "amount": "1個（港式麵包店，一般大細）",
+          "kcal": 250.0,
+          "protein_g": 9.0,
+          "carb_g": 35.0,
+          "fat_g": 8.0,
+          "estimate": true,
+          "notes": "蒸叉燒包標準粗估；±40kcal"
+        }
+      ],
+      "totals": {
+        "kcal": 570.0,
+        "protein_g": 15.0,
+        "carb_g": 80.0,
+        "fat_g": 21.0
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261015-lunch-1",
+      "logged_at": "2026-10-15T12:34:06+08:00",
+      "date": "2026-10-15",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "菜",
+          "amount": "1碗（估約160g）",
+          "kcal": 80.0,
+          "protein_g": 3.0,
+          "carb_g": 5.0,
+          "fat_g": 5.5,
+          "estimate": true,
+          "notes": "一碗炒菜"
+        },
+        {
+          "name": "炸雞塊",
+          "amount": "50g",
+          "kcal": 140.0,
+          "protein_g": 12.0,
+          "carb_g": 8.0,
+          "fat_g": 8.0,
+          "estimate": true,
+          "notes": "連皮脆炸雞塊粗估約280kcal／24g蛋白／100g；±20kcal"
+        },
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200.0,
+          "protein_g": 4.0,
+          "carb_g": 44.0,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        }
+      ],
+      "totals": {
+        "kcal": 420.0,
+        "protein_g": 19.0,
+        "carb_g": 57.0,
+        "fat_g": 13.9
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261015-snack-1",
+      "logged_at": "2026-10-15T18:04:12+08:00",
+      "date": "2026-10-15",
+      "meal": "snack",
+      "items": [
+        {
+          "name": "梳打餅",
+          "amount": "1包／24g",
+          "kcal": 124.3,
+          "protein_g": 2.2,
+          "carb_g": 14.7,
+          "fat_g": 6.3,
+          "estimate": false,
+          "notes": "同9/17標籤每100g：518kcal、蛋白9.1、脂肪26.3、碳水61.3；24g按比例"
+        },
+        {
+          "name": "檸檬茶",
+          "amount": "1包（估250ml紙包）",
+          "kcal": 135.0,
+          "protein_g": 0.0,
+          "carb_g": 34.0,
+          "fat_g": 0.0,
+          "estimate": true,
+          "notes": "按維他檸檬茶約54kcal／13.6g糖 per 100ml ×250ml；無糖請講"
+        }
+      ],
+      "totals": {
+        "kcal": 259.3,
+        "protein_g": 2.2,
+        "carb_g": 48.7,
+        "fat_g": 6.3
+      },
+      "source": "user_report",
+      "notes": "用戶更正：梳打餅係之前入過嘅1包24g"
+    },
+    {
+      "id": "20261015-dinner-1",
+      "logged_at": "2026-10-16T09:22:27+08:00",
+      "date": "2026-10-15",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "豬排米線",
+          "amount": "1碗",
+          "kcal": 650.0,
+          "protein_g": 30.0,
+          "carb_g": 70.0,
+          "fat_g": 25.0,
+          "estimate": true,
+          "notes": "豬排＋米線湯麵粗估；參考10/1胡椒豬雞米線680／32；±80kcal／蛋白±6g"
+        },
+        {
+          "name": "牛奶",
+          "amount": "約236ml（1杯）",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯全脂；牛奶沖蛋白粉"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 926.0,
+        "protein_g": 61.6,
+        "carb_g": 86.0,
+        "fat_g": 35.6
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261016-breakfast-1",
+      "logged_at": "2026-10-16T09:22:27+08:00",
+      "date": "2026-10-16",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "50g",
+          "kcal": 55.0,
+          "protein_g": 11.5,
+          "carb_g": 0.0,
+          "fat_g": 0.6,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        }
+      ],
+      "totals": {
+        "kcal": 55.0,
+        "protein_g": 11.5,
+        "carb_g": 0.0,
+        "fat_g": 0.6
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261020-lunch-1",
+      "logged_at": "2026-10-20T18:43:59+08:00",
+      "date": "2026-10-20",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "50g",
+          "kcal": 55.0,
+          "protein_g": 11.5,
+          "carb_g": 0.0,
+          "fat_g": 0.6,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        },
+        {
+          "name": "菜",
+          "amount": "40g",
+          "kcal": 20.0,
+          "protein_g": 1.0,
+          "carb_g": 1.9,
+          "fat_g": 0.8,
+          "estimate": true,
+          "notes": "炒菜按約半碗80g=40kcal比例"
+        },
+        {
+          "name": "雞翼",
+          "amount": "4隻",
+          "kcal": 360.0,
+          "protein_g": 28.0,
+          "carb_g": 2.0,
+          "fat_g": 24.0,
+          "estimate": true,
+          "notes": "珍寶套餐雞翼；按中等連皮連少醬每隻約90kcal／7g蛋白；若脆炸麥炸雞翼級可接近484"
+        },
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200.0,
+          "protein_g": 4.0,
+          "carb_g": 44.0,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        }
+      ],
+      "totals": {
+        "kcal": 635.0,
+        "protein_g": 44.5,
+        "carb_g": 47.9,
+        "fat_g": 25.8
+      },
+      "source": "user_report",
+      "notes": "用戶：珍寶套餐"
+    },
+    {
+      "id": "20261020-dinner-1",
+      "logged_at": "2026-10-20T21:56:12+08:00",
+      "date": "2026-10-20",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200.0,
+          "protein_g": 4.0,
+          "carb_g": 44.0,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "菜",
+          "amount": "1碗（估約160g）",
+          "kcal": 80.0,
+          "protein_g": 3.0,
+          "carb_g": 5.0,
+          "fat_g": 5.5,
+          "estimate": true,
+          "notes": "一碗炒菜"
+        },
+        {
+          "name": "鱈魚／白魚",
+          "amount": "半條／半份（估熟約60g）",
+          "kcal": 90.0,
+          "protein_g": 13.0,
+          "carb_g": 0.0,
+          "fat_g": 4.0,
+          "estimate": true,
+          "notes": "用戶：half fish like cod；按先前魚柳約120g=180／26 取一半；±20kcal"
+        },
+        {
+          "name": "蝦",
+          "amount": "3隻（估熟約45g）",
+          "kcal": 45.0,
+          "protein_g": 10.5,
+          "carb_g": 0.5,
+          "fat_g": 0.5,
+          "estimate": true,
+          "notes": "中蝦3隻"
+        },
+        {
+          "name": "雞蛋",
+          "amount": "1隻",
+          "kcal": 78.0,
+          "protein_g": 6.3,
+          "carb_g": 0.6,
+          "fat_g": 5.3,
+          "estimate": false,
+          "notes": "全蛋一個"
+        },
+        {
+          "name": "牛奶",
+          "amount": "約236ml（1杯）",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯全脂；牛奶沖蛋白粉"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 769.0,
+        "protein_g": 68.4,
+        "carb_g": 66.1,
+        "fat_g": 26.3
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261021-breakfast-1",
+      "logged_at": "2026-10-21T09:37:51+08:00",
+      "date": "2026-10-21",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "100g",
+          "kcal": 110.0,
+          "protein_g": 23.0,
+          "carb_g": 0.0,
+          "fat_g": 1.2,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        }
+      ],
+      "totals": {
+        "kcal": 110.0,
+        "protein_g": 23.0,
+        "carb_g": 0.0,
+        "fat_g": 1.2
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261021-dinner-1",
+      "logged_at": "2026-10-22T12:53:43+08:00",
+      "date": "2026-10-21",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200,
+          "protein_g": 4,
+          "carb_g": 44,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "菜",
+          "amount": "1碗（估約160g）",
+          "kcal": 80,
+          "protein_g": 3,
+          "carb_g": 5,
+          "fat_g": 5.5,
+          "estimate": true,
+          "notes": "炒菜；半碗按一碗一半"
+        },
+        {
+          "name": "蝦仁炒蛋",
+          "amount": "半碗（估約120g）",
+          "kcal": 165.0,
+          "protein_g": 14.0,
+          "carb_g": 2.0,
+          "fat_g": 11.0,
+          "estimate": true,
+          "notes": "同10/12半碗：約1蛋＋少許蝦仁少油；±30kcal"
+        }
+      ],
+      "totals": {
+        "kcal": 445.0,
+        "protein_g": 21.0,
+        "carb_g": 51.0,
+        "fat_g": 16.9
+      },
+      "source": "user_report",
+      "notes": "用戶昨晚餐第一段：白飯1＋菜1＋蝦仁炒蛋半碗"
+    },
+    {
+      "id": "20261021-dinner-2",
+      "logged_at": "2026-10-22T12:53:43+08:00",
+      "date": "2026-10-21",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "白魚／鱈魚",
+          "amount": "半條（估熟約60g）",
+          "kcal": 90.0,
+          "protein_g": 13.0,
+          "carb_g": 0.0,
+          "fat_g": 4.0,
+          "estimate": true,
+          "notes": "同10/20半條魚；±20kcal"
+        },
+        {
+          "name": "白飯",
+          "amount": "1.5碗（熟約300g）",
+          "kcal": 300.0,
+          "protein_g": 6.0,
+          "carb_g": 66.0,
+          "fat_g": 0.6,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "菜",
+          "amount": "2碗（估約320g）",
+          "kcal": 160,
+          "protein_g": 6,
+          "carb_g": 10,
+          "fat_g": 11.0,
+          "estimate": true,
+          "notes": "炒菜；半碗按一碗一半"
+        },
+        {
+          "name": "牛奶",
+          "amount": "約236ml（1杯）",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯全脂；牛奶沖蛋白粉（用戶寫蔥包→當沖泡）"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 826.0,
+        "protein_g": 56.6,
+        "carb_g": 92.0,
+        "fat_g": 26.2
+      },
+      "source": "user_report",
+      "notes": "用戶昨晚餐第二段：魚半條＋白飯1.5＋菜2＋牛奶沖蛋白粉"
+    },
+    {
+      "id": "20261022-breakfast-1",
+      "logged_at": "2026-10-22T12:53:43+08:00",
+      "date": "2026-10-22",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "100g",
+          "kcal": 110.0,
+          "protein_g": 23.0,
+          "carb_g": 0.0,
+          "fat_g": 1.2,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        }
+      ],
+      "totals": {
+        "kcal": 110.0,
+        "protein_g": 23.0,
+        "carb_g": 0.0,
+        "fat_g": 1.2
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261022-lunch-1",
+      "logged_at": "2026-10-22T12:55:24+08:00",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "1碗（熟約200g）",
+          "kcal": 200,
+          "protein_g": 4,
+          "carb_g": 44,
+          "fat_g": 0.4,
+          "estimate": false,
+          "notes": "半碗=100"
+        },
+        {
+          "name": "菜",
+          "amount": "半碗（估約80g）",
+          "kcal": 40.0,
+          "protein_g": 1.5,
+          "carb_g": 2.5,
+          "fat_g": 2.8,
+          "estimate": true,
+          "notes": "炒菜；半碗按一碗一半"
+        },
+        {
+          "name": "港式牛丸",
+          "amount": "4粒",
+          "kcal": 140.0,
+          "protein_g": 14.0,
+          "carb_g": 8.0,
+          "fat_g": 6.0,
+          "estimate": true,
+          "notes": "按9/18每粒約35kcal／3.5g蛋白"
+        },
+        {
+          "name": "菜",
+          "amount": "半碗（估約80g）",
+          "kcal": 40.0,
+          "protein_g": 1.5,
+          "carb_g": 2.5,
+          "fat_g": 2.8,
+          "estimate": true,
+          "notes": "午餐加菜半碗；炒菜"
+        },
+        {
+          "name": "豬肉餅",
+          "amount": "50g",
+          "kcal": 115.0,
+          "protein_g": 11.0,
+          "carb_g": 2.0,
+          "fat_g": 7.5,
+          "estimate": true,
+          "notes": "用戶50g；按瘦肉碎連少油煎餅粗估（參考100g肉碎~185／20）；±20kcal"
+        }
+      ],
+      "totals": {
+        "kcal": 535.0,
+        "protein_g": 32.0,
+        "carb_g": 59.0,
+        "fat_g": 19.5
+      },
+      "source": "user_report",
+      "notes": "；追加菜半碗＋豬肉餅50g"
+    },
+    {
+      "id": "20261027-breakfast-1",
+      "logged_at": "2026-10-27T10:25:06+08:00",
+      "date": "2026-10-27",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "100g",
+          "kcal": 110.0,
+          "protein_g": 23.0,
+          "carb_g": 0.0,
+          "fat_g": 1.2,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        }
+      ],
+      "totals": {
+        "kcal": 110.0,
+        "protein_g": 23.0,
+        "carb_g": 0.0,
+        "fat_g": 1.2
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261027-lunch-1",
+      "logged_at": "2026-10-27T12:33:16+08:00",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "⅔碗（熟約133g）",
+          "kcal": 133.0,
+          "protein_g": 2.7,
+          "carb_g": 29.3,
+          "fat_g": 0.3,
+          "estimate": false,
+          "notes": "半碗=100；⅔按比例"
+        },
+        {
+          "name": "豬肉碎",
+          "amount": "半碗（估熟約100g）",
+          "kcal": 185.0,
+          "protein_g": 20.0,
+          "carb_g": 1.0,
+          "fat_g": 11.5,
+          "estimate": true,
+          "notes": "半碗估熟約100g；參考100g肉碎~185kcal／20g蛋白；±25kcal"
+        },
+        {
+          "name": "生菜",
+          "amount": "半碗（估約60g）",
+          "kcal": 9.0,
+          "protein_g": 0.7,
+          "carb_g": 1.5,
+          "fat_g": 0.1,
+          "estimate": true,
+          "notes": "半碗生菜估約60g"
+        }
+      ],
+      "totals": {
+        "kcal": 327.0,
+        "protein_g": 23.4,
+        "carb_g": 31.8,
+        "fat_g": 11.9
+      },
+      "source": "user_report+estimate"
+    },
+    {
+      "id": "20261027-snack-1",
+      "logged_at": "2026-10-27T18:56:58+08:00",
+      "date": "2026-10-27",
+      "meal": "snack",
+      "items": [
+        {
+          "name": "芝腸包",
+          "amount": "1個（港式麵包店，一般大細）",
+          "kcal": 380.0,
+          "protein_g": 12.0,
+          "carb_g": 38.0,
+          "fat_g": 20.0,
+          "estimate": true,
+          "notes": "芝士＋腸仔麵包粗估；±50kcal（細−40／大+60）"
+        },
+        {
+          "name": "菠蘿包",
+          "amount": "1個（港式麵包店，一般大細）",
+          "kcal": 320.0,
+          "protein_g": 6.0,
+          "carb_g": 45.0,
+          "fat_g": 13.0,
+          "estimate": true,
+          "notes": "同 10/14 標準粗估；細可−40／大可+50"
+        }
+      ],
+      "totals": {
+        "kcal": 700.0,
+        "protein_g": 18.0,
+        "carb_g": 83.0,
+        "fat_g": 33.0
+      },
+      "source": "user_report+estimate"
+    },
+    {
+      "id": "20261027-dinner-1",
+      "logged_at": "2026-10-28T08:58:56+08:00",
+      "date": "2026-10-27",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "⅔碗（熟約133g）",
+          "kcal": 133.0,
+          "protein_g": 2.7,
+          "carb_g": 29.3,
+          "fat_g": 0.3,
+          "estimate": false,
+          "notes": "半碗=100；⅔按比例"
+        },
+        {
+          "name": "菜",
+          "amount": "1⅓碗（估約213g）",
+          "kcal": 106.7,
+          "protein_g": 4.0,
+          "carb_g": 6.7,
+          "fat_g": 7.3,
+          "estimate": true,
+          "notes": "一碗炒菜=80kcal；1⅓按比例"
+        },
+        {
+          "name": "牛肉",
+          "amount": "40g（估熟）",
+          "kcal": 105.0,
+          "protein_g": 10.0,
+          "carb_g": 0.0,
+          "fat_g": 7.0,
+          "estimate": true,
+          "notes": "瘦牛炒熟約40g；±20kcal"
+        },
+        {
+          "name": "牛奶",
+          "amount": "約236ml（1杯）",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯全脂；牛奶沖蛋白粉"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 620.7,
+        "protein_g": 48.3,
+        "carb_g": 52.0,
+        "fat_g": 25.2
+      },
+      "source": "user_report+estimate",
+      "notes": "用戶10/28晨報昨晚：牛奶蛋白粉 + ⅔飯 + 1⅓菜 + 40g牛"
+    },
+    {
+      "id": "20261028-breakfast-1",
+      "logged_at": "2026-10-28T23:44:09+08:00",
+      "date": "2026-10-28",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "100g",
+          "kcal": 110.0,
+          "protein_g": 23.0,
+          "carb_g": 0.0,
+          "fat_g": 1.2,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        }
+      ],
+      "totals": {
+        "kcal": 110.0,
+        "protein_g": 23.0,
+        "carb_g": 0.0,
+        "fat_g": 1.2
+      },
+      "source": "user_report",
+      "notes": "用戶晚間補記"
+    },
+    {
+      "id": "20261028-lunch-1",
+      "logged_at": "2026-10-28T23:43:21+08:00",
+      "date": "2026-10-28",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "白飯",
+          "amount": "⅔碗（熟約133g）",
+          "kcal": 133.0,
+          "protein_g": 2.7,
+          "carb_g": 29.3,
+          "fat_g": 0.3,
+          "estimate": false,
+          "notes": "半碗=100；⅔按比例"
+        },
+        {
+          "name": "菜",
+          "amount": "1碗（估約160g）",
+          "kcal": 80.0,
+          "protein_g": 3.0,
+          "carb_g": 5.0,
+          "fat_g": 5.5,
+          "estimate": true,
+          "notes": "一碗炒菜"
+        },
+        {
+          "name": "牛肉",
+          "amount": "40g（估熟）",
+          "kcal": 105.0,
+          "protein_g": 10.0,
+          "carb_g": 0.0,
+          "fat_g": 7.0,
+          "estimate": true,
+          "notes": "瘦牛炒熟約40g；±20kcal"
+        }
+      ],
+      "totals": {
+        "kcal": 318.0,
+        "protein_g": 15.7,
+        "carb_g": 34.3,
+        "fat_g": 12.8
+      },
+      "source": "user_report+estimate",
+      "notes": "用戶晚間補記中午"
+    },
+    {
+      "id": "20261028-dinner-1",
+      "logged_at": "2026-10-28T23:41:52+08:00",
+      "date": "2026-10-28",
+      "meal": "dinner",
+      "items": [
+        {
+          "name": "上海粗炒",
+          "amount": "半份（估熟約220g；非半碗）",
+          "kcal": 420.0,
+          "protein_g": 14.0,
+          "carb_g": 55.0,
+          "fat_g": 16.0,
+          "estimate": true,
+          "notes": "用戶強調半份非半碗；按餐廳半份粗炒麵（油、菜、少肉）粗估；±70kcal"
+        },
+        {
+          "name": "豬肉水餃",
+          "amount": "6隻（估熟約每隻28g／共約168g）",
+          "kcal": 360.0,
+          "protein_g": 18.0,
+          "carb_g": 42.0,
+          "fat_g": 14.0,
+          "estimate": true,
+          "notes": "煮水餃每隻約60kcal／3g蛋白；6隻；±50kcal"
+        },
+        {
+          "name": "桃膠牛奶木瓜糖水",
+          "amount": "1份（估約380ml）",
+          "kcal": 280.0,
+          "protein_g": 6.0,
+          "carb_g": 48.0,
+          "fat_g": 7.0,
+          "estimate": true,
+          "notes": "牛奶＋木瓜＋糖＋桃膠；桃膠熱量低，主要糖＋奶；±60kcal"
+        }
+      ],
+      "totals": {
+        "kcal": 1060.0,
+        "protein_g": 38.0,
+        "carb_g": 145.0,
+        "fat_g": 37.0
+      },
+      "source": "user_report+estimate"
+    },
+    {
+      "id": "20261028-snack-1",
+      "logged_at": "2026-10-29T02:08:04+08:00",
+      "date": "2026-10-28",
+      "meal": "snack",
+      "items": [
+        {
+          "name": "牛奶",
+          "amount": "約236ml（1杯）",
+          "kcal": 156.0,
+          "protein_g": 7.6,
+          "carb_g": 12.0,
+          "fat_g": 8.6,
+          "estimate": true,
+          "notes": "慣用1杯全脂；牛奶沖蛋白粉"
+        },
+        {
+          "name": "Critical Whey",
+          "amount": "1 scoop",
+          "kcal": 120.0,
+          "protein_g": 24.0,
+          "carb_g": 4.0,
+          "fat_g": 2.0,
+          "estimate": false,
+          "notes": "慣用1 scoop"
+        }
+      ],
+      "totals": {
+        "kcal": 276.0,
+        "protein_g": 31.6,
+        "carb_g": 16.0,
+        "fat_g": 10.6
+      },
+      "source": "user_report+estimate",
+      "notes": "用戶約10/29 02:07報：啱啱飲；計入10/28"
+    },
+    {
+      "id": "20261029-breakfast-1",
+      "logged_at": "2026-10-29T18:28:54+08:00",
+      "date": "2026-10-29",
+      "meal": "breakfast",
+      "items": [
+        {
+          "name": "雞胸肉",
+          "amount": "100g",
+          "kcal": 110.0,
+          "protein_g": 23.0,
+          "carb_g": 0.0,
+          "fat_g": 1.2,
+          "estimate": false,
+          "notes": "100g=110kcal／23g蛋白"
+        }
+      ],
+      "totals": {
+        "kcal": 110.0,
+        "protein_g": 23.0,
+        "carb_g": 0.0,
+        "fat_g": 1.2
+      },
+      "source": "user_report"
+    },
+    {
+      "id": "20261029-lunch-1",
+      "logged_at": "2026-10-29T18:28:54+08:00",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "items": [
+        {
+          "name": "KFC 狂惹香燒雞",
+          "amount": "2件（假設1胸+1腿）",
+          "kcal": 390.0,
+          "protein_g": 52.0,
+          "carb_g": 2.0,
+          "fat_g": 19.0,
+          "estimate": true,
+          "notes": "Cosmo 胸220+腿170；蛋白估計胸~30+腿~22（連皮）"
+        },
+        {
+          "name": "KFC 雞翼",
+          "amount": "1件（假設巴辣香雞翼）",
+          "kcal": 106.0,
+          "protein_g": 8.0,
+          "carb_g": 4.0,
+          "fat_g": 7.0,
+          "estimate": true,
+          "notes": "Cosmo 106kcal；宏量估計"
+        },
+        {
+          "name": "KFC 雞皇飯",
+          "amount": "半份（假設半個常規份，全份約253kcal）",
+          "kcal": 127.0,
+          "protein_g": 3.5,
+          "carb_g": 22.5,
+          "fat_g": 2.5,
+          "estimate": true,
+          "notes": "半份≠細；參考白汁雞皇飯~253→半份"
+        },
+        {
+          "name": "KFC 薯蓉",
+          "amount": "1份",
+          "kcal": 110.0,
+          "protein_g": 2.0,
+          "carb_g": 16.0,
+          "fat_g": 4.0,
+          "estimate": true,
+          "notes": "Cosmo 110kcal；宏量估計"
+        }
+      ],
+      "totals": {
+        "kcal": 733.0,
+        "protein_g": 65.5,
+        "carb_g": 44.5,
+        "fat_g": 32.5
+      },
+      "source": "user_report+estimate",
+      "notes": "KFC：烤雞2+雞翼1+半份雞皇飯+薯蓉1"
+    }
+  ],
+  "tracking": {
+    "updated_at": "2026-10-29T18:28:54+08:00",
+    "last_entry_id": "20261029-lunch-1"
+  }
+}

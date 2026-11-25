@@ -1,0 +1,46 @@
+{
+  "id": "20260922-session-1",
+  "logged_at": "2026-09-22T23:39:06+08:00",
+  "date": "2026-09-22",
+  "session_type": "B_lower_plus_makeup",
+  "rest_between_sets": null,
+  "notes": "B legs（press／curl／hip ab+ad）；makeup chest press + triceps；無 extension／calf",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Leg curl",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip adduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Chest press",
+      "sets": 3,
+      "reps": null,
+      "notes": "B日makeup"
+    },
+    {
+      "name": "Triceps extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "B日makeup"
+    }
+  ]
+}
