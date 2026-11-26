@@ -64,8 +64,15 @@
       "session_type": "A1_chest_bias",
       "file": "2026-11/2026-11-25-session-1.json",
       "exercise_count": 6
+    },
+    {
+      "id": "20261126-session-1",
+      "date": "2026-11-26",
+      "session_type": "B_lower",
+      "file": "2026-11/2026-11-26-session-1.json",
+      "exercise_count": 5
     }
   ],
-  "updated_at": "2026-11-25T19:56:49+08:00",
-  "session_count": 9
+  "updated_at": "2026-11-26T20:04:04+08:00",
+  "session_count": 10
 }

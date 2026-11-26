@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-11-23T18:37:43+08:00",
+  "updated": "2026-11-26T20:04:04+08:00",
   "package": "body-muscles",
   "weight_defaults": {
     "main": 1.0,
@@ -13,7 +13,7 @@
     "bodyState": "Partial<Record<MuscleId, { intensity: 0-10, selected: boolean }>> shared across FRONT+BACK BodyCharts.",
     "alias_resolve": "Strip fullwidth/ASCII parentheses and Chinese suffixes, casefold, match against aliases then canonical keys. Prefer most specific canonical (Super high row / Iso-lateral incline low row) before generic Seated row."
   },
-  "changelog": "v3: more accurate roles — split Super high row vs Iso-lateral incline low row vs Cable/Seated row; biceps off lat-pulldown main; front delts off chest-press main; drop knee/elbow/foot joint ids; Technogym Upper Back rear-delt+mid-trap; fly=夾胸 only.",
+  "changelog": "v3: more accurate roles — split Super high row vs Iso-lateral incline low row vs Cable/Seated row; biceps off lat-pulldown main; front delts off chest-press main; drop knee/elbow/foot joint ids; Technogym Upper Back rear-delt+mid-trap; fly=夾胸 only. Added Torso rotation (obliques main; abs supporting).",
   "exercises": {
     "Chest press": {
       "aliases": [
@@ -863,6 +863,32 @@
         "adductors-right"
       ],
       "notes": "Pendulum squat machine: quads + glute max primary; hamstrings/adductors assist. Guided pendulum path typically less axial/erector load than a standing squat.",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Torso rotation": {
+      "aliases": [
+        "torso rotation",
+        "Torso Rotation",
+        "Rotary torso",
+        "rotary torso",
+        "Rotary Torso",
+        "Machine torso rotation",
+        "Torso rot",
+        "轉體",
+        "左右轉體"
+      ],
+      "main": [
+        "obliques-left",
+        "obliques-right"
+      ],
+      "supporting": [
+        "abs-upper-left",
+        "abs-upper-right",
+        "abs-lower-left",
+        "abs-lower-right"
+      ],
+      "notes": "Rotary / torso rotation: obliques primary; rectus abdominis stabilizes. Not mapped to erectors (stabilizer only).",
       "weight_main": 1.0,
       "weight_supporting": 0.4
     }

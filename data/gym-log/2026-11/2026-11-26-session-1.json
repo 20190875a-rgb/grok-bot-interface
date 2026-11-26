@@ -1,0 +1,40 @@
+{
+  "id": "20261126-session-1",
+  "logged_at": "2026-11-26T20:04:04+08:00",
+  "date": "2026-11-26",
+  "session_type": "B_lower",
+  "rest_between_sets": null,
+  "notes": "11/26 提早做 B（原建議約 11/27）：Leg press 3、Master gluteus 2、Leg extension 3、Standing calf 3、Torso rotation 左右各2。Leg extension 計劃 2，實際 3。Torso rotation 代替計劃 Core crunch。冇做 Lying leg curl、Hip abduction。",
+  "exercises": [
+    {
+      "name": "Leg press",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Panatta Master Gluteus",
+      "sets": 2,
+      "reps": null,
+      "notes": "用戶寫 Master gluteus"
+    },
+    {
+      "name": "Leg extension",
+      "sets": 3,
+      "reps": null,
+      "notes": "計劃建議 2，實際做 3"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Standing calf"
+    },
+    {
+      "name": "Torso rotation",
+      "sets": 4,
+      "reps": null,
+      "notes": "用戶寫 左右各2（左 2 + 右 2）；代替計劃 Core crunch"
+    }
+  ]
+}
