@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-11-26T20:04:04+08:00",
+  "updated": "2026-11-27T19:09:22+08:00",
   "package": "body-muscles",
   "weight_defaults": {
     "main": 1.0,
@@ -13,7 +13,7 @@
     "bodyState": "Partial<Record<MuscleId, { intensity: 0-10, selected: boolean }>> shared across FRONT+BACK BodyCharts.",
     "alias_resolve": "Strip fullwidth/ASCII parentheses and Chinese suffixes, casefold, match against aliases then canonical keys. Prefer most specific canonical (Super high row / Iso-lateral incline low row) before generic Seated row."
   },
-  "changelog": "v3: more accurate roles — split Super high row vs Iso-lateral incline low row vs Cable/Seated row; biceps off lat-pulldown main; front delts off chest-press main; drop knee/elbow/foot joint ids; Technogym Upper Back rear-delt+mid-trap; fly=夾胸 only. Added Torso rotation (obliques main; abs supporting).",
+  "changelog": "v3: more accurate roles — split Super high row vs Iso-lateral incline low row vs Cable/Seated row; biceps off lat-pulldown main; front delts off chest-press main; drop knee/elbow/foot joint ids; Technogym Upper Back rear-delt+mid-trap; fly=夾胸 only. Added Torso rotation (obliques main; abs supporting). Added Panatta Super Rowing Circular (mid+lower lats + mid traps main; upper lats, rear delts, biceps, lower traps supporting).",
   "exercises": {
     "Chest press": {
       "aliases": [
@@ -889,6 +889,41 @@
         "abs-lower-right"
       ],
       "notes": "Rotary / torso rotation: obliques primary; rectus abdominis stabilizes. Not mapped to erectors (stabilizer only).",
+      "weight_main": 1.0,
+      "weight_supporting": 0.4
+    },
+    "Panatta Super Rowing Circular": {
+      "aliases": [
+        "Super rowing machine circular",
+        "Super Rowing Machine Circular",
+        "Super Rowing Circular",
+        "Super rowing circular",
+        "super rowing machine circular",
+        "Panatta Super Rowing Machine Circular",
+        "Panatta Super Rowing Circular",
+        "Circular row",
+        "circular row",
+        "1FW204"
+      ],
+      "main": [
+        "lats-mid-left",
+        "lats-mid-right",
+        "lats-lower-left",
+        "lats-lower-right",
+        "traps-mid-left",
+        "traps-mid-right"
+      ],
+      "supporting": [
+        "lats-upper-left",
+        "lats-upper-right",
+        "deltoid-rear-left",
+        "deltoid-rear-right",
+        "biceps-left",
+        "biceps-right",
+        "traps-lower-left",
+        "traps-lower-right"
+      ],
+      "notes": "Panatta Super Rowing Machine Circular (1FW204): seated circular horizontal row for mid-back thickness. Official target lats; circular path also emphasizes mid traps/rhomboids and limits biceps. Default map same pattern as Cable/Seated row (mid+lower lats + mid traps primary). Seat lower biases mid/upper traps + rear delts; seat higher biases mid/lower traps + lats.",
       "weight_main": 1.0,
       "weight_supporting": 0.4
     }

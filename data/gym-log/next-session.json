@@ -1,71 +1,81 @@
 {
   "version": 3,
-  "generated_at": "2026-11-26T20:04:04+08:00",
-  "based_on_session_id": "20261126-session-1",
-  "based_on_date": "2026-11-26",
-  "based_on_session_type": "B_lower",
-  "session_type": "A2_back_bias",
-  "split_label": "A2 · Back bias (heatmap refine)",
-  "suggested_date": "2026-11-28",
-  "suggested_date_note": "11/26 B 完（提早一日）；下一次 A2 偏背約 2026-11-28。之後再 B。",
+  "generated_at": "2026-11-27T19:09:22+08:00",
+  "based_on_session_id": "20261127-session-1",
+  "based_on_date": "2026-11-27",
+  "based_on_session_type": "A2_back_bias",
+  "session_type": "B_lower",
+  "split_label": "B · Lower (heatmap refine)",
+  "suggested_date": "2026-11-29",
+  "suggested_date_note": "11/27 A2 完（提早一日）；下一次 B 約 2026-11-29。之後再 A1。",
   "duration_min": {
     "full": 50,
     "short": 25
   },
   "rest_between_sets": "~1 min（你慣短休）",
   "goals": [
-    "偏背：斜方／後三角／闊背低位",
-    "胸照做但減量（incline press 2）",
-    "側三角 accessory 3"
+    "補腘繩／臀中／小腿／核心",
+    "腿推 compound；腿伸 2",
+    "每動作 2–3 sets"
   ],
   "rotation_note": "順序：A1 偏胸 → B → A2 偏背 → B → 循環",
   "exercises": [
     {
-      "name": "Super high row",
+      "name": "Leg press",
       "sets": 3,
       "reps": "8-12",
-      "notes": "斜方＋後三角"
+      "notes": "compound"
     },
     {
-      "name": "Upper back",
-      "sets": 3,
-      "reps": "10-12",
-      "notes": "Technogym Upper Back；rhomboids／後三角"
-    },
-    {
-      "name": "Iso-lateral incline low row",
+      "name": "Lying leg curl",
       "sets": 3,
       "reps": "8-12",
-      "notes": "闊背低位；或 Cable row"
+      "notes": "腘繩"
     },
     {
-      "name": "ISO lateral incline press",
-      "sets": 2,
-      "reps": "8-12",
-      "notes": "胸照做但減量"
-    },
-    {
-      "name": "Lateral raise",
+      "name": "Hip abduction",
       "sets": 3,
       "reps": "12-15",
-      "notes": "側三角缺口"
+      "notes": "臀中"
+    },
+    {
+      "name": "Standing calf raise",
+      "sets": 3,
+      "reps": "10-15"
+    },
+    {
+      "name": "Seated leg extension",
+      "sets": 2,
+      "reps": "10-12",
+      "notes": "股四頭已高 → 2 sets"
+    },
+    {
+      "name": "Panatta Master Gluteus",
+      "sets": 2,
+      "reps": "10-15"
+    },
+    {
+      "name": "Core crunch",
+      "sets": 2,
+      "reps": "12-15",
+      "notes": "腹"
     }
   ],
   "short_version": [
     {
-      "name": "Super high row",
+      "name": "Leg press",
       "sets": 3,
       "reps": "8-12"
     },
     {
-      "name": "Upper back",
-      "sets": 3,
-      "reps": "10-12"
-    },
-    {
-      "name": "Iso-lateral incline low row",
+      "name": "Lying leg curl",
       "sets": 3,
       "reps": "8-12"
+    },
+    {
+      "name": "Hip abduction",
+      "sets": 2,
+      "reps": "12-15"
     }
   ],
   "notes": null

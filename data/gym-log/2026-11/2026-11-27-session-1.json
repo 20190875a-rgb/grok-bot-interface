@@ -1,0 +1,40 @@
+{
+  "id": "20261127-session-1",
+  "logged_at": "2026-11-27T19:09:22+08:00",
+  "date": "2026-11-27",
+  "session_type": "A2_back_bias",
+  "rest_between_sets": null,
+  "notes": "11/27 提早做 A2（原建議約 11/28）。用戶話今日加重，但未報具體重量。Super rowing machine circular／Super high row／Pullover／Lateral raise 各3，Pulldown 1。Super rowing machine circular 為新動作，可當計劃 Iso-lateral incline low row 替代。Pullover 當 Panatta pullover；Pulldown 跟返上次，當 Life Fitness pulldown。冇做 Upper back、ISO lateral incline press。",
+  "exercises": [
+    {
+      "name": "Panatta Super Rowing Circular",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Super rowing machine circular；新動作；可當計劃 Iso-lateral incline low row 替代"
+    },
+    {
+      "name": "Super high row",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    },
+    {
+      "name": "Panatta pullover",
+      "sets": 3,
+      "reps": null,
+      "notes": "用戶寫 Pullover"
+    },
+    {
+      "name": "Life Fitness pulldown",
+      "sets": 1,
+      "reps": null,
+      "notes": "用戶寫 Pulldown；跟返上次當 Life Fitness pulldown"
+    },
+    {
+      "name": "Lateral raise",
+      "sets": 3,
+      "reps": null,
+      "notes": null
+    }
+  ]
+}

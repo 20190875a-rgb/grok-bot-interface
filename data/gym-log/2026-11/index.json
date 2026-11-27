@@ -71,8 +71,15 @@
       "session_type": "B_lower",
       "file": "2026-11/2026-11-26-session-1.json",
       "exercise_count": 5
+    },
+    {
+      "id": "20261127-session-1",
+      "date": "2026-11-27",
+      "session_type": "A2_back_bias",
+      "file": "2026-11/2026-11-27-session-1.json",
+      "exercise_count": 5
     }
   ],
-  "updated_at": "2026-11-26T20:04:04+08:00",
-  "session_count": 10
+  "updated_at": "2026-11-27T19:09:22+08:00",
+  "session_count": 11
 }
