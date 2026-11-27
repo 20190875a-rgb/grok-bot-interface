@@ -90,7 +90,7 @@
     "city": "london",
     "horizon": 2,
     "horizon_tag": "d2",
-    "bankroll": 700.0,
+    "bankroll": 600.0,
     "starting_bankroll": 1000,
     "bets_won": 0,
     "bets_lost": 3,
@@ -193,7 +193,7 @@
     "bankroll": 519.5804,
     "starting_bankroll": 1000,
     "bets_won": 2,
-    "bets_lost": 6,
+    "bets_lost": 7,
     "history": [
       {
         "target_date": "2026-10-28",
@@ -258,6 +258,14 @@
         "resolved": "14°C",
         "stake": 100,
         "payout": 0
+      },
+      {
+        "target_date": "2026-11-26",
+        "result": "lost",
+        "bucket": "14°C",
+        "resolved": "15°C",
+        "stake": 100,
+        "payout": 0
       }
     ],
     "reset_at": "2026-10-26 17:31 HKT",
@@ -271,7 +279,7 @@
     "bankroll": 684.4156,
     "starting_bankroll": 1000,
     "bets_won": 2,
-    "bets_lost": 6,
+    "bets_lost": 7,
     "history": [
       {
         "target_date": "2026-10-28",
@@ -334,6 +342,14 @@
         "result": "lost",
         "bucket": "13°C",
         "resolved": "14°C",
+        "stake": 100,
+        "payout": 0
+      },
+      {
+        "target_date": "2026-11-26",
+        "result": "lost",
+        "bucket": "14°C",
+        "resolved": "15°C",
         "stake": 100,
         "payout": 0
       }
