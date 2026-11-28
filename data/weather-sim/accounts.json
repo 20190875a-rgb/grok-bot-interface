@@ -7,7 +7,7 @@
     "bankroll": 945.6582,
     "starting_bankroll": 1000,
     "bets_won": 5,
-    "bets_lost": 4,
+    "bets_lost": 5,
     "history": [
       {
         "target_date": "2026-10-29",
@@ -80,6 +80,14 @@
         "resolved": "8°C",
         "stake": 100,
         "payout": 0
+      },
+      {
+        "target_date": "2026-11-27",
+        "result": "lost",
+        "bucket": "6°C",
+        "resolved": "5°C",
+        "stake": 100,
+        "payout": 0
       }
     ],
     "reset_at": "2026-10-26 17:31 HKT",
@@ -128,9 +136,9 @@
     "city": "london",
     "horizon": 3,
     "horizon_tag": "d3",
-    "bankroll": 917.4755,
+    "bankroll": 1025.8088,
     "starting_bankroll": 1000,
-    "bets_won": 3,
+    "bets_won": 4,
     "bets_lost": 3,
     "history": [
       {
@@ -180,6 +188,14 @@
         "resolved": "9°C",
         "stake": 100,
         "payout": 169.4915
+      },
+      {
+        "target_date": "2026-11-27",
+        "result": "won",
+        "bucket": "5°C",
+        "resolved": "5°C",
+        "stake": 100,
+        "payout": 208.3333
       }
     ],
     "reset_at": "2026-10-26 17:31 HKT",
@@ -424,10 +440,10 @@
     "city": "hong_kong",
     "horizon": 1,
     "horizon_tag": "d1",
-    "bankroll": 1193.9024,
+    "bankroll": 1093.9024,
     "starting_bankroll": 1000,
     "bets_won": 2,
-    "bets_lost": 0,
+    "bets_lost": 1,
     "history": [
       {
         "target_date": "2026-11-09",
@@ -446,6 +462,15 @@
         "stake": 100,
         "payout": 250.0,
         "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      },
+      {
+        "target_date": "2026-11-27",
+        "result": "lost",
+        "bucket": "26°C",
+        "resolved": "25°C",
+        "stake": 100,
+        "payout": 0,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
       }
     ],
     "reset_at": "2026-10-26 17:31 HKT",
@@ -459,7 +484,7 @@
     "bankroll": 950.0,
     "starting_bankroll": 1000,
     "bets_won": 1,
-    "bets_lost": 1,
+    "bets_lost": 2,
     "history": [
       {
         "target_date": "2026-11-11",
@@ -478,6 +503,15 @@
         "stake": 100,
         "payout": 0,
         "settlement_mode": "polymarket_price_after_local_day_plus_6h"
+      },
+      {
+        "target_date": "2026-11-27",
+        "result": "lost",
+        "bucket": "26°C",
+        "resolved": "25°C",
+        "stake": 100,
+        "payout": 0,
+        "settlement_mode": "polymarket_price_after_local_day_plus_6h"
       }
     ],
     "reset_at": "2026-10-26 17:31 HKT",
@@ -488,7 +522,7 @@
     "city": "hong_kong",
     "horizon": 3,
     "horizon_tag": "d3",
-    "bankroll": 1050.0,
+    "bankroll": 950.0,
     "starting_bankroll": 1000,
     "bets_won": 1,
     "bets_lost": 1,
